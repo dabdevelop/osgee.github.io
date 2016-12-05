@@ -169,115 +169,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Github是什么"><a href="#Github是什么" class="headerlink" title="Github是什么"></a>Github是什么</h3><p>作为一名程序猿还是一名程序媛，<a href="https://github.com" target="_blank" rel="external">Git</a>肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在Github或自建的git服务器上，你要下载下来可能就需要用到它了。Github则是全球程序员和开源项目的聚集地。Git作为版本控制的工具主要有一下几个好处。</p>
+        <h3 id="Github是什么"><a href="#Github是什么" class="headerlink" title="Github是什么"></a>Github是什么</h3><p>作为一名程序猿还是一名程序媛，<a href="https://github.com">Git</a>肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在Github或自建的git服务器上，你要下载下来可能就需要用到它了。Github则是全球程序员和开源项目的聚集地。Git作为版本控制的工具主要有一下几个好处。</p>
 <p>第一，方便分工合作。一个大型的软件肯定是要大量的人力累积出来的，一个人的力量很有限，没有合作就没有现在软件的发展。那么如何使得所有人都有一个所有代码的副本，同时可以获得最新的代码和提交最新的代码呢？而且代码一旦多起来，More is Different！那么真的连“亲妈”都不认识。所以每个人都只需要专注于自己的那一个模块。</p>
 <p>第二，方便管理。有了Git之后，即便有人不小心误删了某些代码，还能回滚回去。即便有机器Down掉了也不会有灾难性的影响。另外，Git可以将不同的开发组分到不同的Branch进行开发，每个组只有相应Branch的提交权限，这样管理更有效。</p>
 <p>第三，方便开发。Git将项目分为不同的Branch，将新特性放在单独的一个Branch下开发，当功能测试稳定后再Merge到主分支，这样就是一个迭代的开发流程，提高开发效率。</p>
 <p>扯了这么多，来点干货。</p>
-<h3 id="Git基本命令"><a href="#Git基本命令" class="headerlink" title="Git基本命令"></a>Git基本命令</h3><p>初建一个工程，$PROJECTS_ROOT为你所有项目存放的目录，代表一个变量<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">mkdir project_name</div><div class="line"><span class="built_in">cd</span> project_name</div><div class="line">git init</div></pre></td></tr></table></figure></p>
-<p>git init这个命令其实在项目下新建了一个.git目录，目录下有Git的配置和存档信息。另外可以直接从Git服务器上将一个开源项目clone下来<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/osgee/c9ssh.git</div></pre></td></tr></table></figure></p>
-<p>这里注意，结尾必须是[.git]，不然虽然可以clone下来项目，但是当提交是会报错，得修改.git/config文件中的[remote “origin”]项下的url值，也可以通过git remote set-url origin 修改。git clone曲折的做法可以是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">mkdir c9ssh</div><div class="line"><span class="built_in">cd</span> c9ssh</div><div class="line">git init</div><div class="line">git remote add origin https://github.com/osgee/c9ssh.git</div><div class="line">git pull origin master</div></pre></td></tr></table></figure></p>
-<p>这里的git remote add origin是添加源Git仓库的地址，origin是该源的名称，可以自己改。不过只有一个源仓库时，公认的命名方法是origin，但要添加多个源时，每个就需要有单独的名称。git pull origin master的意思是从叫origin的源仓库中提取master分支的数据。</p>
-<p>怎么进行第一个提交呢？需要认识到Git将文件划分的几个状态，以及不同的命令对应得文件状态的改变<br><img src="/assets/blogImg/git_status.png" alt="git file status"><br>下面通过命令进行第一次提交，假设你在Github上已经注册的用户名为[username]，新建了一个项目名为[project_name]，那么根据Github的命名规则，这个项目的git仓库的地址为<a href="https://github.com/username/project_name.git" target="_blank" rel="external">https://github.com/username/project_name.git</a> . 在电脑上的命令如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/username/project_name.git</div><div class="line"><span class="built_in">cd</span> project_name</div><div class="line"><span class="built_in">echo</span> <span class="string">"### first git project"</span>&gt;&gt;README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"first commit"</span></div><div class="line">git push origin master</div></pre></td></tr></table></figure></p>
-<p>下面是高级一点的命令，包括搭建本地的git仓库，对远端仓库的修改等。这也是我github上分享的一个项目，翻译不过来，将就着看吧</p>
-<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><h4 id="server"><a href="#server" class="headerlink" title="server"></a>server</h4><p>using project to init repo</p>
-<pre><code>git clone --bare project project.git
-</code></pre><p>create bare repo</p>
-<pre><code>mkdir project.git &amp;&amp; cd project.git &amp;&amp; git --bare init 
-</code></pre><p>or</p>
-<pre><code>git init --bare project.git
-</code></pre><p>share with group</p>
-<pre><code>git init --bare --share project.git
-</code></pre><h3 id="clone"><a href="#clone" class="headerlink" title="clone"></a>clone</h3><p>git clone remote repo <c9ssh> to local repo <ssh></ssh></c9ssh></p>
-<pre><code>git clone https://github.com/osgee/c9ssh.git ssh
-</code></pre><p>git clone a bare repo</p>
-<pre><code>git clone --bare https://github.com/osgee/c9ssh.git
-</code></pre><p>copy <project> to remote repo</project></p>
-<pre><code>scp -r project.git git@git.osgee.com:~/repos/
-</code></pre><h3 id="remote"><a href="#remote" class="headerlink" title="remote"></a>remote</h3><p>show remote repos details</p>
-<pre><code>git remote -v
-</code></pre><p>show status of remote repo <origin></origin></p>
-<pre><code>git remote show origin
-</code></pre><p>add remote repo <c9ssh></c9ssh></p>
-<pre><code>git remote add origin git@github.com:osgee/c9ssh.git
-git remote add origin https://github.com/osgee/c9ssh.git
-</code></pre><p>revise remote repo to <ssh></ssh></p>
-<pre><code>git remote set-url origin git@github.com/ssh.git
-</code></pre><p>remove reomte repo <origin></origin></p>
-<pre><code>git remote rm &lt;orign&gt;
-</code></pre><p>rename remote repo <origin> to <fork></fork></origin></p>
-<pre><code>git remote rename origin fork
-</code></pre><p>remote add branchs using namespace <qa> </qa></p>
-<pre><code>git remote set-branchs --add origin &lt;qa&gt;/*
-</code></pre><p>set remote repos’ HEAD to master</p>
-<pre><code>git remote set-head origin master
-</code></pre><h3 id="checkout"><a href="#checkout" class="headerlink" title="checkout"></a>checkout</h3><p>switch branch to <master></master></p>
-<pre><code>git checkout &lt;master&gt;
-</code></pre><p>add branch <newbranch> and swich to it</newbranch></p>
-<pre><code>git checkout -b &lt;newbranch&gt;
-</code></pre><p>add branch <newbranch> based on <branch> and switch to it</branch></newbranch></p>
-<pre><code>git checkout -b &lt;newbranch&gt; &lt;branch&gt;
-</code></pre><p>track remote branch <branch> on repos <origin> and create a local one</origin></branch></p>
-<pre><code>git checkout --track &lt;origin&gt;/&lt;branch&gt;
-</code></pre><h3 id="branch"><a href="#branch" class="headerlink" title="branch"></a>branch</h3><p>show present branches</p>
-<pre><code>git branch
-</code></pre><p>show merged branch</p>
-<pre><code>git branch --merged
-</code></pre><p>show not merged branch</p>
-<pre><code>git branch --no-merged
-</code></pre><p>track remote repo origin/master</p>
-<pre><code>git branch -u master [origin/master]
-</code></pre><p>equal to</p>
-<pre><code>git branch --set-upstream master origin/master
-</code></pre><p>delete branch</p>
-<pre><code>git branch -d &lt;branch&gt;
-</code></pre><p>delete branch forcely</p>
-<pre><code>git branch -D &lt;branch&gt;
-</code></pre><h3 id="pull-fetch-merge"><a href="#pull-fetch-merge" class="headerlink" title="pull fetch merge"></a>pull fetch merge</h3><p>fetch from remote repo and merge to local repo </p>
-<pre><code>git pull origin master
-</code></pre><p>equals<br>    git fetch origin master<br>    git merge origin/master</p>
-<p>no Fast-Forward</p>
-<pre><code>git merge origin/master --no-ff
-</code></pre><p>rebase master to <branch></branch></p>
-<pre><code>git rebase master &lt;branch&gt;
-</code></pre><p>equals</p>
-<pre><code>git checkout &lt;branch&gt; &amp;&amp; git rebase master &amp;&amp; git checkout master &amp;&amp; git merge &lt;branch&gt;
-</code></pre><h3 id="push"><a href="#push" class="headerlink" title="push"></a>push</h3><p>push all branches</p>
-<pre><code>git push
-</code></pre><p>push master to branch master on remote repos origin</p>
-<pre><code>git push origin master
-</code></pre><p>if not inited in remote repo</p>
-<pre><code>git push -u origin master
-</code></pre><p>add remote repo a new branch</p>
-<pre><code>git push origin &lt;branch&gt;
-</code></pre><p>or</p>
-<pre><code>git push orign &lt;local_branch&gt;:&lt;remote_branch&gt;
-</code></pre><p>delete remote branch</p>
-<pre><code>git push origin :&lt;branch&gt;
-</code></pre><p>may you need to remove local branch in advance</p>
-<pre><code>git branch -d &lt;branch&gt;
-</code></pre><h3 id="stash"><a href="#stash" class="headerlink" title="stash"></a>stash</h3><pre><code>git stash
-
-git stash list
-
-git stash apply
-
-git stash drop
-</code></pre><h3 id="log"><a href="#log" class="headerlink" title="log"></a>log</h3><pre><code>git log
-
-git log --decorate --graph --oneline --all
-</code></pre><h3 id="reset"><a href="#reset" class="headerlink" title="reset"></a>reset</h3><pre><code>git reset --hard commit-sha
-git reset --hard HEAD~
-git reset &lt;file&gt;    
-</code></pre><h3 id="add"><a href="#add" class="headerlink" title="add"></a>add</h3><pre><code>git add .
-git add -A
-git add *
-git add &lt;file&gt;
-</code></pre><h3 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h3><pre><code>git rm &lt;file&gt;
-</code></pre><h3 id="diff"><a href="#diff" class="headerlink" title="diff"></a>diff</h3><pre><code>git diff &lt;file&gt;
-git diff --staged
-git diff --cached
-</code></pre>
+        <a class="article-more-a"  href="/2016/12/04/Github使用简介/#more">more >></a>
       
 
       
@@ -330,32 +227,11 @@ git diff --cached
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h3><p>这个博客是基于<a href="https://hexo.io" target="_blank" rel="external">hexo</a>的博客框架，使用了一个腾讯前端开发的大牛<a href="https://litten.me" target="_blank" rel="external">Litten</a>开源的hexo主题<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a>，详细的安装过程分别在hexo和yilia的首页上有详细的介绍，可以自行参考。hexo使用的是<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>，是使用JavaScript编写的服务端框架，打开它的首页就能看到相应系统的安装包，另外还需要有<a href="https://www.npmjs.com" target="_blank" rel="external">npm</a>，是Node.js的软件仓库，也是包管理工具，用它安装Node.js的程序很方便。npm的安装也可以参考hexo在线文档提供的指导。</p>
-<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p>首先需要安装的是<a href="http://brew.sh" target="_blank" rel="external">homebrew</a>，然后用brew安装npm，再到Node.js主页下载OSXd的安装包，我是用的OSX，所以只介绍OSX上的安装方式。</p>
+        <h3 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h3><p>这个博客是基于<a href="https://hexo.io">hexo</a>的博客框架，使用了一个腾讯前端开发的大牛<a href="https://litten.me">Litten</a>开源的hexo主题<a href="https://github.com/litten/hexo-theme-yilia">yilia</a>，详细的安装过程分别在hexo和yilia的首页上有详细的介绍，可以自行参考。hexo使用的是<a href="https://nodejs.org/en/">Node.js</a>，是使用JavaScript编写的服务端框架，打开它的首页就能看到相应系统的安装包，另外还需要有<a href="https://www.npmjs.com">npm</a>，是Node.js的软件仓库，也是包管理工具，用它安装Node.js的程序很方便。npm的安装也可以参考hexo在线文档提供的指导。</p>
+<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p>首先需要安装的是<a href="http://brew.sh">homebrew</a>，然后用brew安装npm，再到Node.js主页下载OSXd的安装包，我是用的OSX，所以只介绍OSX上的安装方式。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#安装homebrew</span></div><div class="line">/usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div><div class="line"></div><div class="line"><span class="comment">#安装nmp和git</span></div><div class="line">brew update -y</div><div class="line">brew install nmp git -y</div></pre></td></tr></table></figure>
-<p>下载了Node.js安装包并安装好之后，就可以开始安装hexo了。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#安装hexo-cli</span></div><div class="line">npm install hexo-cli -g</div><div class="line"><span class="comment">#一般将博客根目录放用户主目录下，所以回到主目录</span></div><div class="line"><span class="built_in">cd</span> ~</div><div class="line"><span class="comment">#初始化博客根目录，这个会下载github上的hexo博客框架</span></div><div class="line">hexo init Myblog</div><div class="line"><span class="comment">#进入根目录</span></div><div class="line"><span class="built_in">cd</span> Myblog</div><div class="line"><span class="comment">#安装hexo博客</span></div><div class="line">nmp install</div><div class="line"><span class="comment">#现在就可以运行博客的服务了,默认URL为http://localhost:4000</span></div><div class="line">hexo server</div></pre></td></tr></table></figure>
-<p>到现在你已经成功安装了hexo，但是默认的demo模板并不很好看，所以要换一个好看些的。那么有很多其他高大上的模板，每个模板都有一个个性化的配置文件，为了了解，我们先看下博客根目录下的目录结构。<br>可以自己用brew命令安装tree工具，然后使用tree命令展示Myblog的目录结构。</p>
-<pre><code>Myblog/
-    _config.yml
-    package.json
-    db.json
-    node_modules/
-    source/
-    themes/
-    scaffolds/
-</code></pre><p>我们需要关注的是_config.yml和thems/文件夹，前者是一个全局的配置，指定了使用哪一个主题等信息，后者是具体的主题存放的目录，我们要下载的yilia主题就是要放在themes文件夹下。<br>具体的命令是：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#进入博客根目录，如果已经是就忽略本命令</span></div><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line"><span class="comment">#从git下载[pull]</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure></p>
-<p>相应的在yilia的文件夹下也有一个_config.yml文件，是对yilia主题具体的配置，相关配置参考yilia的github的<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">README.md</a>。相应的全局的_config.yml也要配置，涉及到theme,deploy,etc相关信息，到yilia上拿一个模板改改就好。</p>
-<p>写博客用什么工具呢，在github上也有一个针对hexo开发的网页版带预览的Markdown格式文件编辑工具，叫<a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">hexo-admin</a>,虽然用着有些小bugs，但是寥胜于无吧。安装也很简单：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line">npm install --save hexo-admin</div><div class="line"></div><div class="line"><span class="comment">#运行服务器</span></div><div class="line">hexo server <span class="_">-d</span></div></pre></td></tr></table></figure></p>
-<p>安装完，运行服务器后，默认URL在<a href="http://localhost:4000/admin" target="_blank" rel="external">http://localhost:4000/admin</a> ，看着就会用。</p>
-<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>详细的部署方法可以参考<a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">hexo的官方文档</a>,常用的是使用rsync和git方式，一般用git就好，配置需要在Myblog下的_config.yml中修改。格式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">     type: git</div><div class="line">     repository: git@github.com:osgee/osgee.github.io.git</div><div class="line">     branch: master</div></pre></td></tr></table></figure></p>
-<p>需要注册github账号，然后新建一个repository，名字是[username].github.io，其中[username]为你注册的用户名。然后进入repository的页面，点击【设置】按钮，最下面有个[Delploy keys], 里面可以添加你的ssh公钥，一般这样查看你的ssh公钥：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cat .ssh/id_rsa.pub</div></pre></td></tr></table></figure></p>
-<p>这里的id_rsa.pub的前缀是根据公认的取名规则。具体的文件名还要看当时生成密钥对的导出名。如果没有产生过rsa密钥对，就如下方式产生：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#如果~目录下没有.ssh/，就要生成.ssh目录，如果有就跳过本命令</span></div><div class="line"><span class="built_in">cd</span> ~</div><div class="line">mkdir .ssh</div><div class="line"><span class="comment">#检查目录的访问权限，正确的应为drwx------，用数字表示即为700</span></div><div class="line">ls -la ~|grep .ssh</div><div class="line"><span class="comment">#如果不是drwx------，需要修改访问权限</span></div><div class="line">sudo chmod 700 -r .ssh </div><div class="line"><span class="comment">#生成ssh握手密钥对</span></div><div class="line">ssh-keygen -t rsa -b 2048 -P <span class="string">""</span> <span class="_">-f</span> ~/.ssh/id_rsa</div></pre></td></tr></table></figure></p>
-<p>至此，在~/.ssh目录下已经生成了id_rsa和id_rsa.pub两个文件，前者是私钥，后者是公钥，注意，我们需要添加到github上的是公钥。顾名思义，公钥就是要给其他人的密钥，所以给github提交的就是你的公钥，一个公钥只有一个私钥才能对应解密，所以私钥可以用来验证你的身份。</p>
-<p>用hexo-admin写完第一个博客，各个配置都改好后，现在可以开始部署了。部署也分两步，第一步，产生静态的网页文件，第二步，将文件复制到服务器，这两个步骤都是由hexo自动完成的，我们需要做的就是配置好文件后，使用命令部署：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#生成静态网页文件</span></div><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line">hexo generate</div><div class="line"><span class="comment">#复制文件到服务器</span></div><div class="line">hexo deploy</div></pre></td></tr></table></figure></p>
-<p>现在，就可以访问<a href="https://[username].github.io" target="_blank" rel="external">https://[username].github.io</a> 查看博客的效果了。</p>
-<p>PS：第一次写，所以可能有很多细节的地方没有写上来，而且很多细节写上来反而让读者困惑，所以自己实际部署时还是要多上网搜搜相关的指导，不过都以官网文档为主。有遇到不能解决的问题也可以通过邮件的形式联系我，希望这篇文章能够帮助你搭建一个高大上的个人博客。</p>
-
+<p>下载了Node.js安装包并安装好之后，就可以开始安装hexo了。<br>
+        <a class="article-more-a"  href="/2016/12/04/搭建这个博客/#more">more >></a>
       
 
       

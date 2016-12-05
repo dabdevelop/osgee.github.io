@@ -17,7 +17,7 @@
 <meta property="og:description" content="Github是什么作为一名程序猿还是一名程序媛，Git肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在Github或自建的git服务器上，你要下载下来可能就需要用到它了。Github则是全球程序员和开源项目的聚集地。Git作为版本控制的工具主要有一下几个好处。
 第一，方便分工合作。一个大型的软件肯定是要大量的人力累积出来的，一个人的力量很有限，没有合作就没有现在">
 <meta property="og:image" content="//taofeng.me/assets/blogImg/git_status.png">
-<meta property="og:updated_time" content="2016-12-04T16:57:51.000Z">
+<meta property="og:updated_time" content="2016-12-05T13:28:24.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git使用简介">
 <meta name="twitter:description" content="Github是什么作为一名程序猿还是一名程序媛，Git肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在Github或自建的git服务器上，你要下载下来可能就需要用到它了。Github则是全球程序员和开源项目的聚集地。Git作为版本控制的工具主要有一下几个好处。
@@ -181,6 +181,7 @@
 <p>第二，方便管理。有了Git之后，即便有人不小心误删了某些代码，还能回滚回去。即便有机器Down掉了也不会有灾难性的影响。另外，Git可以将不同的开发组分到不同的Branch进行开发，每个组只有相应Branch的提交权限，这样管理更有效。</p>
 <p>第三，方便开发。Git将项目分为不同的Branch，将新特性放在单独的一个Branch下开发，当功能测试稳定后再Merge到主分支，这样就是一个迭代的开发流程，提高开发效率。</p>
 <p>扯了这么多，来点干货。</p>
+<a id="more"></a>
 <h3 id="Git基本命令"><a href="#Git基本命令" class="headerlink" title="Git基本命令"></a>Git基本命令</h3><p>初建一个工程，$PROJECTS_ROOT为你所有项目存放的目录，代表一个变量<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">mkdir project_name</div><div class="line"><span class="built_in">cd</span> project_name</div><div class="line">git init</div></pre></td></tr></table></figure></p>
 <p>git init这个命令其实在项目下新建了一个.git目录，目录下有Git的配置和存档信息。另外可以直接从Git服务器上将一个开源项目clone下来<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/osgee/c9ssh.git</div></pre></td></tr></table></figure></p>
 <p>这里注意，结尾必须是[.git]，不然虽然可以clone下来项目，但是当提交是会报错，得修改.git/config文件中的[remote “origin”]项下的url值，也可以通过git remote set-url origin 修改。git clone曲折的做法可以是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">mkdir c9ssh</div><div class="line"><span class="built_in">cd</span> c9ssh</div><div class="line">git init</div><div class="line">git remote add origin https://github.com/osgee/c9ssh.git</div><div class="line">git pull origin master</div></pre></td></tr></table></figure></p>
