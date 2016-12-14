@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="//taofeng.me">
+  <title>MySQL命令 | Tao&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。
+Common Commandslogin in shell
+1mysql -uroot -p
+mysql&amp;gt;
+1234567891011SHOW DATABASES;CREATE DATABASE db;DROP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL命令">
+<meta property="og:url" content="//taofeng.me/2016/12/14/Mysql命令/index.html">
+<meta property="og:site_name" content="Tao's Blog">
+<meta property="og:description" content="性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。
+Common Commandslogin in shell
+1mysql -uroot -p
+mysql&amp;gt;
+1234567891011SHOW DATABASES;CREATE DATABASE db;DROP">
+<meta property="og:updated_time" content="2016-12-14T02:02:20.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MySQL命令">
+<meta name="twitter:description" content="性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。
+Common Commandslogin in shell
+1mysql -uroot -p
+mysql&amp;gt;
+1234567891011SHOW DATABASES;CREATE DATABASE db;DROP">
+  
+    <link rel="alternative" href="/atom.xml" title="Tao&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/main.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+      <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img src="https://github.com/osgee.png" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Tao Feng</a></h1>
+		</hgroup>
+
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/Article-Archive">文章归档</a></li>
+	        
+				<li><a href="/tags/Machine-Learnning">机器学习</a></li>
+	        
+				<li><a href="/tags/Data-Mining">数据挖掘</a></li>
+	        
+				<li><a href="/tags/Hacking">黑客攻防</a></li>
+	        
+				<li><a href="/tags/Useful-Tools">实用工具</a></li>
+	        
+				<li><a href="/tags/Github-Project">Github</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+	        
+    		
+    			
+    			<a class="js-smart-menu" data-idx="0" href="javascript:void(0)">所有文章</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="1" href="javascript:void(0)">标签</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="2" href="javascript:void(0)">友链</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="3" href="javascript:void(0)">关于我</a>
+    			
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://github.com/osgee" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:ft.nudt@qq.com" title="mail"><i class="icon-mail"></i></a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"><i class="icon-sort"></i></div>
+  		<h1 class="header-author js-mobile-header hide">Tao Feng</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				
+					<img src="https://github.com/osgee.png" class="js-avatar">
+				
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Tao Feng</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/tags/Article-Archive">文章归档</a></li>
+		        
+					<li><a href="/tags/Machine-Learnning">机器学习</a></li>
+		        
+					<li><a href="/tags/Data-Mining">数据挖掘</a></li>
+		        
+					<li><a href="/tags/Hacking">黑客攻防</a></li>
+		        
+					<li><a href="/tags/Useful-Tools">实用工具</a></li>
+		        
+					<li><a href="/tags/Github-Project">Github</a></li>
+		        
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/osgee" title="github"><i class="icon-github"></i></a>
+			        
+						<a class="mail" target="_blank" href="mailto:ft.nudt@qq.com" title="mail"><i class="icon-mail"></i></a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap">
+        <article id="post-Mysql命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      MySQL命令
+    </h1>
+  
+
+        <a href="/2016/12/14/Mysql命令/" class="archive-article-date">
+  	<time datetime="2016-12-14T01:25:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。</p>
+<h3 id="Common-Commands"><a href="#Common-Commands" class="headerlink" title="Common Commands"></a>Common Commands</h3><p>login in shell</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -uroot -p</div></pre></td></tr></table></figure>
+<p>mysql&gt;</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SHOW</span> <span class="keyword">DATABASES</span>;</div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> db;</div><div class="line"><span class="keyword">DROP</span> <span class="keyword">DATABASE</span> db;</div><div class="line"></div><div class="line"><span class="keyword">USE</span> db;</div><div class="line"><span class="keyword">SHOW</span> <span class="keyword">TABLES</span>;</div><div class="line"><span class="keyword">DESCRIBE</span> tb;</div><div class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> tb;</div><div class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> tb(<span class="string">`a`</span>,<span class="string">`b`</span>) <span class="keyword">VALUES</span>(<span class="string">"a"</span>,<span class="string">"b"</span>);</div><div class="line"><span class="keyword">UPDATE</span> tb <span class="keyword">SET</span> f=<span class="string">"f"</span> <span class="keyword">WHERE</span> <span class="number">1</span>=<span class="number">1</span>;</div><div class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> tb <span class="keyword">WHERE</span> <span class="number">1</span>=<span class="number">1</span>;</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>data dump</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump -uroot -p db tb &gt; db.sql</div></pre></td></tr></table></figure>
+<h3 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h3><h4 id="Create-Database"><a href="#Create-Database" class="headerlink" title="Create Database"></a>Create Database</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> <span class="string">`db_name`</span>;</div><div class="line"><span class="keyword">USE</span> db_name;</div></pre></td></tr></table></figure>
+<h4 id="Create-Drop-Table"><a href="#Create-Drop-Table" class="headerlink" title="Create/Drop Table"></a>Create/Drop Table</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`tb_name`</span></div><div class="line">(</div><div class="line"><span class="keyword">id</span> <span class="built_in">INT</span>(<span class="number">11</span>) PRIMARY <span class="keyword">KEY</span> AUTO_INCREMENT <span class="keyword">NOT</span> <span class="literal">NULL</span>,</div><div class="line"><span class="keyword">name</span> <span class="built_in">VARCHAR</span>(<span class="number">25</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>,</div><div class="line">deptId <span class="built_in">INT</span>(<span class="number">11</span>) <span class="keyword">DEFAULT</span> <span class="number">1111</span>,</div><div class="line">salary <span class="built_in">FLOAT</span></div><div class="line">)<span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=<span class="string">`utf8`</span> AUTO_INCREMENT=<span class="number">1</span>;</div><div class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> <span class="keyword">IF</span> <span class="keyword">EXISTS</span> tb_dept;</div></pre></td></tr></table></figure>
+<h4 id="Field-FK"><a href="#Field-FK" class="headerlink" title="Field/FK"></a>Field/FK</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_dept <span class="keyword">ADD</span> column1 <span class="built_in">VARCHAR</span>(<span class="number">11</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>;</div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_dept <span class="keyword">ADD</span> column2 <span class="built_in">INT</span>(<span class="number">11</span>) <span class="keyword">FIRST</span>;</div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_dept <span class="keyword">ADD</span> column3 <span class="keyword">AFTER</span> <span class="keyword">name</span>;</div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_Dept <span class="keyword">MODIFY</span> column1 <span class="built_in">VARCHAR</span>(<span class="number">12</span>) <span class="keyword">AFTER</span> location;</div><div class="line"><span class="keyword">UPDATE</span> article a <span class="keyword">SET</span> a.journalid=<span class="number">10</span> <span class="keyword">WHERE</span> a.journalid=<span class="number">20</span>;</div><div class="line"><span class="keyword">DELETE</span> <span class="keyword">from</span> journal <span class="keyword">WHERE</span> journalid=<span class="number">20</span>;</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="string">`article`</span> </div><div class="line"><span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> <span class="string">`c_article_journal_FK`</span> </div><div class="line">FOREIGN <span class="keyword">KEY</span> (<span class="string">`journalid`</span>)  </div><div class="line"><span class="keyword">REFERENCES</span> <span class="string">`journal`</span> (<span class="string">`journalid`</span>);</div><div class="line"></div><div class="line"><span class="keyword">UPDATE</span> article <span class="keyword">SET</span> article.journalid =<span class="number">3</span> </div><div class="line"><span class="keyword">WHERE</span> article.journalid <span class="keyword">IN</span></div><div class="line">(<span class="keyword">SELECT</span> journalid </div><div class="line"><span class="keyword">FROM</span> </div><div class="line">(<span class="keyword">SELECT</span> journal.journalid, journal </div><div class="line"><span class="keyword">FROM</span> article <span class="keyword">LEFT</span> <span class="keyword">JOIN</span> journal </div><div class="line"><span class="keyword">ON</span> article.journalid=journal.journalid) <span class="keyword">AS</span> c </div><div class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> journalid</div><div class="line"><span class="keyword">HAVING</span> <span class="keyword">COUNT</span>(*)&lt;<span class="number">20</span>);</div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">COUNT</span>(*), journal, journalid </div><div class="line"><span class="keyword">FROM</span></div><div class="line">(<span class="keyword">SELECT</span> journal.journalid, journal </div><div class="line"><span class="keyword">FROM</span> article <span class="keyword">LEFT</span> <span class="keyword">JOIN</span> journal </div><div class="line"><span class="keyword">ON</span> article.journalid=journal.journalid) <span class="keyword">AS</span> c </div><div class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> journalid </div><div class="line"><span class="keyword">ORDER</span> <span class="keyword">BY</span> <span class="keyword">COUNT</span>(*) <span class="keyword">ASC</span>;</div></pre></td></tr></table></figure>
+<h4 id="View"><a href="#View" class="headerlink" title="View"></a>View</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">VIEW</span> view_name <span class="keyword">AS</span> <span class="keyword">SELECT</span> ...;</div><div class="line"><span class="keyword">UPDATE</span> view_name <span class="keyword">SET</span> ...;</div></pre></td></tr></table></figure>
+<h4 id="Trigger"><a href="#Trigger" class="headerlink" title="Trigger"></a>Trigger</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> trigger_name trigger_time trigger_event <span class="keyword">ON</span> tb_name <span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="keyword">ROW</span> trigger_stmt;</div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> ins_sum </div><div class="line"><span class="keyword">BEFORE</span> <span class="keyword">INSERT</span> <span class="keyword">ON</span> <span class="keyword">account</span> </div><div class="line"><span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="keyword">ROW</span> </div><div class="line"><span class="keyword">SET</span> @<span class="keyword">sum</span>=@<span class="keyword">sum</span>+NEW.amount;</div></pre></td></tr></table></figure>
+<h4 id="Insert"><a href="#Insert" class="headerlink" title="Insert"></a>Insert</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">        <span class="keyword">INSERT</span> <span class="keyword">INTO</span> tb_name(...) <span class="keyword">values</span>(...),(...),...;</div></pre></td></tr></table></figure>
+<h4 id="User"><a href="#User" class="headerlink" title="User"></a>User</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">        <span class="keyword">CREATE</span> <span class="keyword">USER</span> <span class="string">'jeffery'</span>@<span class="string">'localhost'</span> <span class="keyword">IDENTIFIED</span> <span class="keyword">BY</span> <span class="string">'mypass'</span>;</div><div class="line">        <span class="keyword">GRANT</span> <span class="keyword">privileges</span> <span class="keyword">ON</span> db.table <span class="keyword">TO</span> <span class="keyword">user</span>@host [<span class="keyword">IDENTIFIED</span> <span class="keyword">BY</span> <span class="string">'password'</span>] [<span class="keyword">WITH</span> <span class="keyword">GRANT</span> <span class="keyword">OPTION</span>];</div><div class="line">        <span class="keyword">DROP</span> <span class="keyword">USER</span> <span class="string">'user'</span>@<span class="string">'localhost'</span>;</div><div class="line">        <span class="keyword">SET</span> <span class="keyword">PASSWORD</span> <span class="keyword">FOR</span> <span class="string">'user'</span>@<span class="string">'host'</span> = <span class="keyword">PASSWORD</span>(<span class="string">'otherpassword'</span>);</div><div class="line">        <span class="keyword">SET</span> <span class="keyword">PASSWORD</span> = <span class="keyword">PASSWORD</span>(<span class="string">'otherpassword'</span>); <span class="comment">-- FOR ROOT</span></div><div class="line">        <span class="keyword">REVOKE</span> <span class="keyword">privileges</span> <span class="keyword">ON</span> db.table <span class="keyword">FROM</span> <span class="string">'user'</span>@<span class="string">'host'</span>;</div></pre></td></tr></table></figure>
+<h3 id="Issues"><a href="#Issues" class="headerlink" title="Issues"></a>Issues</h3><h4 id="Reset-Root-Password"><a href="#Reset-Root-Password" class="headerlink" title="Reset Root Password"></a>Reset Root Password</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo service mysql stop                                         </div><div class="line">sudo mysqld_safe --skip-grant-table</div><div class="line">mysql -uroot mysql</div></pre></td></tr></table></figure>
+<p>mysql&gt;</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SHOW</span> <span class="keyword">DATABASES</span>;</div><div class="line"><span class="keyword">USE</span> mysql;</div><div class="line"><span class="keyword">SHOW</span> <span class="keyword">TABLES</span>;</div><div class="line"><span class="keyword">UPDATE</span> <span class="keyword">user</span> <span class="keyword">SET</span> <span class="keyword">Password</span>=<span class="keyword">PASSWORD</span>(<span class="string">'password'</span>) <span class="keyword">WHERE</span> <span class="keyword">User</span>=<span class="string">'root'</span>;         </div><div class="line"><span class="keyword">FLUSH</span> <span class="keyword">PRIVILEGES</span>;</div><div class="line">\q;</div></pre></td></tr></table></figure>
+<p>restart mysql</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service mysql start</div></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li></ul>
+	</div>
+
+      
+
+      
+
+      
+        <div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode"></div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2016/12/14/用命令行连接WIFI/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          用命令行连接WIFI
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/12/14/Iptables/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Iptables</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'taofeng'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 Tao Feng
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		mathjax: false,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		root: "/",
+		innerArchive: true
+	}
+</script>
+
+<script src="/./main.js"></script>
+
+
+    
+<div class="tools-col">
+  <ul class="btn-wrap">
+    
+      <li class="chose" data-hook="tools-section-all"><span class="text">全部</span><i class="icon-book"></i></li>
+    
+    
+      <li data-hook="tools-section-tag"><span class="text">标签</span><i class="icon-price-tags"></i></li>
+    
+    
+      <li data-hook="tools-section-friends"><span class="text">友链</span><i class="icon-link"></i></li>
+    
+    
+      <li data-hook="tools-section-me"><span class="text">我</span><i class="icon-smile"></i></li>
+    
+  </ul>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all chose">
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-tag">
+    			<div class="widget tagcloud" id="js-tagcloud">
+    				<a href="/tags/Article-Archive/" style="font-size: 10px;">Article Archive</a> <a href="/tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="/tags/Hacking/" style="font-size: 20px;">Hacking</a> <a href="/tags/Useful-Tools/" style="font-size: 20px;">Useful Tools</a>
+    			</div>
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-friends">
+  		
+  			<div class="friends-wrap" id="js-friends">
+  			
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/">Github</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="https://zhihu.com/">Zhihu</a>
+  	        
+  	        </div>
+  		
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-me">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>

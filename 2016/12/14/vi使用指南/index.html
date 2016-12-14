@@ -6,14 +6,39 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="//taofeng.me">
-  <title>Archives | Tao&#39;s Blog</title>
+  <title>vi使用指南 | Tao&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Tao's Blog">
-<meta property="og:url" content="//taofeng.me/archives/index.html">
+  <meta name="description" content="vi是很棒的命令行文本编辑工具，黑客必备技能。
+Editvi &amp;lt;file&amp;gt;
+File:x # exit and save changes
+:wq # exit and save anyway
+ZZ # exit and save changes
+:q! # exit and ignore changes
+:w file # write to file
+:r file # read fi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vi使用指南">
+<meta property="og:url" content="//taofeng.me/2016/12/14/vi使用指南/index.html">
 <meta property="og:site_name" content="Tao's Blog">
+<meta property="og:description" content="vi是很棒的命令行文本编辑工具，黑客必备技能。
+Editvi &amp;lt;file&amp;gt;
+File:x # exit and save changes
+:wq # exit and save anyway
+ZZ # exit and save changes
+:q! # exit and ignore changes
+:w file # write to file
+:r file # read fi">
+<meta property="og:updated_time" content="2016-12-14T02:03:04.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tao's Blog">
+<meta name="twitter:title" content="vi使用指南">
+<meta name="twitter:description" content="vi是很棒的命令行文本编辑工具，黑客必备技能。
+Editvi &amp;lt;file&amp;gt;
+File:x # exit and save changes
+:wq # exit and save anyway
+ZZ # exit and save changes
+:q! # exit and ignore changes
+:w file # write to file
+:r file # read fi">
   
     <link rel="alternative" href="/atom.xml" title="Tao&#39;s Blog" type="application/atom+xml">
   
@@ -149,278 +174,213 @@
 </nav>
 
       <div class="body-wrap">
+        <article id="post-vi使用指南" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
         
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/14/Secure-Shell/" class="archive-article-date">
-  	<time datetime="2016-12-14T02:04:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/14/Secure-Shell/">Secure Shell</a>
+    <h1 class="article-title" itemprop="name">
+      vi使用指南
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Useful-Tools/">Useful Tools</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/14/vi使用指南/" class="archive-article-date">
+        <a href="/2016/12/14/vi使用指南/" class="archive-article-date">
   	<time datetime="2016-12-14T02:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/14/vi使用指南/">vi使用指南</a>
-    </h1>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>vi是很棒的命令行文本编辑工具，黑客必备技能。</p>
+<h3 id="Edit"><a href="#Edit" class="headerlink" title="Edit"></a>Edit</h3><pre><code>vi &lt;file&gt;
+</code></pre><h3 id="File"><a href="#File" class="headerlink" title="File"></a>File</h3><pre><code>:x # exit and save changes
+:wq # exit and save anyway
+ZZ # exit and save changes
+:q! # exit and ignore changes
+:w file # write to file
+:r file # read file in after line
+:e file # edit file
+</code></pre><h3 id="Insert"><a href="#Insert" class="headerlink" title="Insert"></a>Insert</h3><pre><code>i # insert before cursor
+I # insert after cursor
+a # append after cursor
+A # append after line
+o # open a new line after current line
+O # open a new line before current line
+r # replace one character
+R # replace many characters
+</code></pre><a id="more"></a>
+<h3 id="Exit-Insert"><a href="#Exit-Insert" class="headerlink" title="Exit Insert"></a>Exit Insert</h3><pre><code>esc # return to command mode
+</code></pre><h3 id="Motion"><a href="#Motion" class="headerlink" title="Motion"></a>Motion</h3><pre><code>h # move left
+j # move down
+k # move up
+l # move rignt
+w # move to next word
+b # move to the beginning of the word
+e # move to the end of the word
+( # move a sequence back
+) # move a sequence forward
+{ # move a paragraph back
+} # move a paragraph forward
+O # move to the beginning of the line
+$ # move to the end of the line
+1G # move to the first line of the file
+G # move to the last line of the file
+nG # move to nth line of the file
+:n # move to nth line of the file
+H # move to top of the screen
+M # move to middle of the screen
+L # move to botton of the screen
+</code></pre><h3 id="Modify"><a href="#Modify" class="headerlink" title="Modify"></a>Modify</h3><h4 id="Delete"><a href="#Delete" class="headerlink" title="Delete"></a>Delete</h4><pre><code>x # delete charactor to the right of cursor
+X # delete charactor to the left of cursor
+D # delete to the end of the line
+dd # delete current line
+:d # delete current line
+dl # delete the letter
+dw # delete the word
+</code></pre><h4 id="Yank"><a href="#Yank" class="headerlink" title="Yank"></a>Yank</h4><pre><code>yy # copy the current line
+:y # copy the current line
+yl # copy the curren letter
+yw # copy the current word, cursor must on first letter of the word
+</code></pre><h4 id="Change"><a href="#Change" class="headerlink" title="Change"></a>Change</h4><pre><code>C # change to the end of the line
+cc # change the whole line
+cl # change the letter
+cw # change the word
+</code></pre><h4 id="Put"><a href="#Put" class="headerlink" title="Put"></a>Put</h4><pre><code>p # put after the position or after the line
+P # put before the position or before the line
+</code></pre><h4 id="Undo"><a href="#Undo" class="headerlink" title="Undo"></a>Undo</h4><pre><code>u # undo last revision
+U # undo all revisions
+</code></pre><h4 id="Redo"><a href="#Redo" class="headerlink" title="Redo"></a>Redo</h4><pre><code>^C+r # redo last undo
+</code></pre><h4 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h4><pre><code>~ # toggle up and lower case
+J # join lines
+. # repeat last text-changing command
+</code></pre><h4 id="Replace"><a href="#Replace" class="headerlink" title="Replace"></a>Replace</h4><pre><code>:s/pattern/string/flags # replace pattern with string according to flags
+g # flag-replace all occurrences of pattern
+c # flag-comfirm replaces
+&amp; # repeat last :s command
+</code></pre><h3 id="Search"><a href="#Search" class="headerlink" title="Search"></a>Search</h3><pre><code>/text # search forward
+?text # search backward
+n # search next match
+N # search previous match
+</code></pre><h3 id="Range"><a href="#Range" class="headerlink" title="Range"></a>Range</h3><pre><code>:n,m # range lines n-m
+:. # current line
+:$ # last line
+:&apos;c # marker c
+:% # all lines in file
+:g/pattern/ # all lines that contain pattern
+</code></pre>
+      
 
-        <div class="article-info info-on-right">
-          
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags"></i>
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Useful-Tools/">Useful Tools</a></li></ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        <div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode"></div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/14/用命令行连接WIFI/" class="archive-article-date">
-  	<time datetime="2016-12-14T01:49:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/14/用命令行连接WIFI/">用命令行连接WIFI</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Useful-Tools/">Useful Tools</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/14/Mysql命令/" class="archive-article-date">
-  	<time datetime="2016-12-14T01:25:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/14/Mysql命令/">MySQL命令</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/14/Iptables/" class="archive-article-date">
-  	<time datetime="2016-12-14T01:20:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/14/Iptables/">Iptables</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Useful-Tools/">Useful Tools</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/04/Github使用简介/" class="archive-article-date">
-  	<time datetime="2016-12-04T15:32:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-04</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/04/Github使用简介/">Git使用简介</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Project/">Github Project</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Useful-Tools/">Useful Tools</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/04/搭建这个博客/" class="archive-article-date">
-  	<time datetime="2016-12-04T14:03:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-04</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/04/搭建这个博客/">搭建这个博客</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Article-Archive/">Article Archive</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Project/">Github Project</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2016/12/04/Hello-World/" class="archive-article-date">
-  	<time datetime="2016-12-03T20:54:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-04</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/04/Hello-World/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Article-Archive/">Article Archive</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+    <a href="/2016/12/14/Secure-Shell/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Secure Shell
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2016/12/14/用命令行连接WIFI/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">用命令行连接WIFI</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
+</nav>
 
-    
+
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'taofeng'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
 
       </div>
@@ -442,8 +402,8 @@
 		mathjax: false,
 		animate: true,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
