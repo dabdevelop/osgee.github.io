@@ -151,6 +151,60 @@
       <div class="body-wrap">
         
   
+    <article id="post-比特币简介" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/17/比特币简介/">比特币简介</a>
+    </h1>
+  
+
+        <a href="/2017/02/17/比特币简介/" class="archive-article-date">
+  	<time datetime="2017-02-17T01:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-17</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Bitcoin使用区块链的技术保存历史交易记录，每一个区块带有时间戳，用来表示区块的顺序。为了去中心化，每一个比特币计算节点都保存有整个区块链的备份，所有节点同步到一个临时的中心账本节点。这个中心账本节点是通过完成一个叫“计算量证明”的谜题来竞选的，为了奖励网络中的节点竞争中心账本节点，新的比特币会发行给竞选成功的中心账本节点，并且中心账本节点可以获得在这个区块（时段）的所以比特币交易的手续费。这个竞选的过程叫做“挖矿”。为了确保中心账本节点约每10分钟更新一次，比特币网络会负反馈地调节题目的难度。比特币的交易是通过交接出谜题的权力进行的，在一个比特币历史交易记录的链上，起点是中心节点竞选奖励，终点是最后比特币所有者（钱包）设置的“待解谜题”，所有末端的“待解谜题”被记录在一个“待解谜题列表“中，而比特币交易记录被记录在区块链中，这个“待解谜题”只有比特币所有者能答出，因此只有其所有者能使用。交易的付款人可以解出“待解谜题列表”中的一些谜题，每个谜题实际上是付款地址，所有的谜题所拥有的比特币就是付款人的比特币账户总额，然后付款地址实际上是收款人出的“待解谜题”，一个交易可以有多个付款地址和收款地址，交易确认就是付款人将其“待解谜题”和收款人的“待解谜题”记录到区块链中，付款人的“待解谜题”会从“待解谜题列表”删除，而收款人的“待解谜题”会添加到“待解谜题列表”。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hacking/">Hacking</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/02/17/比特币简介/#more">more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-Markdown" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -604,63 +658,6 @@ mangle      ----&gt;    |LOCALHOST |  ---&gt;  nat
 
 
   
-    <article id="post-搭建这个博客" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/04/搭建这个博客/">搭建这个博客</a>
-    </h1>
-  
-
-        <a href="/2016/12/04/搭建这个博客/" class="archive-article-date">
-  	<time datetime="2016-12-04T14:03:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-04</time>
-</a>
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h3><p>这个博客是基于<a href="https://hexo.io"><code>hexo</code></a>的博客框架，使用了一个腾讯前端开发的大牛<a href="https://litten.me"><code>Litten</code></a>开源的<code>hexo</code>主题<a href="https://github.com/litten/hexo-theme-yilia"><code>yilia</code></a>，详细的安装过程分别在<code>hexo</code>和<code>yilia</code>的首页上有详细的介绍，可以自行参考。<code>hexo</code>使用的是<a href="https://nodejs.org/en/"><code>Node.js</code></a>，是使用<code>JavaScript</code>编写的服务端框架，打开它的首页就能看到相应系统的安装包，另外还需要有<a href="https://www.npmjs.com"><code>npm</code></a>，是<code>Node.js</code>的软件仓库，也是包管理工具，用它安装<code>Node.js</code>的程序很方便。<code>npm</code>的安装也可以参考hexo在线文档提供的指导。</p>
-<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p>首先需要安装的是<a href="http://brew.sh"><code>homebrew</code></a>，然后用<code>brew</code>安装<code>npm</code>，再<code>到Node.js</code>主页下载<code>OSX</code>的安装包，我是用的<code>OSX</code>，所以只介绍<code>OSX</code>上的安装方式。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#安装homebrew</span></div><div class="line">/usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div><div class="line"></div><div class="line"><span class="comment">#安装nmp和git</span></div><div class="line">brew update -y</div><div class="line">brew install nmp git -y</div></pre></td></tr></table></figure>
-<p>下载了<code>Node.js</code>安装包并安装好之后，就可以开始安装<code>hexo</code>了。<br>
-        <a class="article-more-a"  href="/2016/12/04/搭建这个博客/#more">more >></a>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Article-Archive/">Article Archive</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Project/">Github Project</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/12/04/搭建这个博客/#more">more >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
@@ -725,7 +722,7 @@ mangle      ----&gt;    |LOCALHOST |  ---&gt;  nat
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="/tags/Article-Archive/" style="font-size: 10px;">Article Archive</a> <a href="/tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="/tags/Hacking/" style="font-size: 15px;">Hacking</a> <a href="/tags/Useful-Tools/" style="font-size: 20px;">Useful Tools</a>
+    				<a href="/tags/Article-Archive/" style="font-size: 10px;">Article Archive</a> <a href="/tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="/tags/Hacking/" style="font-size: 20px;">Hacking</a> <a href="/tags/Useful-Tools/" style="font-size: 20px;">Useful Tools</a>
     			</div>
     	</section>
     
