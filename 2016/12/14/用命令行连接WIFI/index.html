@@ -9,24 +9,27 @@
   <title>用命令行连接WIFI | Tao&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="wpa_supplicant这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。
+使用iwlist扫描无线网络1iwlist scan
 configureUsing template wpa_supplicant.conf, replace the pass
 1wpa_passphrase SSID PASS &amp;gt; ~/wpa_pass.conf
-check the net interface card123iw">
+check">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用命令行连接WIFI">
 <meta property="og:url" content="//taofeng.me/2016/12/14/用命令行连接WIFI/index.html">
 <meta property="og:site_name" content="Tao's Blog">
 <meta property="og:description" content="wpa_supplicant这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。
+使用iwlist扫描无线网络1iwlist scan
 configureUsing template wpa_supplicant.conf, replace the pass
 1wpa_passphrase SSID PASS &amp;gt; ~/wpa_pass.conf
-check the net interface card123iw">
-<meta property="og:updated_time" content="2017-02-19T11:06:14.000Z">
+check">
+<meta property="og:updated_time" content="2017-03-03T10:30:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用命令行连接WIFI">
 <meta name="twitter:description" content="wpa_supplicant这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。
+使用iwlist扫描无线网络1iwlist scan
 configureUsing template wpa_supplicant.conf, replace the pass
 1wpa_passphrase SSID PASS &amp;gt; ~/wpa_pass.conf
-check the net interface card123iw">
+check">
   
     <link rel="alternative" href="/atom.xml" title="Tao&#39;s Blog" type="application/atom+xml">
   
@@ -181,6 +184,7 @@ check the net interface card123iw">
     <div class="article-entry" itemprop="articleBody">
       
         <h3 id="wpa-supplicant"><a href="#wpa-supplicant" class="headerlink" title="wpa_supplicant"></a>wpa_supplicant</h3><p>这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。</p>
+<p>使用iwlist扫描无线网络<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iwlist scan</div></pre></td></tr></table></figure></p>
 <h3 id="configure"><a href="#configure" class="headerlink" title="configure"></a>configure</h3><p>Using template wpa_supplicant.conf, replace the pass</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wpa_passphrase SSID PASS &gt; ~/wpa_pass.conf</div></pre></td></tr></table></figure>
 <p>check the net interface card<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iwconfig</div><div class="line">wpa_supplicant -i wlan0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf</div><div class="line">dhclient wlan0</div></pre></td></tr></table></figure></p>
