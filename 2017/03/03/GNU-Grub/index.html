@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <link rel="dns-prefetch" href="//taofeng.me">
+  <title>Linux Cheat Sheet | Tao&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Configuring GRUB 2Editing the FileThe grub file is a system file, therefore any editing must be done by a user with Administrator/root privileges. The file is a simple text file and can be edited by a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux Cheat Sheet">
+<meta property="og:url" content="//taofeng.me/2017/03/03/GNU-Grub/index.html">
+<meta property="og:site_name" content="Tao's Blog">
+<meta property="og:description" content="Configuring GRUB 2Editing the FileThe grub file is a system file, therefore any editing must be done by a user with Administrator/root privileges. The file is a simple text file and can be edited by a">
+<meta property="og:updated_time" content="2017-03-03T09:19:53.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Linux Cheat Sheet">
+<meta name="twitter:description" content="Configuring GRUB 2Editing the FileThe grub file is a system file, therefore any editing must be done by a user with Administrator/root privileges. The file is a simple text file and can be edited by a">
+  
+    <link rel="alternative" href="/atom.xml" title="Tao&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/main.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+      <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img src="https://github.com/osgee.png" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Feng Tao</a></h1>
+		</hgroup>
+
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/Note">随手记</a></li>
+	        
+				<li><a href="/tags/Research-Path">研究历程</a></li>
+	        
+				<li><a href="/tags/Computer-Network">网络通信</a></li>
+	        
+				<li><a href="/tags/Information-Security">信息安全</a></li>
+	        
+				<li><a href="/tags/Useful-Tool">实用工具</a></li>
+	        
+				<li><a href="/tags/Github-Project">Github</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+	        
+    		
+    			
+    			<a class="js-smart-menu" data-idx="0" href="javascript:void(0)">所有文章</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="1" href="javascript:void(0)">标签</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="2" href="javascript:void(0)">友链</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="3" href="javascript:void(0)">关于我</a>
+    			
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="https://github.com/osgee" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:admin@taofeng.me" title="mail"><i class="icon-mail"></i></a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"><i class="icon-sort"></i></div>
+  		<h1 class="header-author js-mobile-header hide">Feng Tao</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				
+					<img src="https://github.com/osgee.png" class="js-avatar">
+				
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Feng Tao</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/tags/Note">随手记</a></li>
+		        
+					<li><a href="/tags/Research-Path">研究历程</a></li>
+		        
+					<li><a href="/tags/Computer-Network">网络通信</a></li>
+		        
+					<li><a href="/tags/Information-Security">信息安全</a></li>
+		        
+					<li><a href="/tags/Useful-Tool">实用工具</a></li>
+		        
+					<li><a href="/tags/Github-Project">Github</a></li>
+		        
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/osgee" title="github"><i class="icon-github"></i></a>
+			        
+						<a class="mail" target="_blank" href="mailto:admin@taofeng.me" title="mail"><i class="icon-mail"></i></a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap">
+        <article id="post-GNU-Grub" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Linux Cheat Sheet
+    </h1>
+  
+
+        <a href="/2017/03/03/GNU-Grub/" class="archive-article-date">
+  	<time datetime="2017-03-03T07:52:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-03</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Configuring-GRUB-2"><a href="#Configuring-GRUB-2" class="headerlink" title="Configuring GRUB 2"></a>Configuring GRUB 2</h3><h4 id="Editing-the-File"><a href="#Editing-the-File" class="headerlink" title="Editing the File"></a>Editing the File</h4><p>The grub file is a system file, therefore any editing must be done by a user with <code>Administrator/root</code> privileges. The file is a simple text file and can be edited by any text editor. The default text editor in Ubuntu is Gedit, and the file can be edited with the following command. <code>gksu</code> is the graphical equivalent of <code>sudo</code> and the <code>&amp;</code> allows the terminal to be used to update GRUB 2 once the user saves the file.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gksu gedit /etc/default/grub &amp;</div></pre></td></tr></table></figure></p>
+<p>After making changes and saving the file, the GRUB 2 menu must be updated to include the changes by running:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo update-grub</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<h4 id="Specific-Entries"><a href="#Specific-Entries" class="headerlink" title="Specific Entries"></a>Specific Entries</h4><p><code>/etc/default/grub</code>  [GRUB menu settings]</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="attr">GRUB_TIMEOUT</span>=<span class="number">5</span></div><div class="line"><span class="attr">GRUB_DISTRIBUTOR</span>=<span class="string">"$(sed 's, release .*$,,g' /etc/system-release)"</span></div><div class="line"><span class="attr">GRUB_DEFAULT</span>=saved</div><div class="line"><span class="attr">GRUB_DISABLE_SUBMENU</span>=<span class="literal">true</span></div><div class="line"><span class="attr">GRUB_TERMINAL_OUTPUT</span>=<span class="string">"console"</span></div><div class="line"><span class="attr">GRUB_CMDLINE_LINUX</span>=<span class="string">"rd.lvm.lv=centos/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=centos/root crashkernel=auto vconsole.keymap=us rhgb quiet"</span></div><div class="line"><span class="attr">GRUB_DISABLE_RECOVERY</span>=<span class="string">"true"</span></div><div class="line"></div><div class="line"><span class="comment">#sed -e '/^#/d' -e '/^$/d' /etc/default/grub</span></div><div class="line"><span class="attr">GRUB_DEFAULT</span>=<span class="number">0</span></div><div class="line"><span class="attr">GRUB_HIDDEN_TIMEOUT_QUIET</span>=<span class="literal">true</span></div><div class="line"><span class="attr">GRUB_TIMEOUT</span>=<span class="number">2</span></div><div class="line"><span class="attr">GRUB_DISTRIBUTOR</span>=`lsb_release -i -s <span class="number">2</span>&gt; /dev/null || echo Debian`</div><div class="line"><span class="attr">GRUB_CMDLINE_LINUX_DEFAULT</span>=<span class="string">""</span></div><div class="line"><span class="attr">GRUB_CMDLINE_LINUX</span>=<span class="string">""</span></div></pre></td></tr></table></figure>
+<h3 id="Setting-a-GRUB-password"><a href="#Setting-a-GRUB-password" class="headerlink" title="Setting a GRUB password"></a>Setting a GRUB password</h3><p>The command to create a grub password is<br><code>grub-md5-crypt</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# grub-md5-crypt </div><div class="line">Password:</div><div class="line">Retype password:</div><div class="line">$1$2c4ol/$gMHLZBZZqJT8oRPpiShkf/</div></pre></td></tr></table></figure></p>
+<p>Once you have the md5 hash of the password you need to copy it and insert it into the grub.conf file The format of the line is below (put this before the “default=“ line)</p>
+<p><code>password --md5 results_of_grub_md_5_command</code><br><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[root@localhost yum.repos.<span class="keyword">d</span>]# <span class="keyword">cat</span> /<span class="keyword">boot</span>/grub/grub.<span class="keyword">conf</span></div><div class="line">...</div><div class="line">password --md5 <span class="variable">$1</span><span class="variable">$2c4ol</span>/<span class="variable">$gMHLZBZZqJT8oRPpiShkf</span>/</div><div class="line">...</div></pre></td></tr></table></figure></p>
+<h3 id="Getting-into-a-system-without-the-root-or-GRUB-password"><a href="#Getting-into-a-system-without-the-root-or-GRUB-password" class="headerlink" title="Getting into a system without the root or GRUB password"></a>Getting into a system without the root or GRUB password</h3><p>Insert your Linux Install disk in the CDROM drive</p>
+<ol>
+<li>Enter the computer’s (VM) BIOS, then configure the computer to boot to the CDROM drive first</li>
+<li>When you get the boot menu choose <code>Rescue installed system</code></li>
+<li>When asked What language would you like to use during the installation process?, choose<br><code>English</code></li>
+<li>When asked “What type of keyboard do you have” choose <code>us</code></li>
+<li>When asked “what type of media contains the rescue image”, choose <code>Local CD/DVD</code></li>
+<li>When asked if you want to start networking interfaces on this system, choose <code>No</code></li>
+<li>When asked “The rescue environment will now attempt to fine your Linux installation and<br>mount it under the directory <code>/mnt/sysimage...</code> choose <code>Continue</code></li>
+<li>When prompted that “Your system has been mounted under /mnt/sysimage” choose <code>OK</code></li>
+<li>When presented for a list of 3 options, choose <code>shell Start shell</code>, and choose <code>OK</code></li>
+<li>You should now be at a shell prompt#, type <code>chroot /mnt/sysimage</code></li>
+<li>Reset the password with the command<br><code>passwd</code><br>the system will prompt you to choose a new password and type it twice</li>
+<li>now use vi or nano to edit the file <code>/boot/grub/grub.conf</code><br>a. remove the line starting <code>password --md5 ....</code><br>b. save the file</li>
+<li>reboot your computer, notice there is no longer a GRUB password and you have reset the root password and can log in again.</li>
+<li>Type <code>exit</code> twice, this will return you to the menu of “shell, fakd or reboot”,</li>
+<li>Choose <code>reboot</code> and click <code>OK</code></li>
+</ol>
+<h3 id="Repairing-a-broken-MBR"><a href="#Repairing-a-broken-MBR" class="headerlink" title="Repairing a broken MBR"></a>Repairing a broken MBR</h3><p>Insert your Linux Install disk in the CDROM drive</p>
+<ol>
+<li>Enter the computer’s (VM) BIOS, then configure the computer to boot to the CDROM drive first</li>
+<li>When you get the boot menu choose <code>Rescue installed system</code></li>
+<li>When asked “What language would you like to use during the installation process?, choose<br><code>English</code></li>
+<li>When asked “What type of keyboard do you have” choose <code>us</code></li>
+<li>When asked “what type of media contains the rescue image”, choose <code>Local CD/DVD</code></li>
+<li>When asked if you want to start networking interfaces on this system, choose <code>No</code></li>
+<li>When asked “The rescue environment will now attempt to fine your Linux installation and<br>mount it under the directory <code>/mnt/sysimage...</code> choose <code>Continue</code></li>
+<li>When prompted that “Your system has been mounted under /mnt/sysimage” choose OK</li>
+<li>When presented for a list of 3 options, choose <code>shell Start shell</code>, and choose <code>OK</code></li>
+<li>You should now be at a shell prompt#, type chroot <code>/mnt/sysimage</code></li>
+<li>Type<br><code>grub</code><br>This will put you in interactive grub mode. Follow the rest of the session below (the commands you type are highlighted AND bold)<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">GNU GRUB version 0.97 (640K lower / 3072K upper memory)</div><div class="line">[ Minimal BASH-like line editing is supported. For the first word, TAB</div><div class="line">lists possible command completions. Anywhere else TAB lists the possible completions of a device/filename.]</div><div class="line">grub&gt; root (hd0,0)</div><div class="line">File system type is ext2fs, partition type 0x83</div><div class="line">grub&gt; setup (hd0)</div><div class="line">Checking if &quot;/boot/grub/stage1&quot; exists... no</div><div class="line">Checking if &quot;/grub/stage1&quot; exists... yes</div><div class="line">Checking if &quot;/grub/stage2&quot; exists... yes</div><div class="line">Checking if &quot;/grub/e2fs_stage1_5&quot; exists... yes</div><div class="line">Running &quot;embed /grub/e2fs_stage1_5 (hd0)&quot;... 15 sectors are embedded.</div><div class="line">succeeded</div><div class="line">Running &quot;install /grub/stage1 (hd0) (hd0)1+15 p (hd0,0)/grub/stage2 /grub/grub</div><div class="line">.conf&quot;... succeeded Done.</div><div class="line">grub&gt;</div><div class="line">quit</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>type <code>exit</code> to exit your chroot shell</p>
+<ol>
+<li>type exit again to reboot</li>
+<li>Choose <code>reboot</code> from the menu and click <code>OK</code></li>
+</ol>
+<p>IMPORTANT this assumes your <code>/boot</code> partition is the first partition on the first hard drive (/dev/sda1) which is almost always is. If for some reasons it’s NOT you have to modify your <code>root(hd0,0)</code> line</p>
+<h3 id="GRUB-2-HEAL-YOUR-BOOTLOADER"><a href="#GRUB-2-HEAL-YOUR-BOOTLOADER" class="headerlink" title="GRUB 2: HEAL YOUR BOOTLOADER"></a>GRUB 2: HEAL YOUR BOOTLOADER</h3><p>The next few commands work with both <code>grub&gt;</code> and <code>grub rescue&gt;</code>. The <code>set pager=1</code> command invokes the pager, which prevents text from scrolling off the screen. You can also use the <code>ls</code> command which lists all partitions that Grub sees, like this:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">grub&gt; ls</div><div class="line">(hd0) (hd0,msdos5) (hd0,msdos6) (hd1,msdos1)</div><div class="line">grub&gt; ls (hd0,5)/</div><div class="line">lost+found/ var/ etc/ media/ bin/ initrd.gz</div><div class="line">boot/ dev/ home/ selinux/ srv/ tmp/ vmlinuz</div></pre></td></tr></table></figure></p>
+<p> If you have multiple partitions, read the contents of the <code>/etc/issue</code> file with the cat command to identify the distro,  such as <code>cat (hd0,5)/etc/issue</code>.<br>Assuming you  nd the root  lesystem you’re looking for inside <code>(hd0,5)</code>, make sure that it contains the <code>/boot/grub</code> directory and the Linux kernel image you wish to boot into, such as <code>vmlinuz-3.13.0-24-generic</code>. Now type the following:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">grub&gt; set root=(hd0,5)</div><div class="line">grub&gt; linux /boot/vmlinuz-3.13.0-24-generic root=/dev/sda5</div><div class="line">grub&gt; initrd /boot/initrd.img-3.13.0-24-generic</div></pre></td></tr></table></figure></p>
+<p>Once you’ve keyed these in, type <code>boot</code> at the next <code>grub&gt;</code> prompt and Grub will boot into the specied operating system.<br>Things are a little different if you’re at the <code>grub rescue&gt;</code> prompt. Since the bootloader hasn’t been able to  nd and load any of the required modules, you’ll have to insert them manually:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">grub rescue&gt; set root=(hd0,5)</div><div class="line">grub rescue&gt; insmod (hd0,5)/boot/grub/normal.mod</div><div class="line">grub rescue&gt; normal</div><div class="line">grub&gt; insmod linux</div></pre></td></tr></table></figure></p>
+<p>Once this module has been loaded you can proceed to point the boot loader to the kernel image and initrd files just as before and round off the procedure with the boot command to bring up the distro.<br>Once you’ve successfully booted into the distro, don’t forget to regenerate a new configuration  file for Grub with the<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grub-mkconfig -o /boot/grub/grub.cfg</div></pre></td></tr></table></figure></p>
+<p>command. You’ll also have to install a copy of the bootloader into the MBR with the<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo grub2-install /dev/sda</div></pre></td></tr></table></figure></p>
+<p>command.</p>
+<p>if you lose the Grub 2 bootloader you can restore Grub within a few steps with the help of a live distro. Assuming<br> you’ve installed a distro on /dev/sda5, you can reinstall Grub by  rst creating a mount directory for the distro with<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo mkdir -p /mnt/distro</div></pre></td></tr></table></figure></p>
+<p>and then mounting the partition with<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mount /dev/sda5 /mnt/distro</div></pre></td></tr></table></figure></p>
+<p>You can then reinstall Grub with<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grub2-install --root-directory=/mnt/distro /dev/sda</div></pre></td></tr></table></figure></p>
+<p>This command will rewrite the MBR information on the <code>/dev/sda</code> device, point to the current Linux installation and rewrite some Grub 2  files such as <code>grubenv</code> and <code>device.map</code>.<br><a href="https://www.linuxvoice.com/issues/010/grub.pdf" target="_blank" rel="external">More Reference</a></p>
+<h3 id="Creating-a-partition-and-formatting-it-with-an-ext4-file-system"><a href="#Creating-a-partition-and-formatting-it-with-an-ext4-file-system" class="headerlink" title="Creating a partition and formatting it with an ext4 file system"></a>Creating a partition and formatting it with an ext4 file system</h3><p>To create a partition and format it with the ext4 file system</p>
+<ol>
+<li>fdisk /dev/disk_specifier ex. <code>fdisk /dev/sda</code></li>
+<li>type <code>p</code> to print out the partition table, note the LAST partition identifier</li>
+<li>type <code>n</code> to create a NEW partition</li>
+<li>when prompted for a start cylinder, just hit the return key</li>
+<li>when prompted for the end cylinder, type<br><code>+100M</code> (to create a 100M partition, a 1G partition would be <code>+1G</code>)</li>
+<li>type <code>p</code> to print the new partition table, note the /dev/xxx identifier of the new partition… you<br>need this later. write it here <strong><strong><strong><strong><strong><em>__</em></strong></strong></strong></strong></strong></li>
+<li>type <code>w</code> to write your change and exit fdisk</li>
+<li>type partprobe to inform the kernel of the new partitions</li>
+<li>create a new file system with the command<br><code>mkfs -t ext4 /dev/xxx</code> (where /dev/xxx is the partition you created and listed in step 6)</li>
+<li>create a “mount point” where you want the directory to be grafted onto the file system tree<br><code>mkdir /mnt/mynewpartition</code></li>
+<li>mount the file system<br><code>mount /dev/xxx /mnt/mynewpartition</code></li>
+<li>verify it’s mounted with<br><code>df -h</code></li>
+</ol>
+<p>Remember to have it automatically mount on reboots, you need to edit <code>/etc/fstab</code> and add a new line to reference the new partitions. If the for example if our new partition is <code>/dev/sda7</code> and we want to mount it as <code>/mnt/mynewpartition</code> we could type the following command to add it to the system</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# echo</div><div class="line">&quot;/dev/sda7 /mnt/mynewpartition</div><div class="line">ext4 defaults 1 2&quot; &gt;&gt; /etc/fstab</div></pre></td></tr></table></figure>
+<h3 id="Adding-a-swap-file"><a href="#Adding-a-swap-file" class="headerlink" title="Adding a swap file"></a>Adding a swap file</h3><p>Creating a swap file</p>
+<ol>
+<li>use dd to create a empty space<br><code>dd if=/dev/zero of=new_swap_file ibs=1M count=size_in_megabytes</code></li>
+<li>use mkswap to initialize the empty space as swap<br><code>mkswap new_swap_file</code></li>
+<li>Protect the swap space with chmod (this is VERY important from a security standpoint)<br><code>chmod 700 new_swap_file</code></li>
+<li>Add Entry to /etc/fstab for new swap file<br><code>/bin/echo “new_swap_file swap swap defaults 0 0” &gt;&gt; /etc/fstab</code></li>
+<li>Add new swap file immediately to system<br><code>swapon –a</code></li>
+<li>Verify swap file is active with<br><code>swapon –s</code></li>
+</ol>
+<h3 id="Creating-a-LUKS-encrypted-file-system"><a href="#Creating-a-LUKS-encrypted-file-system" class="headerlink" title="Creating a LUKS encrypted file system"></a>Creating a LUKS encrypted file system</h3><p>Create a partition as normal, for the purpose of this cheat sheet, we will call it <code>/dev/sdb1</code></p>
+<ol>
+<li>Determine a “/dev/mapper name”. For the purpose of this class we will call it encrypted_data</li>
+<li>Create a mount point, for the purpose of this cheat sheet we will call it <code>/usr/mysecretdata</code><br><code>mkdir /usr/mysecretdata</code></li>
+<li>Create random data on the partition you just created (this is optional and it can take a LONG LONG LONG time. However it is very good from a security standpoint)<br><code>dd if=/dev/urandom of=/dev/sdb1</code></li>
+<li>Initialize the partition for encryption cryptsetup <code>luksFormat /dev/sdb1</code></li>
+<li>Tell the encryption software to start using encryption on the partition, and create a special encrypted block device on the underlying physical partition.<br><code>cryptsetup luksOpen /dev/sdb1 encrypted_data</code></li>
+<li>Create a Linux usable file system on the special encrypted block device<br><code>mkfs –t ext4 /dev/mapper/encrypted_data</code></li>
+<li>Add the following line to /etc/fstab so your disk will automatically mount at system startup.<br><code>/dev/mapper/encrypted_data /usr/mysecretdata ext4 defaults 1 2</code></li>
+<li>Inform the system to create the special encrypted block device on system startup. Edit (create if necessary) <code>/etc/crypttab</code>, add the following line<br><code>encrypted_data /dev/sdb1 none</code></li>
+<li>Mount the disk, so you can immediately use it without rebooting (or reboot if you prefer)<br><code>mount /dev/mapper/encrypted_data /usr/mysecretdata</code><br>or<br><code>reboot</code></li>
+</ol>
+<h3 id="Connecting-to-NFS-resources"><a href="#Connecting-to-NFS-resources" class="headerlink" title="Connecting to NFS resources"></a>Connecting to NFS resources</h3><ol>
+<li><p>Make sure netfs is chkconfig’ed on (this is needed to automatically mount NFS shares on reboot<br><code>chkconfig --list netfs</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# chkconfig --list netfs</div><div class="line">netfs 0:off 1:off 2:off 3:on 4:on 5:on 6:off</div></pre></td></tr></table></figure>
+</li>
+<li><p>Use showmount to determine what resources are on a server <code>showmount –e ip_or_hostname_of_remote_server</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# showmount -e 192.168.2.186 Export list for 192.168.2.186:</div><div class="line">/shared *</div><div class="line">/nfshome *</div></pre></td></tr></table></figure>
+</li>
+<li><p>Make a directory to use as the “graft point”<br><code>mkdir /mnt/a</code><br>Mount one of the remote file systems<br><code>mount remote_server:remote_path mount_point</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# mount 192.168.2.186:/shared /mnt/a</div></pre></td></tr></table></figure>
+</li>
+<li><p>Verify the remote file system is present on your system now.<br><code>df –h</code></p>
+</li>
+<li>Add a line to <code>/etc/fstab</code> so it always mounts on system boot.<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# echo &quot;192.168.2.186:/shared /mnt/a nfs defaults 0</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="Joining-an-NIS-YP-domain"><a href="#Joining-an-NIS-YP-domain" class="headerlink" title="Joining an NIS (YP) domain"></a>Joining an NIS (YP) domain</h3><p>NIS is a system that allows you to share “user accounts” and other information across a network. NIS was highly used in Unix/Linux installation for the centralized user management features.<br>To join an NIS domain you must first have the following information<br> NIS domain name<br> Server IP (optional)<br>The Steps are</p>
+<ol>
+<li>make sure ypbind is set to run in run level 3 and 5 <code>chkconfig --level 35 ypbind on</code></li>
+<li>run system-config-authentication</li>
+<li>Choose “NIS” from “User Account Database selector”</li>
+<li>enter your NIS Domain Name</li>
+<li>enter your Servers IP address</li>
+<li>click <code>Apply</code></li>
+<li>close out of system-config-authentication<br>You should now be able to access network accounts via NIS. One useful command to verify that NIS is working is<br>ypcat passwd which reads the password file from NIS<br>You also need to make sure your users home directories are available on the system… this is usually done with NFS.</li>
+</ol>
+<h3 id="Creating-a-YUM-repository-using-HTTP"><a href="#Creating-a-YUM-repository-using-HTTP" class="headerlink" title="Creating a YUM repository (using HTTP)"></a>Creating a YUM repository (using HTTP)</h3><p>Creating a YUM repo (http) </p>
+<ol>
+<li><p>Setup a web server<br><code>yum install httpd</code><br><code>service httpd start</code><br><code>chkconfig --level 35 httpd on</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum install httpd</div><div class="line">...</div><div class="line">[root@localhost ~]# service httpd start</div><div class="line">Starting httpd:</div><div class="line">[root@localhost ~]# chkconfig --level 35 httpd on</div></pre></td></tr></table></figure>
+</li>
+<li><p>Install the createrepo package </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum –q –y install createrepo</div></pre></td></tr></table></figure>
+</li>
+<li><p>Copy the rpm files to <code>/var/www/html</code> (from the CentOS 5.6 CDROM in this case, make sure the CDROM is inserted into the computer or the VMware instance)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# mkdir /var/www/html/myrepo</div><div class="line">[root@workstation1 ~]# cp -rp /media/CentOS_6.2_Final/Packages/* /var/www/html/myrepo</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>Note the CentOS 6.2 distribution has 2 DVDs so you’ll need to copy the Packages directory from EACH DVD into <code>/var/www/html/myrepo</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 myrepo]# umount /media/CentOS_6.2_Final/</div><div class="line">(eject cdrom from vmware, load CentOS disk 2)</div><div class="line">[root@workstation1 myrepo]# cp -rp /media/CentOS_6.2_Final_/Packages/* /var/www/html/myrepo/ (all one line)</div><div class="line">cp: overwrite `/var/www/html/myrepo/TRANS.TBL&apos;? y</div></pre></td></tr></table></figure></p>
+<ol>
+<li><p>Create the rpm listing</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1]# createrepo /var/www/html/myrepo</div></pre></td></tr></table></figure>
+</li>
+<li><p>Optional step: create group lists (list of related packages to install at one time (ie to use with yum groupinstall or yum grouplist). To do this you need to create an xml file to descript which file is in which packages. In this case we’ll copy the group list that’s provided on the CentOS 6.2 install. (you will need to re-insert and re-mount CentOS DVD #1)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# cd /var/www/html/myrepo/</div><div class="line">[root@workstation1 myrepo]# cp /media/CentOS_6.2_Final_/repodata/*comps.xml . [root@workstation1 myrepo]# createrepo -g *comps.xml .</div><div class="line">(lines of data will scroll on the screen)</div></pre></td></tr></table></figure>
+</li>
+<li><p>Now you can use your repo. On your clients you need to create a repo file in <code>/etc/yum.repos.d</code> Using your favorite editor create a file called <code>/etc/yum.repos.d/myrepo.repo</code></p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="section">[myrepo]</span></div><div class="line"><span class="attr">name</span>=CentOS-<span class="variable">$releasever</span> - Base baseurl=http://your_servers_IP/myrepo gpgcheck=<span class="number">1</span></div><div class="line"><span class="attr">enabled</span>=<span class="number">1</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>Clear your yum cache</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum clean all</div></pre></td></tr></table></figure>
+</li>
+<li><p>View your new yum repo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum repolist</div></pre></td></tr></table></figure>
+</li>
+<li><p>View the items in your yum repo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum list |grep myrepo</div></pre></td></tr></table></figure></li>
+</ol>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Note/">Note</a></li></ul>
+	</div>
+
+      
+
+      
+
+      
+        <div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode"></div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2017/03/03/Ubuntu升级内核/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Ubuntu升级内核</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'taofeng'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2017 Feng Tao
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		mathjax: false,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		root: "/",
+		innerArchive: true
+	}
+</script>
+
+<script src="/./main.js"></script>
+
+
+    
+<div class="tools-col">
+  <ul class="btn-wrap">
+    
+      <li class="chose" data-hook="tools-section-all"><span class="text">全部</span><i class="icon-book"></i></li>
+    
+    
+      <li data-hook="tools-section-tag"><span class="text">标签</span><i class="icon-price-tags"></i></li>
+    
+    
+      <li data-hook="tools-section-friends"><span class="text">友链</span><i class="icon-link"></i></li>
+    
+    
+      <li data-hook="tools-section-me"><span class="text">我</span><i class="icon-smile"></i></li>
+    
+  </ul>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all chose">
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-tag">
+    			<div class="widget tagcloud" id="js-tagcloud">
+    				<a href="/tags/Computer-Network/" style="font-size: 15px;">Computer Network</a> <a href="/tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="/tags/Information-Security/" style="font-size: 12.5px;">Information Security</a> <a href="/tags/Note/" style="font-size: 17.5px;">Note</a> <a href="/tags/Research-Path/" style="font-size: 10px;">Research Path</a> <a href="/tags/Useful-Tool/" style="font-size: 20px;">Useful Tool</a>
+    			</div>
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-friends">
+  		
+  			<div class="friends-wrap" id="js-friends">
+  			
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/">Github</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="https://zhihu.com/">Zhihu</a>
+  	        
+  	        </div>
+  		
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-me">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;br&gt;&lt;br&gt;免责声明：本博客属于原创内容，如转载请注明出处。若内容侵害了您的权益，请及时联系。&lt;br&gt;谢谢！</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+  </div>
+</body>
+</html>
