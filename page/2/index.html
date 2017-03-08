@@ -154,6 +154,122 @@
       <div class="body-wrap">
         
   
+    <article id="post-用命令行连接WIFI" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/14/用命令行连接WIFI/">用命令行连接WIFI</a>
+    </h1>
+  
+
+        <a href="/2016/12/14/用命令行连接WIFI/" class="archive-article-date">
+  	<time datetime="2016-12-14T01:49:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="wpa-supplicant"><a href="#wpa-supplicant" class="headerlink" title="wpa_supplicant"></a>wpa_supplicant</h3><p>这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。</p>
+<p>使用iwlist扫描无线网络<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iwlist scan</div></pre></td></tr></table></figure></p>
+<h3 id="configure"><a href="#configure" class="headerlink" title="configure"></a>configure</h3><p>Using template wpa_supplicant.conf, replace the pass</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wpa_passphrase SSID PASS &gt; ~/wpa_pass.conf</div></pre></td></tr></table></figure>
+<p>check the net interface card<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iwconfig</div><div class="line">wpa_supplicant -i wlan0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf</div><div class="line">dhclient wlan0</div></pre></td></tr></table></figure></p>
+        <a class="article-more-a"  href="/2016/12/14/用命令行连接WIFI/#more">more >></a>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Computer-Network/">Computer Network</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Useful-Tool/">Useful Tool</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2016/12/14/用命令行连接WIFI/#more">more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-Mysql命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/14/Mysql命令/">MySQL命令</a>
+    </h1>
+  
+
+        <a href="/2016/12/14/Mysql命令/" class="archive-article-date">
+  	<time datetime="2016-12-14T01:25:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。</p>
+<h3 id="Common-Commands"><a href="#Common-Commands" class="headerlink" title="Common Commands"></a>Common Commands</h3><p>login in shell</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -uroot -p</div></pre></td></tr></table></figure>
+<p>mysql&gt;</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SHOW</span> <span class="keyword">DATABASES</span>;</div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> db;</div><div class="line"><span class="keyword">DROP</span> <span class="keyword">DATABASE</span> db;</div><div class="line"></div><div class="line"><span class="keyword">USE</span> db;</div><div class="line"><span class="keyword">SHOW</span> <span class="keyword">TABLES</span>;</div><div class="line"><span class="keyword">DESCRIBE</span> tb;</div><div class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> tb;</div><div class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> tb(<span class="string">`a`</span>,<span class="string">`b`</span>) <span class="keyword">VALUES</span>(<span class="string">"a"</span>,<span class="string">"b"</span>);</div><div class="line"><span class="keyword">UPDATE</span> tb <span class="keyword">SET</span> f=<span class="string">"f"</span> <span class="keyword">WHERE</span> <span class="number">1</span>=<span class="number">1</span>;</div><div class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> tb <span class="keyword">WHERE</span> <span class="number">1</span>=<span class="number">1</span>;</div></pre></td></tr></table></figure>
+        <a class="article-more-a"  href="/2016/12/14/Mysql命令/#more">more >></a>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Information-Security/">Information Security</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Research-Path/">Research Path</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2016/12/14/Mysql命令/#more">more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-Iptables" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -476,7 +592,7 @@ mangle      ----&gt;    |LOCALHOST |  ---&gt;  nat
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="/tags/Computer-Network/" style="font-size: 15px;">Computer Network</a> <a href="/tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="/tags/Information-Security/" style="font-size: 12.5px;">Information Security</a> <a href="/tags/Note/" style="font-size: 17.5px;">Note</a> <a href="/tags/Research-Path/" style="font-size: 10px;">Research Path</a> <a href="/tags/Useful-Tool/" style="font-size: 20px;">Useful Tool</a>
+    				<a href="/tags/Computer-Network/" style="font-size: 15px;">Computer Network</a> <a href="/tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="/tags/Information-Security/" style="font-size: 12.5px;">Information Security</a> <a href="/tags/Note/" style="font-size: 20px;">Note</a> <a href="/tags/Research-Path/" style="font-size: 10px;">Research Path</a> <a href="/tags/Useful-Tool/" style="font-size: 17.5px;">Useful Tool</a>
     			</div>
     	</section>
     
