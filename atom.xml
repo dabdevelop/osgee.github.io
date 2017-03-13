@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tao&#39;s Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="//taofeng.me/"/>
+  <updated>2017-03-08T00:45:12.000Z</updated>
+  <id>//taofeng.me/</id>
+  
+  <author>
+    <name>Feng Tao</name>
+    <email>admin@taofeng.me</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>虚拟货币</title>
+    <link href="//taofeng.me/2017/03/07/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
+    <id>//taofeng.me/2017/03/07/虚拟货币/</id>
+    <published>2017-03-07T03:38:00.000Z</published>
+    <updated>2017-03-08T00:45:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>虚拟货币可能取代纸币作为下一代货币，发挥其价值尺度的作用。但是虚拟货币在设计过程中仍然存在问题。虚拟货币通过“工作量证明”的方式竞选中央记账节点，但是“工作量证明”本身却是在做一些没有意义的Hash计算，无形中浪费了社会资源。未来的货币不应该浪费社会资源，而是充分利用社会资源。考虑到未来人们对计算资源的需求，如果“工作量证明”能够服务人们，提供各式各样的服务，例如导航，网购，O2O，科学计算等。通过有益的“工作量证明”竞选中央节点，这才是未来的虚拟货币的方向。这样，量化“工作量”就是一个难题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h3&gt;&lt;p&gt;虚拟货币可能取代纸币作为下一代货币，发挥其价值尺度的作用。但是虚拟货币在设计过程中仍然存在问题。虚拟货币通过“工作量证明”的方式竞选中央记账
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>共享自行车</title>
+    <link href="//taofeng.me/2017/03/07/%E5%85%B1%E4%BA%AB%E8%87%AA%E8%A1%8C%E8%BD%A6/"/>
+    <id>//taofeng.me/2017/03/07/共享自行车/</id>
+    <published>2017-03-07T03:15:00.000Z</published>
+    <updated>2017-03-08T00:45:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>随着社会的发展，自行车这种便捷的交通工具已经退出主流，但是在某些场景仍然有其生存的空间。在短距离的行程上，自行车仍然是很好的选择。不用担心堵车，不会污染环境，成本很低等。但是除了在校的学生，其他人群使用自行车的次数是比较少的。因此这些人如果自己购买自行车是一种资源的浪费，自行车大部分时间都是被闲置，吃灰。共享自行车因为这些问题横空出世。目前共享自行车琳琅满目，由初始的有桩共享自行车到现在无桩的共享自行车。无桩的共享自行车仍然是比较新颖的事物，因为可以随借随停，使用很便捷。用户通过扫描二维码，支付完一定的押金就能够租用，而且每个小时的使用费用很低。但是无桩共享自行车在实际投放中遇到很多问题。无桩自行车被随意停放，私藏，甚至被偷，恶意破坏等。原本便捷人们生活的共享自行车却成了国民素质的考卷。共享自行车的出现一方面是由于很多现代化的安全措施的普及，包括物联网，GPS定位等，但是其实更多的是因为人们素质的提高。但道德的约束往往只针对一部分人有效，而不能约束所有人。在这种情况下，经济的方式可能更有效。如果通过押金的机制，当用户还车后，只可以提现80%，剩余的20%需要下一个用户使用了共享单车后才能提现，通过这种机制，相信不完全依靠道德的约束，用户也不会随意停放和破坏共享单车了。希望共享自行车能够真正的为人们的生活带来便捷，而不再是反映国民素质的试金石。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;随着社会的发展，自行车这种便捷的交通工具已经退出主流，但是在某些场景仍然有其生存的空间。在短距离的行程上，自行车仍然是很好的选择。不用担心堵
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Cheat Sheet</title>
+    <link href="//taofeng.me/2017/03/03/GNU-Grub/"/>
+    <id>//taofeng.me/2017/03/03/GNU-Grub/</id>
+    <published>2017-03-03T07:52:00.000Z</published>
+    <updated>2017-03-03T09:19:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Configuring-GRUB-2"><a href="#Configuring-GRUB-2" class="headerlink" title="Configuring GRUB 2"></a>Configuring GRUB 2</h3><h4 id="Editing-the-File"><a href="#Editing-the-File" class="headerlink" title="Editing the File"></a>Editing the File</h4><p>The grub file is a system file, therefore any editing must be done by a user with <code>Administrator/root</code> privileges. The file is a simple text file and can be edited by any text editor. The default text editor in Ubuntu is Gedit, and the file can be edited with the following command. <code>gksu</code> is the graphical equivalent of <code>sudo</code> and the <code>&amp;</code> allows the terminal to be used to update GRUB 2 once the user saves the file.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gksu gedit /etc/default/grub &amp;</div></pre></td></tr></table></figure></p>
+<p>After making changes and saving the file, the GRUB 2 menu must be updated to include the changes by running:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo update-grub</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<h4 id="Specific-Entries"><a href="#Specific-Entries" class="headerlink" title="Specific Entries"></a>Specific Entries</h4><p><code>/etc/default/grub</code>  [GRUB menu settings]</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="attr">GRUB_TIMEOUT</span>=<span class="number">5</span></div><div class="line"><span class="attr">GRUB_DISTRIBUTOR</span>=<span class="string">"$(sed 's, release .*$,,g' /etc/system-release)"</span></div><div class="line"><span class="attr">GRUB_DEFAULT</span>=saved</div><div class="line"><span class="attr">GRUB_DISABLE_SUBMENU</span>=<span class="literal">true</span></div><div class="line"><span class="attr">GRUB_TERMINAL_OUTPUT</span>=<span class="string">"console"</span></div><div class="line"><span class="attr">GRUB_CMDLINE_LINUX</span>=<span class="string">"rd.lvm.lv=centos/swap vconsole.font=latarcyrheb-sun16 rd.lvm.lv=centos/root crashkernel=auto vconsole.keymap=us rhgb quiet"</span></div><div class="line"><span class="attr">GRUB_DISABLE_RECOVERY</span>=<span class="string">"true"</span></div><div class="line"></div><div class="line"><span class="comment">#sed -e '/^#/d' -e '/^$/d' /etc/default/grub</span></div><div class="line"><span class="attr">GRUB_DEFAULT</span>=<span class="number">0</span></div><div class="line"><span class="attr">GRUB_HIDDEN_TIMEOUT_QUIET</span>=<span class="literal">true</span></div><div class="line"><span class="attr">GRUB_TIMEOUT</span>=<span class="number">2</span></div><div class="line"><span class="attr">GRUB_DISTRIBUTOR</span>=`lsb_release -i -s <span class="number">2</span>&gt; /dev/null || echo Debian`</div><div class="line"><span class="attr">GRUB_CMDLINE_LINUX_DEFAULT</span>=<span class="string">""</span></div><div class="line"><span class="attr">GRUB_CMDLINE_LINUX</span>=<span class="string">""</span></div></pre></td></tr></table></figure>
+<h3 id="Setting-a-GRUB-password"><a href="#Setting-a-GRUB-password" class="headerlink" title="Setting a GRUB password"></a>Setting a GRUB password</h3><p>The command to create a grub password is<br><code>grub-md5-crypt</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# grub-md5-crypt </div><div class="line">Password:</div><div class="line">Retype password:</div><div class="line">$1$2c4ol/$gMHLZBZZqJT8oRPpiShkf/</div></pre></td></tr></table></figure></p>
+<p>Once you have the md5 hash of the password you need to copy it and insert it into the grub.conf file The format of the line is below (put this before the “default=“ line)</p>
+<p><code>password --md5 results_of_grub_md_5_command</code><br><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[root@localhost yum.repos.<span class="keyword">d</span>]# <span class="keyword">cat</span> /<span class="keyword">boot</span>/grub/grub.<span class="keyword">conf</span></div><div class="line">...</div><div class="line">password --md5 <span class="variable">$1</span><span class="variable">$2c4ol</span>/<span class="variable">$gMHLZBZZqJT8oRPpiShkf</span>/</div><div class="line">...</div></pre></td></tr></table></figure></p>
+<h3 id="Getting-into-a-system-without-the-root-or-GRUB-password"><a href="#Getting-into-a-system-without-the-root-or-GRUB-password" class="headerlink" title="Getting into a system without the root or GRUB password"></a>Getting into a system without the root or GRUB password</h3><p>Insert your Linux Install disk in the CDROM drive</p>
+<ol>
+<li>Enter the computer’s (VM) BIOS, then configure the computer to boot to the CDROM drive first</li>
+<li>When you get the boot menu choose <code>Rescue installed system</code></li>
+<li>When asked What language would you like to use during the installation process?, choose<br><code>English</code></li>
+<li>When asked “What type of keyboard do you have” choose <code>us</code></li>
+<li>When asked “what type of media contains the rescue image”, choose <code>Local CD/DVD</code></li>
+<li>When asked if you want to start networking interfaces on this system, choose <code>No</code></li>
+<li>When asked “The rescue environment will now attempt to fine your Linux installation and<br>mount it under the directory <code>/mnt/sysimage...</code> choose <code>Continue</code></li>
+<li>When prompted that “Your system has been mounted under /mnt/sysimage” choose <code>OK</code></li>
+<li>When presented for a list of 3 options, choose <code>shell Start shell</code>, and choose <code>OK</code></li>
+<li>You should now be at a shell prompt#, type <code>chroot /mnt/sysimage</code></li>
+<li>Reset the password with the command<br><code>passwd</code><br>the system will prompt you to choose a new password and type it twice</li>
+<li>now use vi or nano to edit the file <code>/boot/grub/grub.conf</code><br>a. remove the line starting <code>password --md5 ....</code><br>b. save the file</li>
+<li>reboot your computer, notice there is no longer a GRUB password and you have reset the root password and can log in again.</li>
+<li>Type <code>exit</code> twice, this will return you to the menu of “shell, fakd or reboot”,</li>
+<li>Choose <code>reboot</code> and click <code>OK</code></li>
+</ol>
+<h3 id="Repairing-a-broken-MBR"><a href="#Repairing-a-broken-MBR" class="headerlink" title="Repairing a broken MBR"></a>Repairing a broken MBR</h3><p>Insert your Linux Install disk in the CDROM drive</p>
+<ol>
+<li>Enter the computer’s (VM) BIOS, then configure the computer to boot to the CDROM drive first</li>
+<li>When you get the boot menu choose <code>Rescue installed system</code></li>
+<li>When asked “What language would you like to use during the installation process?, choose<br><code>English</code></li>
+<li>When asked “What type of keyboard do you have” choose <code>us</code></li>
+<li>When asked “what type of media contains the rescue image”, choose <code>Local CD/DVD</code></li>
+<li>When asked if you want to start networking interfaces on this system, choose <code>No</code></li>
+<li>When asked “The rescue environment will now attempt to fine your Linux installation and<br>mount it under the directory <code>/mnt/sysimage...</code> choose <code>Continue</code></li>
+<li>When prompted that “Your system has been mounted under /mnt/sysimage” choose OK</li>
+<li>When presented for a list of 3 options, choose <code>shell Start shell</code>, and choose <code>OK</code></li>
+<li>You should now be at a shell prompt#, type chroot <code>/mnt/sysimage</code></li>
+<li>Type<br><code>grub</code><br>This will put you in interactive grub mode. Follow the rest of the session below (the commands you type are highlighted AND bold)<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">GNU GRUB version 0.97 (640K lower / 3072K upper memory)</div><div class="line">[ Minimal BASH-like line editing is supported. For the first word, TAB</div><div class="line">lists possible command completions. Anywhere else TAB lists the possible completions of a device/filename.]</div><div class="line">grub&gt; root (hd0,0)</div><div class="line">File system type is ext2fs, partition type 0x83</div><div class="line">grub&gt; setup (hd0)</div><div class="line">Checking if &quot;/boot/grub/stage1&quot; exists... no</div><div class="line">Checking if &quot;/grub/stage1&quot; exists... yes</div><div class="line">Checking if &quot;/grub/stage2&quot; exists... yes</div><div class="line">Checking if &quot;/grub/e2fs_stage1_5&quot; exists... yes</div><div class="line">Running &quot;embed /grub/e2fs_stage1_5 (hd0)&quot;... 15 sectors are embedded.</div><div class="line">succeeded</div><div class="line">Running &quot;install /grub/stage1 (hd0) (hd0)1+15 p (hd0,0)/grub/stage2 /grub/grub</div><div class="line">.conf&quot;... succeeded Done.</div><div class="line">grub&gt;</div><div class="line">quit</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>type <code>exit</code> to exit your chroot shell</p>
+<ol>
+<li>type exit again to reboot</li>
+<li>Choose <code>reboot</code> from the menu and click <code>OK</code></li>
+</ol>
+<p>IMPORTANT this assumes your <code>/boot</code> partition is the first partition on the first hard drive (/dev/sda1) which is almost always is. If for some reasons it’s NOT you have to modify your <code>root(hd0,0)</code> line</p>
+<h3 id="GRUB-2-HEAL-YOUR-BOOTLOADER"><a href="#GRUB-2-HEAL-YOUR-BOOTLOADER" class="headerlink" title="GRUB 2: HEAL YOUR BOOTLOADER"></a>GRUB 2: HEAL YOUR BOOTLOADER</h3><p>The next few commands work with both <code>grub&gt;</code> and <code>grub rescue&gt;</code>. The <code>set pager=1</code> command invokes the pager, which prevents text from scrolling off the screen. You can also use the <code>ls</code> command which lists all partitions that Grub sees, like this:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">grub&gt; ls</div><div class="line">(hd0) (hd0,msdos5) (hd0,msdos6) (hd1,msdos1)</div><div class="line">grub&gt; ls (hd0,5)/</div><div class="line">lost+found/ var/ etc/ media/ bin/ initrd.gz</div><div class="line">boot/ dev/ home/ selinux/ srv/ tmp/ vmlinuz</div></pre></td></tr></table></figure></p>
+<p> If you have multiple partitions, read the contents of the <code>/etc/issue</code> file with the cat command to identify the distro,  such as <code>cat (hd0,5)/etc/issue</code>.<br>Assuming you  nd the root  lesystem you’re looking for inside <code>(hd0,5)</code>, make sure that it contains the <code>/boot/grub</code> directory and the Linux kernel image you wish to boot into, such as <code>vmlinuz-3.13.0-24-generic</code>. Now type the following:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">grub&gt; set root=(hd0,5)</div><div class="line">grub&gt; linux /boot/vmlinuz-3.13.0-24-generic root=/dev/sda5</div><div class="line">grub&gt; initrd /boot/initrd.img-3.13.0-24-generic</div></pre></td></tr></table></figure></p>
+<p>Once you’ve keyed these in, type <code>boot</code> at the next <code>grub&gt;</code> prompt and Grub will boot into the specied operating system.<br>Things are a little different if you’re at the <code>grub rescue&gt;</code> prompt. Since the bootloader hasn’t been able to  nd and load any of the required modules, you’ll have to insert them manually:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">grub rescue&gt; set root=(hd0,5)</div><div class="line">grub rescue&gt; insmod (hd0,5)/boot/grub/normal.mod</div><div class="line">grub rescue&gt; normal</div><div class="line">grub&gt; insmod linux</div></pre></td></tr></table></figure></p>
+<p>Once this module has been loaded you can proceed to point the boot loader to the kernel image and initrd files just as before and round off the procedure with the boot command to bring up the distro.<br>Once you’ve successfully booted into the distro, don’t forget to regenerate a new configuration  file for Grub with the<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grub-mkconfig -o /boot/grub/grub.cfg</div></pre></td></tr></table></figure></p>
+<p>command. You’ll also have to install a copy of the bootloader into the MBR with the<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo grub2-install /dev/sda</div></pre></td></tr></table></figure></p>
+<p>command.</p>
+<p>if you lose the Grub 2 bootloader you can restore Grub within a few steps with the help of a live distro. Assuming<br> you’ve installed a distro on /dev/sda5, you can reinstall Grub by  rst creating a mount directory for the distro with<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo mkdir -p /mnt/distro</div></pre></td></tr></table></figure></p>
+<p>and then mounting the partition with<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mount /dev/sda5 /mnt/distro</div></pre></td></tr></table></figure></p>
+<p>You can then reinstall Grub with<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grub2-install --root-directory=/mnt/distro /dev/sda</div></pre></td></tr></table></figure></p>
+<p>This command will rewrite the MBR information on the <code>/dev/sda</code> device, point to the current Linux installation and rewrite some Grub 2  files such as <code>grubenv</code> and <code>device.map</code>.<br><a href="https://www.linuxvoice.com/issues/010/grub.pdf" target="_blank" rel="external">More Reference</a></p>
+<h3 id="Creating-a-partition-and-formatting-it-with-an-ext4-file-system"><a href="#Creating-a-partition-and-formatting-it-with-an-ext4-file-system" class="headerlink" title="Creating a partition and formatting it with an ext4 file system"></a>Creating a partition and formatting it with an ext4 file system</h3><p>To create a partition and format it with the ext4 file system</p>
+<ol>
+<li>fdisk /dev/disk_specifier ex. <code>fdisk /dev/sda</code></li>
+<li>type <code>p</code> to print out the partition table, note the LAST partition identifier</li>
+<li>type <code>n</code> to create a NEW partition</li>
+<li>when prompted for a start cylinder, just hit the return key</li>
+<li>when prompted for the end cylinder, type<br><code>+100M</code> (to create a 100M partition, a 1G partition would be <code>+1G</code>)</li>
+<li>type <code>p</code> to print the new partition table, note the /dev/xxx identifier of the new partition… you<br>need this later. write it here <strong><strong><strong><strong><strong><em>__</em></strong></strong></strong></strong></strong></li>
+<li>type <code>w</code> to write your change and exit fdisk</li>
+<li>type partprobe to inform the kernel of the new partitions</li>
+<li>create a new file system with the command<br><code>mkfs -t ext4 /dev/xxx</code> (where /dev/xxx is the partition you created and listed in step 6)</li>
+<li>create a “mount point” where you want the directory to be grafted onto the file system tree<br><code>mkdir /mnt/mynewpartition</code></li>
+<li>mount the file system<br><code>mount /dev/xxx /mnt/mynewpartition</code></li>
+<li>verify it’s mounted with<br><code>df -h</code></li>
+</ol>
+<p>Remember to have it automatically mount on reboots, you need to edit <code>/etc/fstab</code> and add a new line to reference the new partitions. If the for example if our new partition is <code>/dev/sda7</code> and we want to mount it as <code>/mnt/mynewpartition</code> we could type the following command to add it to the system</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# echo</div><div class="line">&quot;/dev/sda7 /mnt/mynewpartition</div><div class="line">ext4 defaults 1 2&quot; &gt;&gt; /etc/fstab</div></pre></td></tr></table></figure>
+<h3 id="Adding-a-swap-file"><a href="#Adding-a-swap-file" class="headerlink" title="Adding a swap file"></a>Adding a swap file</h3><p>Creating a swap file</p>
+<ol>
+<li>use dd to create a empty space<br><code>dd if=/dev/zero of=new_swap_file ibs=1M count=size_in_megabytes</code></li>
+<li>use mkswap to initialize the empty space as swap<br><code>mkswap new_swap_file</code></li>
+<li>Protect the swap space with chmod (this is VERY important from a security standpoint)<br><code>chmod 700 new_swap_file</code></li>
+<li>Add Entry to /etc/fstab for new swap file<br><code>/bin/echo “new_swap_file swap swap defaults 0 0” &gt;&gt; /etc/fstab</code></li>
+<li>Add new swap file immediately to system<br><code>swapon –a</code></li>
+<li>Verify swap file is active with<br><code>swapon –s</code></li>
+</ol>
+<h3 id="Creating-a-LUKS-encrypted-file-system"><a href="#Creating-a-LUKS-encrypted-file-system" class="headerlink" title="Creating a LUKS encrypted file system"></a>Creating a LUKS encrypted file system</h3><p>Create a partition as normal, for the purpose of this cheat sheet, we will call it <code>/dev/sdb1</code></p>
+<ol>
+<li>Determine a “/dev/mapper name”. For the purpose of this class we will call it encrypted_data</li>
+<li>Create a mount point, for the purpose of this cheat sheet we will call it <code>/usr/mysecretdata</code><br><code>mkdir /usr/mysecretdata</code></li>
+<li>Create random data on the partition you just created (this is optional and it can take a LONG LONG LONG time. However it is very good from a security standpoint)<br><code>dd if=/dev/urandom of=/dev/sdb1</code></li>
+<li>Initialize the partition for encryption cryptsetup <code>luksFormat /dev/sdb1</code></li>
+<li>Tell the encryption software to start using encryption on the partition, and create a special encrypted block device on the underlying physical partition.<br><code>cryptsetup luksOpen /dev/sdb1 encrypted_data</code></li>
+<li>Create a Linux usable file system on the special encrypted block device<br><code>mkfs –t ext4 /dev/mapper/encrypted_data</code></li>
+<li>Add the following line to /etc/fstab so your disk will automatically mount at system startup.<br><code>/dev/mapper/encrypted_data /usr/mysecretdata ext4 defaults 1 2</code></li>
+<li>Inform the system to create the special encrypted block device on system startup. Edit (create if necessary) <code>/etc/crypttab</code>, add the following line<br><code>encrypted_data /dev/sdb1 none</code></li>
+<li>Mount the disk, so you can immediately use it without rebooting (or reboot if you prefer)<br><code>mount /dev/mapper/encrypted_data /usr/mysecretdata</code><br>or<br><code>reboot</code></li>
+</ol>
+<h3 id="Connecting-to-NFS-resources"><a href="#Connecting-to-NFS-resources" class="headerlink" title="Connecting to NFS resources"></a>Connecting to NFS resources</h3><ol>
+<li><p>Make sure netfs is chkconfig’ed on (this is needed to automatically mount NFS shares on reboot<br><code>chkconfig --list netfs</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# chkconfig --list netfs</div><div class="line">netfs 0:off 1:off 2:off 3:on 4:on 5:on 6:off</div></pre></td></tr></table></figure>
+</li>
+<li><p>Use showmount to determine what resources are on a server <code>showmount –e ip_or_hostname_of_remote_server</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# showmount -e 192.168.2.186 Export list for 192.168.2.186:</div><div class="line">/shared *</div><div class="line">/nfshome *</div></pre></td></tr></table></figure>
+</li>
+<li><p>Make a directory to use as the “graft point”<br><code>mkdir /mnt/a</code><br>Mount one of the remote file systems<br><code>mount remote_server:remote_path mount_point</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# mount 192.168.2.186:/shared /mnt/a</div></pre></td></tr></table></figure>
+</li>
+<li><p>Verify the remote file system is present on your system now.<br><code>df –h</code></p>
+</li>
+<li>Add a line to <code>/etc/fstab</code> so it always mounts on system boot.<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# echo &quot;192.168.2.186:/shared /mnt/a nfs defaults 0</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="Joining-an-NIS-YP-domain"><a href="#Joining-an-NIS-YP-domain" class="headerlink" title="Joining an NIS (YP) domain"></a>Joining an NIS (YP) domain</h3><p>NIS is a system that allows you to share “user accounts” and other information across a network. NIS was highly used in Unix/Linux installation for the centralized user management features.<br>To join an NIS domain you must first have the following information<br> NIS domain name<br> Server IP (optional)<br>The Steps are</p>
+<ol>
+<li>make sure ypbind is set to run in run level 3 and 5 <code>chkconfig --level 35 ypbind on</code></li>
+<li>run system-config-authentication</li>
+<li>Choose “NIS” from “User Account Database selector”</li>
+<li>enter your NIS Domain Name</li>
+<li>enter your Servers IP address</li>
+<li>click <code>Apply</code></li>
+<li>close out of system-config-authentication<br>You should now be able to access network accounts via NIS. One useful command to verify that NIS is working is<br>ypcat passwd which reads the password file from NIS<br>You also need to make sure your users home directories are available on the system… this is usually done with NFS.</li>
+</ol>
+<h3 id="Creating-a-YUM-repository-using-HTTP"><a href="#Creating-a-YUM-repository-using-HTTP" class="headerlink" title="Creating a YUM repository (using HTTP)"></a>Creating a YUM repository (using HTTP)</h3><p>Creating a YUM repo (http) </p>
+<ol>
+<li><p>Setup a web server<br><code>yum install httpd</code><br><code>service httpd start</code><br><code>chkconfig --level 35 httpd on</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum install httpd</div><div class="line">...</div><div class="line">[root@localhost ~]# service httpd start</div><div class="line">Starting httpd:</div><div class="line">[root@localhost ~]# chkconfig --level 35 httpd on</div></pre></td></tr></table></figure>
+</li>
+<li><p>Install the createrepo package </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum –q –y install createrepo</div></pre></td></tr></table></figure>
+</li>
+<li><p>Copy the rpm files to <code>/var/www/html</code> (from the CentOS 5.6 CDROM in this case, make sure the CDROM is inserted into the computer or the VMware instance)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# mkdir /var/www/html/myrepo</div><div class="line">[root@workstation1 ~]# cp -rp /media/CentOS_6.2_Final/Packages/* /var/www/html/myrepo</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>Note the CentOS 6.2 distribution has 2 DVDs so you’ll need to copy the Packages directory from EACH DVD into <code>/var/www/html/myrepo</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 myrepo]# umount /media/CentOS_6.2_Final/</div><div class="line">(eject cdrom from vmware, load CentOS disk 2)</div><div class="line">[root@workstation1 myrepo]# cp -rp /media/CentOS_6.2_Final_/Packages/* /var/www/html/myrepo/ (all one line)</div><div class="line">cp: overwrite `/var/www/html/myrepo/TRANS.TBL&apos;? y</div></pre></td></tr></table></figure></p>
+<ol>
+<li><p>Create the rpm listing</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1]# createrepo /var/www/html/myrepo</div></pre></td></tr></table></figure>
+</li>
+<li><p>Optional step: create group lists (list of related packages to install at one time (ie to use with yum groupinstall or yum grouplist). To do this you need to create an xml file to descript which file is in which packages. In this case we’ll copy the group list that’s provided on the CentOS 6.2 install. (you will need to re-insert and re-mount CentOS DVD #1)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# cd /var/www/html/myrepo/</div><div class="line">[root@workstation1 myrepo]# cp /media/CentOS_6.2_Final_/repodata/*comps.xml . [root@workstation1 myrepo]# createrepo -g *comps.xml .</div><div class="line">(lines of data will scroll on the screen)</div></pre></td></tr></table></figure>
+</li>
+<li><p>Now you can use your repo. On your clients you need to create a repo file in <code>/etc/yum.repos.d</code> Using your favorite editor create a file called <code>/etc/yum.repos.d/myrepo.repo</code></p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="section">[myrepo]</span></div><div class="line"><span class="attr">name</span>=CentOS-<span class="variable">$releasever</span> - Base baseurl=http://your_servers_IP/myrepo gpgcheck=<span class="number">1</span></div><div class="line"><span class="attr">enabled</span>=<span class="number">1</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>Clear your yum cache</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum clean all</div></pre></td></tr></table></figure>
+</li>
+<li><p>View your new yum repo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum repolist</div></pre></td></tr></table></figure>
+</li>
+<li><p>View the items in your yum repo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[root@workstation1 ~]# yum list |grep myrepo</div></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Configuring-GRUB-2&quot;&gt;&lt;a href=&quot;#Configuring-GRUB-2&quot; class=&quot;headerlink&quot; title=&quot;Configuring GRUB 2&quot;&gt;&lt;/a&gt;Configuring GRUB 2&lt;/h3&gt;&lt;h4 id=&quot;Editing-the-File&quot;&gt;&lt;a href=&quot;#Editing-the-File&quot; class=&quot;headerlink&quot; title=&quot;Editing the File&quot;&gt;&lt;/a&gt;Editing the File&lt;/h4&gt;&lt;p&gt;The grub file is a system file, therefore any editing must be done by a user with &lt;code&gt;Administrator/root&lt;/code&gt; privileges. The file is a simple text file and can be edited by any text editor. The default text editor in Ubuntu is Gedit, and the file can be edited with the following command. &lt;code&gt;gksu&lt;/code&gt; is the graphical equivalent of &lt;code&gt;sudo&lt;/code&gt; and the &lt;code&gt;&amp;amp;&lt;/code&gt; allows the terminal to be used to update GRUB 2 once the user saves the file.&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;gksu gedit /etc/default/grub &amp;amp;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;After making changes and saving the file, the GRUB 2 menu must be updated to include the changes by running:&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;sudo update-grub&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu升级内核</title>
+    <link href="//taofeng.me/2017/03/03/Ubuntu%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8/"/>
+    <id>//taofeng.me/2017/03/03/Ubuntu升级内核/</id>
+    <published>2017-03-03T07:40:00.000Z</published>
+    <updated>2017-03-03T07:49:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Linux的内核是会定期进行更新的，更新内核是为了对一些新的硬件进行支持，例如触屏、声卡、显卡等。在Ubuntu的使用过程中可能需要对Ubuntu的内核进行升级，可以选择下载内核源码自己编译，不过更便捷的是使用<a href="http://kernel.ubuntu.com/~kernel-ppa/mainline" target="_blank" rel="external">Ubuntu官方</a>编译好的deb包，直接安装。例如将内核升级到目前最新的<a href="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.10.1/" target="_blank" rel="external">4.0.1</a>。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">linux-headers-4</span><span class="selector-class">.10</span><span class="selector-class">.1-041001_4</span><span class="selector-class">.10</span><span class="selector-class">.1-041001</span><span class="selector-class">.201702260735_all</span><span class="selector-class">.deb</span></div><div class="line"><span class="selector-tag">linux-headers-4</span><span class="selector-class">.10</span><span class="selector-class">.1-041001-generic_4</span><span class="selector-class">.10</span><span class="selector-class">.1-041001</span><span class="selector-class">.201702260735_amd64</span><span class="selector-class">.deb</span></div><div class="line"><span class="selector-tag">linux-image-4</span><span class="selector-class">.10</span><span class="selector-class">.1-041001-generic_4</span><span class="selector-class">.10</span><span class="selector-class">.1-041001</span><span class="selector-class">.201702260735_amd64</span><span class="selector-class">.deb</span></div></pre></td></tr></table></figure></p>
+<p>安装命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo dpkg -i linux-headers-*.deb</div><div class="line">sudo dpkg -i linux-image-*.deb</div></pre></td></tr></table></figure></p>
+<p>安装完之后进行重启即可。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">reboot</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;Linux的内核是会定期进行更新的，更新内核是为了对一些新的硬件进行支持，例如触屏、声卡、显卡等。在Ubuntu的使用过程中可能需要对Ubu
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>比特币简介</title>
+    <link href="//taofeng.me/2017/02/17/%E6%AF%94%E7%89%B9%E5%B8%81%E7%AE%80%E4%BB%8B/"/>
+    <id>//taofeng.me/2017/02/17/比特币简介/</id>
+    <published>2017-02-17T01:35:00.000Z</published>
+    <updated>2017-02-19T11:05:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Bitcoin使用区块链的技术保存历史交易记录，每一个区块带有时间戳，用来表示区块的顺序。为了去中心化，每一个比特币计算节点都保存有整个区块链的备份，所有节点同步到一个临时的中心账本节点。这个中心账本节点是通过完成一个叫“工作量证明”的密码学谜题来竞选的，为了奖励网络中的节点竞争中心账本节点，新的比特币会发行给竞选成功的中心账本节点，并且中心账本节点可以获得在这个区块（时段）的所以比特币交易的手续费。这个竞选的过程叫做“挖矿”。为了确保中心账本节点约每10分钟更新一次，比特币网络会负反馈地调节题目的难度。比特币的交易是通过交接出谜题的权力进行的，在一个比特币历史交易记录的链上，起点是中心节点竞选奖励，终点是最后比特币所有者（钱包）设置的“待解谜题”，所有末端的“待解谜题”被记录在一个“待解谜题列表“中，而比特币交易记录被记录在区块链中，这个“待解谜题”只有比特币所有者能答出，因此只有其所有者能使用。交易的付款人可以解出“待解谜题列表”中的一些谜题，每个谜题实际上是付款地址，所有的谜题所拥有的比特币就是付款人的比特币账户总额，然后付款地址实际上是收款人出的“待解谜题”，一个交易可以有多个付款地址和收款地址，交易确认就是付款人将其“待解谜题”和收款人的“待解谜题”记录到区块链中，付款人的“待解谜题”代表的比特币使用完后会从“待解谜题列表”删除，而收款人的“待解谜题”会添加到“待解谜题列表”或在原有比特币的基础上增加收入比特币的数量。</p>
+<a id="more"></a>
+<h3 id="关于虚拟货币的一些想法"><a href="#关于虚拟货币的一些想法" class="headerlink" title="关于虚拟货币的一些想法"></a>关于虚拟货币的一些想法</h3><p>虚拟货币可能是一个历史时代的产物，兴起或许是早晚的事情，只是不知道具体是那个币会笑到最后。就像黄金本来只是金属，一旦有人开始囤积黄金并获利，其他人也会跟风，把黄金价格炒起来了，慢慢的就变成价值的容器了。法币本身也不具有价值，但是在历史中代替了金属货币的地位。</p>
+<p>比特币就像是虚拟世界的黄金，其他山寨币就像是其他一些金属吧，只要有人愿意用法币去交换比特币，这个法币就被挖矿的人赚了，挖矿的人要为挖矿支付挖矿成本，获得比特币只能够用法币去买或者花基本一样的法币去挖矿得到，这样就保证了比特币的价值。</p>
+<p>以太坊是第二大的虚拟货币，估计也有投资价值吧，莱特币第四，但是和比特币相比有些优势，发行量也只是其两倍。最终如果存活下多个币种的话，由于货币之间没有本质区别，那么很可能货币体系价值总量会相等，那么莱特币的价格会是比特币的一半，而现在却远远不够一半，所以我认为有前景。</p>
+<p>当国家介入虚拟货币时，可能会形成货币联盟，货币体系肯定不止一个，应该有两个或三个，如果这样，现在排第四的莱特币只要活下来，得到任一个联盟的支持，就能大幅升值。</p>
+<p>还有可能每个国家都会重新发布一个新的虚拟货币，建立各自的货币体系。</p>
+<p>如果通过负反馈地控制其发行量，将虚拟货币的价格稳定在单位法币，那么这就基本代替了法币的地位了，或者绑定在一克黄金的价格上，这样也行。</p>
+<p>假设新发行的虚拟货币叫做金币。如果金币的价格低于金价，那么中心节点通过收取交易的手续费，使得流通的金币减少，抬高金币的价格；如果金币高于金价，那么不收取任何交易费用，但是新发行原本应付手续费的金币给中心节点，降低价格。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;Bitcoin使用区块链的技术保存历史交易记录，每一个区块带有时间戳，用来表示区块的顺序。为了去中心化，每一个比特币计算节点都保存有整个区块链的备份，所有节点同步到一个临时的中心账本节点。这个中心账本节点是通过完成一个叫“工作量证明”的密码学谜题来竞选的，为了奖励网络中的节点竞争中心账本节点，新的比特币会发行给竞选成功的中心账本节点，并且中心账本节点可以获得在这个区块（时段）的所以比特币交易的手续费。这个竞选的过程叫做“挖矿”。为了确保中心账本节点约每10分钟更新一次，比特币网络会负反馈地调节题目的难度。比特币的交易是通过交接出谜题的权力进行的，在一个比特币历史交易记录的链上，起点是中心节点竞选奖励，终点是最后比特币所有者（钱包）设置的“待解谜题”，所有末端的“待解谜题”被记录在一个“待解谜题列表“中，而比特币交易记录被记录在区块链中，这个“待解谜题”只有比特币所有者能答出，因此只有其所有者能使用。交易的付款人可以解出“待解谜题列表”中的一些谜题，每个谜题实际上是付款地址，所有的谜题所拥有的比特币就是付款人的比特币账户总额，然后付款地址实际上是收款人出的“待解谜题”，一个交易可以有多个付款地址和收款地址，交易确认就是付款人将其“待解谜题”和收款人的“待解谜题”记录到区块链中，付款人的“待解谜题”代表的比特币使用完后会从“待解谜题列表”删除，而收款人的“待解谜题”会添加到“待解谜题列表”或在原有比特币的基础上增加收入比特币的数量。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+      <category term="Computer Network" scheme="//taofeng.me/tags/Computer-Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown</title>
+    <link href="//taofeng.me/2017/01/12/Markdown/"/>
+    <id>//taofeng.me/2017/01/12/Markdown/</id>
+    <published>2017-01-12T09:05:00.000Z</published>
+    <updated>2017-02-19T11:05:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Markdown-Syntax-Reference"><a href="#Markdown-Syntax-Reference" class="headerlink" title="Markdown Syntax Reference"></a>Markdown Syntax Reference</h1><p>From <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">http://daringfireball.net/projects/markdown/</a></p>
+<blockquote>
+<p>Markdown is a text-to-HTML conversion tool for web writers. Markdown allows<br>you to write using an easy-to-read, easy-to-write plain text format, then<br>convert it to structurally valid XHTML (or HTML).</p>
+</blockquote>
+<p>Dataset summaries and discussions on data.world use the Markdown format. This<br>means that users can create beautiful documentation with simple markup that’s<br>easy to write and read.</p>
+<p>This document will show you how to take advantage of Markdown to format your<br>summary and discussion posts.</p>
+<h2 id="Phrase-Emphasis"><a href="#Phrase-Emphasis" class="headerlink" title="Phrase Emphasis"></a>Phrase Emphasis</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="emphasis">*italic*</span>   <span class="strong">**bold**</span></div><div class="line"><span class="emphasis">_italic_</span>   <span class="strong">__bold__</span></div></pre></td></tr></table></figure>
+<p><em>italic</em>   <strong>bold</strong></p>
+<a id="more"></a>
+<h2 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h2><p>Inline:<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">An [<span class="string">example</span>](<span class="link">http://url.com/ "Title"</span>)</div></pre></td></tr></table></figure></p>
+<p>An <a href="http://url.com/" title="Title" target="_blank" rel="external">example</a></p>
+<p>Reference style labels (titles are optional):</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">An [<span class="string">example</span>][<span class="symbol">id</span>]. Then, anywhere</div><div class="line">else in the doc, define the link:</div><div class="line"></div><div class="line">   [id]: http://example.com/  "Title"</div></pre></td></tr></table></figure>
+<h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><p>Inline (title is optional):<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![<span class="string">alt text</span>](<span class="link">/path/img.jpg "Title"</span>)</div></pre></td></tr></table></figure></p>
+<p>Reference style:<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">![<span class="string">alt text</span>][<span class="symbol">id</span>]</div><div class="line"></div><div class="line"><span class="code">    [id]: /url/to/img.jpg "Title"</span></div></pre></td></tr></table></figure></p>
+<h2 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h2><p>The following formats can all be used interchangeably for headers.<br><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="section">Header 1</span></div><div class="line">========</div><div class="line"></div><div class="line"><span class="section">Header 2</span></div><div class="line">--------</div><div class="line"></div><div class="line"># Header 1 #</div><div class="line"></div><div class="line">## Header 2 ##</div><div class="line"></div><div class="line"># Header 1</div><div class="line"></div><div class="line">## Header 2</div></pre></td></tr></table></figure></p>
+<h2 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h2><p>Ordered, without paragraphs:<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">1.  </span>Foo</div><div class="line"><span class="bullet">2.  </span>Bar</div></pre></td></tr></table></figure></p>
+<ol>
+<li>Foo</li>
+<li>Bar</li>
+</ol>
+<p>Unordered, with paragraphs:<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">*   A <span class="built_in">list</span> <span class="built_in">item</span>.</div><div class="line">    With multiple <span class="built_in">paragraphs</span>.</div><div class="line">*   Bar</div></pre></td></tr></table></figure></p>
+<ul>
+<li>A list item.<br>With multiple paragraphs.</li>
+<li>Bar</li>
+</ul>
+<p>You can nest them:<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">*   An unordered <span class="built_in">list</span> <span class="built_in">item</span></div><div class="line">    * A nested unordered <span class="built_in">list</span> <span class="built_in">item</span></div><div class="line">*   Another <span class="built_in">list</span> <span class="built_in">item</span></div><div class="line">    <span class="number">1.</span>  The <span class="keyword">first</span> nested ordered <span class="built_in">list</span> <span class="built_in">item</span></div><div class="line">    <span class="number">2.</span>  A <span class="keyword">second</span> nested ordered <span class="built_in">list</span> <span class="built_in">item</span></div><div class="line">        * A nested unordered <span class="built_in">list</span></div><div class="line">    <span class="number">3.</span> This <span class="keyword">is</span> <span class="keyword">the</span> <span class="keyword">last</span> nested ordered <span class="built_in">list</span> <span class="built_in">item</span></div><div class="line">*   The <span class="keyword">last</span> unordered <span class="built_in">list</span> <span class="built_in">item</span></div></pre></td></tr></table></figure></p>
+<ul>
+<li>An unordered list item<ul>
+<li>A nested unordered list item</li>
+</ul>
+</li>
+<li>Another list item<ol>
+<li>The first nested ordered list item</li>
+<li>A second nested ordered list item<ul>
+<li>A nested unordered list</li>
+</ul>
+</li>
+<li>This is the last nested ordered list item</li>
+</ol>
+</li>
+<li>The last unordered list item</li>
+</ul>
+<h2 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="quote">&gt; Email-style angle brackets</span></div><div class="line"><span class="quote">&gt; are used for blockquotes.</span></div><div class="line"><span class="quote">&gt; &gt; And, they can be nested.</span></div><div class="line"><span class="quote">&gt; &gt;</span></div><div class="line"><span class="quote">&gt; * You can quote a list.</span></div><div class="line"><span class="quote">&gt; * Etc.</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>Email-style angle brackets<br>are used for blockquotes.</p>
+<blockquote>
+<p>And, they can be nested.</p>
+<ul>
+<li>You can quote a list.</li>
+<li>Etc.</li>
+</ul>
+</blockquote>
+</blockquote>
+<h2 id="Code-Spans"><a href="#Code-Spans" class="headerlink" title="Code Spans"></a>Code Spans</h2><figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">`&lt;<span class="keyword">code</span>&gt;` spans are delimited</div><div class="line">by backticks.</div></pre></td></tr></table></figure>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">You can include literal backticks</div><div class="line">like `` `this` ``.</div></pre></td></tr></table></figure>
+<h2 id="Pre-formatted-Code-Blocks"><a href="#Pre-formatted-Code-Blocks" class="headerlink" title="Pre-formatted Code Blocks"></a>Pre-formatted Code Blocks</h2><p>Indent every line of a code block by at least 4 spaces or 1 tab, and use a<br>colon at the end of the preceding paragraph.</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">This is <span class="selector-tag">a</span> <span class="attribute">normal</span> paragraph:</div><div class="line"></div><div class="line">    This is <span class="selector-tag">a</span> preformatted</div><div class="line">    <span class="selector-tag">code</span> block.</div></pre></td></tr></table></figure>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Preceded <span class="keyword">by</span> <span class="keyword">a</span> <span class="literal">space</span>, <span class="keyword">the</span> <span class="literal">colon</span> disappears. :</div><div class="line"></div><div class="line">    This is <span class="keyword">a</span> preformatted</div><div class="line">    code block.</div></pre></td></tr></table></figure>
+<p>Wrapping code in three back-ticks will also format code blocks :</p>
+<pre><code><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">Code goes here</span></div></pre></td></tr></table></figure>
+</code></pre><h2 id="Horizontal-Rules"><a href="#Horizontal-Rules" class="headerlink" title="Horizontal Rules"></a>Horizontal Rules</h2><p>Three or more dashes or asterisks:<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">---</span></div><div class="line">* * *</div><div class="line"><span class="bullet">-</span> - - -</div></pre></td></tr></table></figure></p>
+<h2 id="Manual-Line-Breaks"><a href="#Manual-Line-Breaks" class="headerlink" title="Manual Line Breaks"></a>Manual Line Breaks</h2><p>End a line with two or more spaces:<br><figure class="highlight inform7"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Roses <span class="keyword">are</span> red,••</div><div class="line">Violets <span class="keyword">are</span> blue.</div></pre></td></tr></table></figure></p>
+<p>(where • is a space)</p>
+<h2 id="Video-Prezi-Embeds"><a href="#Video-Prezi-Embeds" class="headerlink" title="Video/Prezi Embeds"></a>Video/Prezi Embeds</h2><p><em>(data.world dataset summaries only)</em></p>
+<p>Youtube<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">@[<span class="string">youtube</span>](<span class="link">dQw4w9WgXcQ</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://www.youtube.com/embed/dQw4w9WgXcQ</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;feature=feedrec_centerforopenscience_index</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://www.youtube.com/user/IngridMichaelsonVEVO#p/a/u/1/QdK8U-VIH_o</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://www.youtube.com/v/dQw4w9WgXcQ?fs=1&amp;amp;hl=en_US&amp;amp;rel=0</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://www.youtube.com/watch?v=dQw4w9WgXcQ#t=0m10s</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://www.youtube.com/embed/dQw4w9WgXcQ?rel=0</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://www.youtube.com/watch?v=dQw4w9WgXcQ</span>)</div><div class="line">@[<span class="string">youtube</span>](<span class="link">http://youtu.be/dQw4w9WgXcQ</span>)</div></pre></td></tr></table></figure></p>
+<p>Vimeo<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">@[<span class="string">vimeo</span>](<span class="link">19706846</span>)</div><div class="line">@[<span class="string">vimeo</span>](<span class="link">https://vimeo.com/19706846</span>)</div><div class="line">@[<span class="string">vimeo</span>](<span class="link">https://player.vimeo.com/video/19706846</span>)</div></pre></td></tr></table></figure></p>
+<p>Prezi<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">@[<span class="string">prezi</span>](<span class="link">1kkxdtlp4241</span>)</div><div class="line">@[<span class="string">prezi</span>](<span class="link">https://prezi.com/1kkxdtlp4241/valentines-day/</span>)</div><div class="line">@[<span class="string">prezi</span>](<span class="link">https://prezi.com/e3g83t83nw03/destination-prezi-template/</span>)</div><div class="line">@[<span class="string">prezi</span>](<span class="link">https://prezi.com/prg6t46qgzik/anatomy-of-a-social-powered-customer-service-win/</span>)</div></pre></td></tr></table></figure></p>
+<h2 id="Math-Formulas-MathJax"><a href="#Math-Formulas-MathJax" class="headerlink" title="Math Formulas (MathJax)"></a>Math Formulas (MathJax)</h2><p><em>(data.world dataset summaries only)</em></p>
+<figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">When <span class="symbol">$</span>a \<span class="keyword">ne</span> <span class="number">0</span><span class="symbol">$</span>, there are two solutions to \\(ax^<span class="number">2</span> + bx + c = <span class="number">0</span>\\) <span class="keyword">and</span> they are</div><div class="line"></div><div class="line"><span class="symbol">$</span><span class="symbol">$</span>x = &#123;-b \pm \<span class="built-in">sqrt</span>&#123;b^<span class="number">2</span><span class="number">-4</span>ac&#125; \over <span class="number">2</span>a&#125;.<span class="symbol">$</span><span class="symbol">$</span></div></pre></td></tr></table></figure>
+<p>See <a href="http://docs.mathjax.org/" target="_blank" rel="external">MathJax Homepage</a> for more information.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Markdown-Syntax-Reference&quot;&gt;&lt;a href=&quot;#Markdown-Syntax-Reference&quot; class=&quot;headerlink&quot; title=&quot;Markdown Syntax Reference&quot;&gt;&lt;/a&gt;Markdown Syntax Reference&lt;/h1&gt;&lt;p&gt;From &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;http://daringfireball.net/projects/markdown/&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown is a text-to-HTML conversion tool for web writers. Markdown allows&lt;br&gt;you to write using an easy-to-read, easy-to-write plain text format, then&lt;br&gt;convert it to structurally valid XHTML (or HTML).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dataset summaries and discussions on data.world use the Markdown format. This&lt;br&gt;means that users can create beautiful documentation with simple markup that’s&lt;br&gt;easy to write and read.&lt;/p&gt;
+&lt;p&gt;This document will show you how to take advantage of Markdown to format your&lt;br&gt;summary and discussion posts.&lt;/p&gt;
+&lt;h2 id=&quot;Phrase-Emphasis&quot;&gt;&lt;a href=&quot;#Phrase-Emphasis&quot; class=&quot;headerlink&quot; title=&quot;Phrase Emphasis&quot;&gt;&lt;/a&gt;Phrase Emphasis&lt;/h2&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;emphasis&quot;&gt;*italic*&lt;/span&gt;   &lt;span class=&quot;strong&quot;&gt;**bold**&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;emphasis&quot;&gt;_italic_&lt;/span&gt;   &lt;span class=&quot;strong&quot;&gt;__bold__&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;italic&lt;/em&gt;   &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Secure Shell</title>
+    <link href="//taofeng.me/2016/12/14/Secure-Shell/"/>
+    <id>//taofeng.me/2016/12/14/Secure-Shell/</id>
+    <published>2016-12-14T02:04:00.000Z</published>
+    <updated>2017-02-19T11:06:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="install"><a href="#install" class="headerlink" title="install"></a>install</h3><p>packages on <a href="http://mirror.centos.org/centos/7/os/x86_64/Packages/" target="_blank" rel="external">centos 7 mirror</a><br>packages on <a href="http://mirror.centos.org/centos/6/os/x86_64/Packages/" target="_blank" rel="external">centos 6 mirror</a></p>
+<h4 id="server"><a href="#server" class="headerlink" title="server"></a>server</h4><p>on ubuntu<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt -y update</div><div class="line">sudo apt install openssh-server</div></pre></td></tr></table></figure></p>
+<p>optional<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service sshd start</div></pre></td></tr></table></figure></p>
+<p>on centos<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo yum install openssh-server</div><div class="line">sudo chkconfig --list sshd</div></pre></td></tr></table></figure></p>
+<p>start service<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo systemctl sshd start</div></pre></td></tr></table></figure></p>
+<p>or<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/init.d/sshd start</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<h4 id="client"><a href="#client" class="headerlink" title="client"></a>client</h4><p>on ubuntu<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt -y update</div><div class="line">sudo apt install openssh-client</div></pre></td></tr></table></figure></p>
+<p>on centos<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">wget http://mirror.centos.org/centos/7/os/x86_64/Packages/openssh-clients-6.6.1p1-22.el7.x86_64.rpm</div><div class="line">rpm -ivh openssh-clients-6.6.1p1-22.el7.x86_64.rpm</div></pre></td></tr></table></figure></p>
+<h3 id="ssh-keygen"><a href="#ssh-keygen" class="headerlink" title="ssh-keygen"></a>ssh-keygen</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -b 2048 -P <span class="string">''</span> <span class="_">-f</span> ~/.ssh/id_rsa</div></pre></td></tr></table></figure>
+<h3 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h3><h5 id="login"><a href="#login" class="headerlink" title="login"></a>login</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh USER@HOST -p PORT</div><div class="line">ssh HOST <span class="_">-l</span> USER -p PORT</div></pre></td></tr></table></figure>
+<h5 id="command-without-login"><a href="#command-without-login" class="headerlink" title="command without login"></a>command without login</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ssh -N USER@HOST COMMAND</div><div class="line">ssh USER@HOST $(&lt; cmd.txt)</div><div class="line">ssh USER@HOST <span class="string">"cat cmd.txt"</span></div></pre></td></tr></table></figure>
+<h5 id="copy-id"><a href="#copy-id" class="headerlink" title="copy id"></a>copy id</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cat .ssh/id_rsa.pub | ssh USER@HOST <span class="string">"cat &gt;&gt;.ssh/authorized_keys"</span></div></pre></td></tr></table></figure>
+<h5 id="file-transfer"><a href="#file-transfer" class="headerlink" title="file transfer"></a>file transfer</h5><p>using tar compression</p>
+<p>local -&gt; remote<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -zcvf - <span class="built_in">source</span>/ | ssh USER@HOST <span class="string">"tar -zxvf - -C /destination"</span></div></pre></td></tr></table></figure></p>
+<p>local &lt;- remote<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -zxvf - -C destination/ &lt; &lt;(ssh USER@HOST <span class="string">"tar -zcvf - /source"</span>)</div></pre></td></tr></table></figure></p>
+<p>for large file</p>
+<p>local -&gt; remote<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rsync -partial -progress -rsh=ssh FILE_SOURCE USER@HOST:DESTINATION_FILE</div></pre></td></tr></table></figure></p>
+<p>remote -&gt; local<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rsync -partial -progress -rsh=ssh USER@HOST:REMOTE_FILE DESTINATION_FILE</div></pre></td></tr></table></figure></p>
+<h5 id="port-forwording"><a href="#port-forwording" class="headerlink" title="port forwording"></a>port forwording</h5><h6 id="local"><a href="#local" class="headerlink" title="local"></a>local</h6><p>localhost:3000 -&gt; google.com:80<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -nNT -L 3000:google.com:80 USER@localhost</div></pre></td></tr></table></figure></p>
+<p>localhost:3000 -&gt; SERVER:80<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -nNT -L 3000:localhost:80 USER@SERVER</div></pre></td></tr></table></figure></p>
+<p>localhost:3000 -&gt; HOST:22<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -CfNg -L 3000:localhost:22 USR@HOST</div></pre></td></tr></table></figure></p>
+<p>localhost:3000 -&gt; HOSTA -&gt; HOSTB:22<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -CfNg -L 3000:HOSTB:22 USER@HOSTA</div></pre></td></tr></table></figure></p>
+<h6 id="remote"><a href="#remote" class="headerlink" title="remote"></a>remote</h6><p>localhost:22 &lt;- HOST:3000<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -nNT -R 3000:localhost:22 USER@HOST</div></pre></td></tr></table></figure></p>
+<p>HOSTB:22 &lt;- HOSTA:3000<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -CfNg -R 3000:HOSTB:22 USER@HOSTA</div></pre></td></tr></table></figure></p>
+<h6 id="dynamic"><a href="#dynamic" class="headerlink" title="dynamic"></a>dynamic</h6><p>proxy on localhost:3000<br>localhost:PORT -&gt; HOST:PORT<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -CfNg -D 3000 USER@HOST</div></pre></td></tr></table></figure></p>
+<h5 id="jump-A-to-B"><a href="#jump-A-to-B" class="headerlink" title="jump A to B"></a>jump A to B</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -t USER1@REACHABLE_HOST ssh USER2@UNREACHABLE_HOST</div></pre></td></tr></table></figure>
+<h5 id="screen"><a href="#screen" class="headerlink" title="screen"></a>screen</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh -t USER@HOST screen -r</div><div class="line">ssh -t USER@HOST screen -xRR</div></pre></td></tr></table></figure>
+<h5 id="mysql-db-tansfer"><a href="#mysql-db-tansfer" class="headerlink" title="mysql db tansfer"></a>mysql db tansfer</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump --add-drop-table -extended-insert -force -log-error=error.log -uUSER -pPASS OLD_DB_NAME | ssh -C USER@HOST <span class="string">"mysql -uUSER -pPASS NEW_DB_NAME"</span></div></pre></td></tr></table></figure>
+<h5 id="bandwidth-moniter"><a href="#bandwidth-moniter" class="headerlink" title="bandwidth moniter"></a>bandwidth moniter</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yes|pv|ssh USER@HOST <span class="string">"cat&gt;/dev/null"</span></div></pre></td></tr></table></figure>
+<h5 id="network-moniter"><a href="#network-moniter" class="headerlink" title="network moniter"></a>network moniter</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh ROOT@HOST <span class="string">'tshark -f "port !22" -w -'</span> |wireshark -k -i -</div></pre></td></tr></table></figure>
+<p>tshart can be replaced by tcpdump<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh ROOT@HOST tcpdump -w - <span class="string">'port !22'</span> |wireshark -k -i -</div></pre></td></tr></table></figure></p>
+<h5 id="quiker-more-stable-and-stronger-client"><a href="#quiker-more-stable-and-stronger-client" class="headerlink" title="quiker, more stable and stronger client"></a>quiker, more stable and stronger client</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -4 -C -c blowfish-cbc</div></pre></td></tr></table></figure>
+<h3 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">scp CompressionLevel=9 USER@HOST:DIR/SOURCE/FILE .</div><div class="line">scp -C -o -r USER@HOST:/SOURCE/DIR .</div><div class="line">scp /FROM/FILE USER@HOST:/TO/FILE</div><div class="line">scp -r USER1@HOST1:/SOURCE/DIR1 USER2@HOST2:/TO/DIR2</div></pre></td></tr></table></figure>
+<h3 id="sshfs"><a href="#sshfs" class="headerlink" title="sshfs"></a>sshfs</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sshfs USER@HOST:/path/to/folder /path/to/mount/point</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;install&quot;&gt;&lt;a href=&quot;#install&quot; class=&quot;headerlink&quot; title=&quot;install&quot;&gt;&lt;/a&gt;install&lt;/h3&gt;&lt;p&gt;packages on &lt;a href=&quot;http://mirror.centos.org/centos/7/os/x86_64/Packages/&quot;&gt;centos 7 mirror&lt;/a&gt;&lt;br&gt;packages on &lt;a href=&quot;http://mirror.centos.org/centos/6/os/x86_64/Packages/&quot;&gt;centos 6 mirror&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;server&quot;&gt;&lt;a href=&quot;#server&quot; class=&quot;headerlink&quot; title=&quot;server&quot;&gt;&lt;/a&gt;server&lt;/h4&gt;&lt;p&gt;on ubuntu&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;sudo apt -y update&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;sudo apt install openssh-server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;optional&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;service sshd start&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;on centos&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;sudo yum install openssh-server&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;sudo chkconfig --list sshd&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;start service&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;sudo systemctl sshd start&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;or&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;/etc/init.d/sshd start&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
+      <category term="Computer Network" scheme="//taofeng.me/tags/Computer-Network/"/>
+    
+      <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vi使用指南</title>
+    <link href="//taofeng.me/2016/12/14/vi%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <id>//taofeng.me/2016/12/14/vi使用指南/</id>
+    <published>2016-12-14T02:00:00.000Z</published>
+    <updated>2017-02-19T10:58:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>vi是很棒的命令行文本编辑工具，黑客必备技能。</p>
+<h3 id="Edit"><a href="#Edit" class="headerlink" title="Edit"></a>Edit</h3><pre><code>vi &lt;file&gt;
+</code></pre><h3 id="File"><a href="#File" class="headerlink" title="File"></a>File</h3><pre><code>:x # exit and save changes
+:wq # exit and save anyway
+ZZ # exit and save changes
+:q! # exit and ignore changes
+:w file # write to file
+:r file # read file in after line
+:e file # edit file
+</code></pre><h3 id="Insert"><a href="#Insert" class="headerlink" title="Insert"></a>Insert</h3><pre><code>i # insert before cursor
+I # insert after cursor
+a # append after cursor
+A # append after line
+o # open a new line after current line
+O # open a new line before current line
+r # replace one character
+R # replace many characters
+</code></pre><a id="more"></a>
+<h3 id="Exit-Insert"><a href="#Exit-Insert" class="headerlink" title="Exit Insert"></a>Exit Insert</h3><pre><code>esc # return to command mode
+</code></pre><h3 id="Motion"><a href="#Motion" class="headerlink" title="Motion"></a>Motion</h3><pre><code>h # move left
+j # move down
+k # move up
+l # move rignt
+w # move to next word
+b # move to the beginning of the word
+e # move to the end of the word
+( # move a sequence back
+) # move a sequence forward
+{ # move a paragraph back
+} # move a paragraph forward
+O # move to the beginning of the line
+$ # move to the end of the line
+1G # move to the first line of the file
+G # move to the last line of the file
+nG # move to nth line of the file
+:n # move to nth line of the file
+H # move to top of the screen
+M # move to middle of the screen
+L # move to botton of the screen
+</code></pre><h3 id="Modify"><a href="#Modify" class="headerlink" title="Modify"></a>Modify</h3><h4 id="Delete"><a href="#Delete" class="headerlink" title="Delete"></a>Delete</h4><pre><code>x # delete charactor to the right of cursor
+X # delete charactor to the left of cursor
+D # delete to the end of the line
+dd # delete current line
+:d # delete current line
+dl # delete the letter
+dw # delete the word
+</code></pre><h4 id="Yank"><a href="#Yank" class="headerlink" title="Yank"></a>Yank</h4><pre><code>yy # copy the current line
+:y # copy the current line
+yl # copy the curren letter
+yw # copy the current word, cursor must on first letter of the word
+</code></pre><h4 id="Change"><a href="#Change" class="headerlink" title="Change"></a>Change</h4><pre><code>C # change to the end of the line
+cc # change the whole line
+cl # change the letter
+cw # change the word
+</code></pre><h4 id="Put"><a href="#Put" class="headerlink" title="Put"></a>Put</h4><pre><code>p # put after the position or after the line
+P # put before the position or before the line
+</code></pre><h4 id="Undo"><a href="#Undo" class="headerlink" title="Undo"></a>Undo</h4><pre><code>u # undo last revision
+U # undo all revisions
+</code></pre><h4 id="Redo"><a href="#Redo" class="headerlink" title="Redo"></a>Redo</h4><pre><code>^C+r # redo last undo
+</code></pre><h4 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h4><pre><code>~ # toggle up and lower case
+J # join lines
+. # repeat last text-changing command
+</code></pre><h4 id="Replace"><a href="#Replace" class="headerlink" title="Replace"></a>Replace</h4><pre><code>:s/pattern/string/flags # replace pattern with string according to flags
+g # flag-replace all occurrences of pattern
+c # flag-comfirm replaces
+&amp; # repeat last :s command
+</code></pre><h3 id="Search"><a href="#Search" class="headerlink" title="Search"></a>Search</h3><pre><code>/text # search forward
+?text # search backward
+n # search next match
+N # search previous match
+</code></pre><h3 id="Range"><a href="#Range" class="headerlink" title="Range"></a>Range</h3><pre><code>:n,m # range lines n-m
+:. # current line
+:$ # last line
+:&apos;c # marker c
+:% # all lines in file
+:g/pattern/ # all lines that contain pattern
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;vi是很棒的命令行文本编辑工具，黑客必备技能。&lt;/p&gt;
+&lt;h3 id=&quot;Edit&quot;&gt;&lt;a href=&quot;#Edit&quot; class=&quot;headerlink&quot; title=&quot;Edit&quot;&gt;&lt;/a&gt;Edit&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;vi &amp;lt;file&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;File&quot;&gt;&lt;a href=&quot;#File&quot; class=&quot;headerlink&quot; title=&quot;File&quot;&gt;&lt;/a&gt;File&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;:x # exit and save changes
+:wq # exit and save anyway
+ZZ # exit and save changes
+:q! # exit and ignore changes
+:w file # write to file
+:r file # read file in after line
+:e file # edit file
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Insert&quot;&gt;&lt;a href=&quot;#Insert&quot; class=&quot;headerlink&quot; title=&quot;Insert&quot;&gt;&lt;/a&gt;Insert&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;i # insert before cursor
+I # insert after cursor
+a # append after cursor
+A # append after line
+o # open a new line after current line
+O # open a new line before current line
+r # replace one character
+R # replace many characters
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
+      <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用命令行连接WIFI</title>
+    <link href="//taofeng.me/2016/12/14/%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BF%9E%E6%8E%A5WIFI/"/>
+    <id>//taofeng.me/2016/12/14/用命令行连接WIFI/</id>
+    <published>2016-12-14T01:49:00.000Z</published>
+    <updated>2017-03-03T10:30:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="wpa-supplicant"><a href="#wpa-supplicant" class="headerlink" title="wpa_supplicant"></a>wpa_supplicant</h3><p>这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。</p>
+<p>使用iwlist扫描无线网络<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iwlist scan</div></pre></td></tr></table></figure></p>
+<h3 id="configure"><a href="#configure" class="headerlink" title="configure"></a>configure</h3><p>Using template wpa_supplicant.conf, replace the pass</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wpa_passphrase SSID PASS &gt; ~/wpa_pass.conf</div></pre></td></tr></table></figure>
+<p>check the net interface card<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">iwconfig</div><div class="line">wpa_supplicant -i wlan0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf</div><div class="line">dhclient wlan0</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>Link a shortcut</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim ~/.bashrc</div></pre></td></tr></table></figure>
+<p>Add follow command in the end</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> wifi=<span class="string">'sudo wpa_supplicant -B -i wlp2s0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf &amp;&amp; sudo dhclient wlp2s0'</span></div><div class="line"><span class="comment"># reload .bashrc</span></div><div class="line"><span class="built_in">source</span> ~/.bashrc</div></pre></td></tr></table></figure>
+<h3 id="Sample-of-Config"><a href="#Sample-of-Config" class="headerlink" title="Sample of Config"></a>Sample of Config</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">update_config=1</div><div class="line">network=&#123;</div><div class="line">  ssid=&quot;dddd&quot;</div><div class="line">  scan_ssid=1</div><div class="line">  #psk=&quot;23456789&quot;</div><div class="line">  psk=9a2b010602a92b62fe766450f5c66ebb05171954f5282c288e898dbc0c6c63b7</div><div class="line">  proto=RSN</div><div class="line">  key_mgmt=WPA-PSK</div><div class="line">  pairwise=CCMP</div><div class="line">  auth_alg=OPEN</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;wpa-supplicant&quot;&gt;&lt;a href=&quot;#wpa-supplicant&quot; class=&quot;headerlink&quot; title=&quot;wpa_supplicant&quot;&gt;&lt;/a&gt;wpa_supplicant&lt;/h3&gt;&lt;p&gt;这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。&lt;/p&gt;
+&lt;p&gt;使用iwlist扫描无线网络&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;iwlist scan&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;configure&quot;&gt;&lt;a href=&quot;#configure&quot; class=&quot;headerlink&quot; title=&quot;configure&quot;&gt;&lt;/a&gt;configure&lt;/h3&gt;&lt;p&gt;Using template wpa_supplicant.conf, replace the pass&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;wpa_passphrase SSID PASS &amp;gt; ~/wpa_pass.conf&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;check the net interface card&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;iwconfig&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;wpa_supplicant -i wlan0 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;dhclient wlan0&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
+      <category term="Computer Network" scheme="//taofeng.me/tags/Computer-Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL命令</title>
+    <link href="//taofeng.me/2016/12/14/Mysql%E5%91%BD%E4%BB%A4/"/>
+    <id>//taofeng.me/2016/12/14/Mysql命令/</id>
+    <published>2016-12-14T01:25:00.000Z</published>
+    <updated>2017-02-19T11:06:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。</p>
+<h3 id="Common-Commands"><a href="#Common-Commands" class="headerlink" title="Common Commands"></a>Common Commands</h3><p>login in shell</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -uroot -p</div></pre></td></tr></table></figure>
+<p>mysql&gt;</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SHOW</span> <span class="keyword">DATABASES</span>;</div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> db;</div><div class="line"><span class="keyword">DROP</span> <span class="keyword">DATABASE</span> db;</div><div class="line"></div><div class="line"><span class="keyword">USE</span> db;</div><div class="line"><span class="keyword">SHOW</span> <span class="keyword">TABLES</span>;</div><div class="line"><span class="keyword">DESCRIBE</span> tb;</div><div class="line"><span class="keyword">SELECT</span> * <span class="keyword">FROM</span> tb;</div><div class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> tb(<span class="string">`a`</span>,<span class="string">`b`</span>) <span class="keyword">VALUES</span>(<span class="string">"a"</span>,<span class="string">"b"</span>);</div><div class="line"><span class="keyword">UPDATE</span> tb <span class="keyword">SET</span> f=<span class="string">"f"</span> <span class="keyword">WHERE</span> <span class="number">1</span>=<span class="number">1</span>;</div><div class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> tb <span class="keyword">WHERE</span> <span class="number">1</span>=<span class="number">1</span>;</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>data dump</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump -uroot -p db tb &gt; db.sql</div></pre></td></tr></table></figure>
+<h3 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a>Basic</h3><h4 id="Create-Database"><a href="#Create-Database" class="headerlink" title="Create Database"></a>Create Database</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> <span class="string">`db_name`</span>;</div><div class="line"><span class="keyword">USE</span> db_name;</div></pre></td></tr></table></figure>
+<h4 id="Create-Drop-Table"><a href="#Create-Drop-Table" class="headerlink" title="Create/Drop Table"></a>Create/Drop Table</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`tb_name`</span></div><div class="line">(</div><div class="line"><span class="keyword">id</span> <span class="built_in">INT</span>(<span class="number">11</span>) PRIMARY <span class="keyword">KEY</span> AUTO_INCREMENT <span class="keyword">NOT</span> <span class="literal">NULL</span>,</div><div class="line"><span class="keyword">name</span> <span class="built_in">VARCHAR</span>(<span class="number">25</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>,</div><div class="line">deptId <span class="built_in">INT</span>(<span class="number">11</span>) <span class="keyword">DEFAULT</span> <span class="number">1111</span>,</div><div class="line">salary <span class="built_in">FLOAT</span></div><div class="line">)<span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=<span class="string">`utf8`</span> AUTO_INCREMENT=<span class="number">1</span>;</div><div class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> <span class="keyword">IF</span> <span class="keyword">EXISTS</span> tb_dept;</div></pre></td></tr></table></figure>
+<h4 id="Field-FK"><a href="#Field-FK" class="headerlink" title="Field/FK"></a>Field/FK</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_dept <span class="keyword">ADD</span> column1 <span class="built_in">VARCHAR</span>(<span class="number">11</span>) <span class="keyword">NOT</span> <span class="literal">NULL</span>;</div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_dept <span class="keyword">ADD</span> column2 <span class="built_in">INT</span>(<span class="number">11</span>) <span class="keyword">FIRST</span>;</div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_dept <span class="keyword">ADD</span> column3 <span class="keyword">AFTER</span> <span class="keyword">name</span>;</div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> tb_Dept <span class="keyword">MODIFY</span> column1 <span class="built_in">VARCHAR</span>(<span class="number">12</span>) <span class="keyword">AFTER</span> location;</div><div class="line"><span class="keyword">UPDATE</span> article a <span class="keyword">SET</span> a.journalid=<span class="number">10</span> <span class="keyword">WHERE</span> a.journalid=<span class="number">20</span>;</div><div class="line"><span class="keyword">DELETE</span> <span class="keyword">from</span> journal <span class="keyword">WHERE</span> journalid=<span class="number">20</span>;</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="string">`article`</span> </div><div class="line"><span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> <span class="string">`c_article_journal_FK`</span> </div><div class="line">FOREIGN <span class="keyword">KEY</span> (<span class="string">`journalid`</span>)  </div><div class="line"><span class="keyword">REFERENCES</span> <span class="string">`journal`</span> (<span class="string">`journalid`</span>);</div><div class="line"></div><div class="line"><span class="keyword">UPDATE</span> article <span class="keyword">SET</span> article.journalid =<span class="number">3</span> </div><div class="line"><span class="keyword">WHERE</span> article.journalid <span class="keyword">IN</span></div><div class="line">(<span class="keyword">SELECT</span> journalid </div><div class="line"><span class="keyword">FROM</span> </div><div class="line">(<span class="keyword">SELECT</span> journal.journalid, journal </div><div class="line"><span class="keyword">FROM</span> article <span class="keyword">LEFT</span> <span class="keyword">JOIN</span> journal </div><div class="line"><span class="keyword">ON</span> article.journalid=journal.journalid) <span class="keyword">AS</span> c </div><div class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> journalid</div><div class="line"><span class="keyword">HAVING</span> <span class="keyword">COUNT</span>(*)&lt;<span class="number">20</span>);</div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">COUNT</span>(*), journal, journalid </div><div class="line"><span class="keyword">FROM</span></div><div class="line">(<span class="keyword">SELECT</span> journal.journalid, journal </div><div class="line"><span class="keyword">FROM</span> article <span class="keyword">LEFT</span> <span class="keyword">JOIN</span> journal </div><div class="line"><span class="keyword">ON</span> article.journalid=journal.journalid) <span class="keyword">AS</span> c </div><div class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> journalid </div><div class="line"><span class="keyword">ORDER</span> <span class="keyword">BY</span> <span class="keyword">COUNT</span>(*) <span class="keyword">ASC</span>;</div></pre></td></tr></table></figure>
+<h4 id="View"><a href="#View" class="headerlink" title="View"></a>View</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">VIEW</span> view_name <span class="keyword">AS</span> <span class="keyword">SELECT</span> ...;</div><div class="line"><span class="keyword">UPDATE</span> view_name <span class="keyword">SET</span> ...;</div></pre></td></tr></table></figure>
+<h4 id="Trigger"><a href="#Trigger" class="headerlink" title="Trigger"></a>Trigger</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> trigger_name trigger_time trigger_event <span class="keyword">ON</span> tb_name <span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="keyword">ROW</span> trigger_stmt;</div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> ins_sum </div><div class="line"><span class="keyword">BEFORE</span> <span class="keyword">INSERT</span> <span class="keyword">ON</span> <span class="keyword">account</span> </div><div class="line"><span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="keyword">ROW</span> </div><div class="line"><span class="keyword">SET</span> @<span class="keyword">sum</span>=@<span class="keyword">sum</span>+NEW.amount;</div></pre></td></tr></table></figure>
+<h4 id="Insert"><a href="#Insert" class="headerlink" title="Insert"></a>Insert</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">        <span class="keyword">INSERT</span> <span class="keyword">INTO</span> tb_name(...) <span class="keyword">values</span>(...),(...),...;</div></pre></td></tr></table></figure>
+<h4 id="User"><a href="#User" class="headerlink" title="User"></a>User</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">        <span class="keyword">CREATE</span> <span class="keyword">USER</span> <span class="string">'jeffery'</span>@<span class="string">'localhost'</span> <span class="keyword">IDENTIFIED</span> <span class="keyword">BY</span> <span class="string">'mypass'</span>;</div><div class="line">        <span class="keyword">GRANT</span> <span class="keyword">privileges</span> <span class="keyword">ON</span> db.table <span class="keyword">TO</span> <span class="keyword">user</span>@host [<span class="keyword">IDENTIFIED</span> <span class="keyword">BY</span> <span class="string">'password'</span>] [<span class="keyword">WITH</span> <span class="keyword">GRANT</span> <span class="keyword">OPTION</span>];</div><div class="line">        <span class="keyword">DROP</span> <span class="keyword">USER</span> <span class="string">'user'</span>@<span class="string">'localhost'</span>;</div><div class="line">        <span class="keyword">SET</span> <span class="keyword">PASSWORD</span> <span class="keyword">FOR</span> <span class="string">'user'</span>@<span class="string">'host'</span> = <span class="keyword">PASSWORD</span>(<span class="string">'otherpassword'</span>);</div><div class="line">        <span class="keyword">SET</span> <span class="keyword">PASSWORD</span> = <span class="keyword">PASSWORD</span>(<span class="string">'otherpassword'</span>); <span class="comment">-- FOR ROOT</span></div><div class="line">        <span class="keyword">REVOKE</span> <span class="keyword">privileges</span> <span class="keyword">ON</span> db.table <span class="keyword">FROM</span> <span class="string">'user'</span>@<span class="string">'host'</span>;</div></pre></td></tr></table></figure>
+<h3 id="Issues"><a href="#Issues" class="headerlink" title="Issues"></a>Issues</h3><h4 id="Reset-Root-Password"><a href="#Reset-Root-Password" class="headerlink" title="Reset Root Password"></a>Reset Root Password</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo service mysql stop                                         </div><div class="line">sudo mysqld_safe --skip-grant-table</div><div class="line">mysql -uroot mysql</div></pre></td></tr></table></figure>
+<p>mysql&gt;</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SHOW</span> <span class="keyword">DATABASES</span>;</div><div class="line"><span class="keyword">USE</span> mysql;</div><div class="line"><span class="keyword">SHOW</span> <span class="keyword">TABLES</span>;</div><div class="line"><span class="keyword">UPDATE</span> <span class="keyword">user</span> <span class="keyword">SET</span> <span class="keyword">Password</span>=<span class="keyword">PASSWORD</span>(<span class="string">'password'</span>) <span class="keyword">WHERE</span> <span class="keyword">User</span>=<span class="string">'root'</span>;         </div><div class="line"><span class="keyword">FLUSH</span> <span class="keyword">PRIVILEGES</span>;</div><div class="line">\q;</div></pre></td></tr></table></figure>
+<p>restart mysql</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service mysql start</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;性能好，安装使用方便，又免费开源的数据库肯定少不了MySQL。当然PostgreSQL性能更优秀，也是开源，不过我们入门使用MySQL肯定是没错。这里就是一些基本的MySQL的知识。&lt;/p&gt;
+&lt;h3 id=&quot;Common-Commands&quot;&gt;&lt;a href=&quot;#Common-Commands&quot; class=&quot;headerlink&quot; title=&quot;Common Commands&quot;&gt;&lt;/a&gt;Common Commands&lt;/h3&gt;&lt;p&gt;login in shell&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;mysql -uroot -p&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;mysql&amp;gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SHOW&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;DATABASES&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;DATABASE&lt;/span&gt; db;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;DROP&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;DATABASE&lt;/span&gt; db;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;USE&lt;/span&gt; db;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SHOW&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;TABLES&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;DESCRIBE&lt;/span&gt; tb;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SELECT&lt;/span&gt; * &lt;span class=&quot;keyword&quot;&gt;FROM&lt;/span&gt; tb;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;INSERT&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;INTO&lt;/span&gt; tb(&lt;span class=&quot;string&quot;&gt;`a`&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;`b`&lt;/span&gt;) &lt;span class=&quot;keyword&quot;&gt;VALUES&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;a&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;b&quot;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;UPDATE&lt;/span&gt; tb &lt;span class=&quot;keyword&quot;&gt;SET&lt;/span&gt; f=&lt;span class=&quot;string&quot;&gt;&quot;f&quot;&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;=&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;DELETE&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;FROM&lt;/span&gt; tb &lt;span class=&quot;keyword&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;=&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="Research Path" scheme="//taofeng.me/tags/Research-Path/"/>
+    
+      <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Iptables</title>
+    <link href="//taofeng.me/2016/12/14/Iptables/"/>
+    <id>//taofeng.me/2016/12/14/Iptables/</id>
+    <published>2016-12-14T01:20:00.000Z</published>
+    <updated>2017-02-19T11:06:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="route-graph"><a href="#route-graph" class="headerlink" title="route graph"></a>route graph</h4><p>tables</p>
+<pre><code>filter/nat/mangle/raw
+</code></pre><p>privilage</p>
+<pre><code>raw&gt;mangle&gt;nat&gt;filter
+
+-----------------------------------------------------------------
+raw        -&gt;      mangle      -&gt;       nat      -&gt;      filter
+prerouting         prerouting           prerouting
+                   forward                               forward
+                   input                                 input
+output             output               output            output
+                   postrouting          postrouting
+-----------------------------------------------------------------
+
+IN                               OUT
+|                                /\
+\/                               |
+PREROUTING                       POSTROUTING
+---------                        -----------
+nat                              nat
+mangle                           raw  
+raw                              mangle  
+|
+\/                                   /\  /\
+/----------------------\             |   |
+|Destiantion=localhost?|-&gt; FORWARD --|   |
+\----------------------/no ----------    |
+|yes                       filter        |
+\/                         mangle        |   
+INPUT                                    OUTPUT
+----------                               ---------
+filter               /----------\        filter
+mangle      ----&gt;    |LOCALHOST |  ---&gt;  nat
+                     \----------/        mangle
+                                         raw
+</code></pre><a id="more"></a>
+<h4 id="Commands"><a href="#Commands" class="headerlink" title="Commands"></a>Commands</h4><h5 id="Motion-Commands"><a href="#Motion-Commands" class="headerlink" title="Motion Commands"></a>Motion Commands</h5><pre><code>iptables -h # help
+iptables -L # list rules
+iptables -L -t mangle # list rules in table mangle
+iptables -P INPUT ACCEPT # default rules
+iptables -F # dangerous! clear all rules
+iptables -N # user custom rule chain
+iptables -X # clear custom rule chain
+service iptables save # persist rules
+iptables-save &gt; somefile
+iptables-restore &lt; somefile
+</code></pre><h5 id="Configuration-Commands"><a href="#Configuration-Commands" class="headerlink" title="Configuration Commands"></a>Configuration Commands</h5><pre><code>iptables -A INPUT -p tcp -s 192.168.0.0/24 --dport 80 -j ACCEPT 
+
+-A append
+-I insert
+-D delete
+-R replace
++ chain [PREROUTING|FORWARD|INPUT|OUTPUT|POSTROUTING]
+
+-t table name [filter|nat|mangle|raw], default is filter 
+-i input network interface
+-o output network interface
+-p protocol [tcp|udp|{tcp,udp},icmp]
+-s source ip address or subnet
+--sport source port
+-d destination ip address or subnet
+--dport destination port
+-j action [ACCEPT|DROP|REJECT]
+--state state of parcel
+-m module
+
+modules:
+
+-m comment --comment &quot;allow http&quot;
+-m connlimit --connlimit-above 30
+-m iprange --src-range 192.168.1.10-192.168.1.20 
+-m layer7  --l7proto qq
+-m mac -mac-source XX.XX.XX.XX.XX
+-m muliport -dport 21,22,80,443
+-m recent
+-m state ESTABLISHED,RELATED
+-m string -algo bm -string baidu
+</code></pre><p>if there are conflicts in rules, caculated rules according to rules with higher order(smaller squence number)</p>
+<p>-s -p –sport –dport can be omitted which means any</p>
+<h4 id="Configurations"><a href="#Configurations" class="headerlink" title="Configurations"></a>Configurations</h4><h5 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h5><p>normal web server with ssh service</p>
+<pre><code>iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
+iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT  
+iptables -A INPUT -i lo -p all -j ACCEPT
+iptables -A OUTPUT -o lo -p all -j ACCEPT
+iptalbes -P INPUT DROP
+</code></pre><p>limit links</p>
+<pre><code>iptables -I INPUT -p tcp --dport 80 -m connlimit --connlimit-above 50 -j REJECT
+</code></pre><p>change destination ip address, map to subnet ip address</p>
+<pre><code>iptables -t nat -A PREROUTING -i ppp0 -p tcp --dprot 81 -j DNAT --to 192.168.0.2:80
+iptables -t nat -A PREROUTING -i ppp0 -p tcp --dprot 81 -j DNAT --to 192.168.0.1-192.168.0.10
+</code></pre><p>change source ip address, hide subnet ip address</p>
+<pre><code>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -j SNAT --to 1.1.1.1
+iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -j SNAT --to 1.1.1.1-1.1.1.10
+</code></pre><p>hide address, dynamic ip nat</p>
+<pre><code>iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -j MASQUERADE
+</code></pre><p>enable forward</p>
+<pre><code>iptables -A FORWARD -i eth0 -o eth1 -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i eth1 -o eh0 -j ACCEPT
+</code></pre><p>filter mac address</p>
+<pre><code>iptables -A FORWARD -m mac --mac -source MAC address -j DROP
+</code></pre><p>drop invalid link</p>
+<pre><code>iptables -A INPUT  -m state --state INVALID -j DROP
+iptables -A OUTPUT -m state --state INVALID -j DROP
+iptables-A FORWARD -m state --state INVALID -j DROP
+</code></pre><p>preset rules</p>
+<pre><code>iptables -A INPUT  -p tcp --dport 22 -j ACCEPT
+iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+
+iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD DROP
+
+iptables -A FORWARD -f -m limit --limit 100/s --limit-burst 100 -j ACCEPT
+
+iptables -A FORWARD -p icmp -m limit --limit 1/s --limit-burst 10 -j ACCEPT
+</code></pre><h4 id="Configure-NAT"><a href="#Configure-NAT" class="headerlink" title="Configure NAT"></a>Configure NAT</h4><p>init</p>
+<pre><code>iptables -t nat -L
+iptables -F -t nat
+iptables -X -t nat
+iptables -Z -t nat
+</code></pre><p> ban outside net access as subnet ip address</p>
+<pre><code>iptables -t nat -A PREROUTING -i eth0 -s 10.0.0.0/8 -j DROP
+iptables -t nat -A PREROUTING -i eth0 -s 172.16.0.0/12 -j DROP
+iptables -t nat -A PREROUTING -i eth0 -s 192.168.0.0/16 -j DROP
+</code></pre><p>ban specific ip 211.101.46.253</p>
+<pre><code>iptables -t nat -A PREROUTING -d 211.101.46.253 -j DROP
+</code></pre><p>ban specific application, FTP(21)</p>
+<pre><code>iptables -t nat -A PREROUTING -p tcp --dport 21 -j DROP
+</code></pre><p>more accurate one</p>
+<pre><code>iptables -t nat -A PREROUTING -p tcp --dport 21 -d 211.101.46.253 -j DROP
+</code></pre><p>drop invalid links</p>
+<pre><code>iptables -A INPUT   -m state --state INVALID -j DROP
+iptables -A OUTPUT  -m state --state INVALID -j DROP
+iptables -A FORWARD -m state --state INVALID -j DROP
+
+iptables -A INPUT   -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A OUTPUT  -m state --state ESTABLISHED,RELATED -j ACCEPT
+</code></pre><p>apply settings</p>
+<pre><code>/etc/rc.d/init.d/iptables save
+service iptables restart
+</code></pre><p>more <a href="http://www.cnblogs.com/argb/p/3535179.html" target="_blank" rel="external">examples</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;route-graph&quot;&gt;&lt;a href=&quot;#route-graph&quot; class=&quot;headerlink&quot; title=&quot;route graph&quot;&gt;&lt;/a&gt;route graph&lt;/h4&gt;&lt;p&gt;tables&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;filter/nat/mangle/raw
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;privilage&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;raw&amp;gt;mangle&amp;gt;nat&amp;gt;filter
+
+-----------------------------------------------------------------
+raw        -&amp;gt;      mangle      -&amp;gt;       nat      -&amp;gt;      filter
+prerouting         prerouting           prerouting
+                   forward                               forward
+                   input                                 input
+output             output               output            output
+                   postrouting          postrouting
+-----------------------------------------------------------------
+
+IN                               OUT
+|                                /\
+\/                               |
+PREROUTING                       POSTROUTING
+---------                        -----------
+nat                              nat
+mangle                           raw  
+raw                              mangle  
+|
+\/                                   /\  /\
+/----------------------\             |   |
+|Destiantion=localhost?|-&amp;gt; FORWARD --|   |
+\----------------------/no ----------    |
+|yes                       filter        |
+\/                         mangle        |   
+INPUT                                    OUTPUT
+----------                               ---------
+filter               /----------\        filter
+mangle      ----&amp;gt;    |LOCALHOST |  ---&amp;gt;  nat
+                     \----------/        mangle
+                                         raw
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
+      <category term="Computer Network" scheme="//taofeng.me/tags/Computer-Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git使用简介</title>
+    <link href="//taofeng.me/2016/12/04/Github%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/"/>
+    <id>//taofeng.me/2016/12/04/Github使用简介/</id>
+    <published>2016-12-04T15:32:00.000Z</published>
+    <updated>2017-02-19T11:05:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Github是什么"><a href="#Github是什么" class="headerlink" title="Github是什么"></a>Github是什么</h3><p>作为一名程序猿还是一名程序媛，<a href="https://github.com" target="_blank" rel="external"><code>Git</code></a>肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在<code>Github</code>或自建的<code>git</code>服务器上，你要下载下来可能就需要用到它了。<code>Github</code>则是全球程序员和开源项目的聚集地。<code>Git</code>作为版本控制的工具主要有一下几个好处。</p>
+<p>第一，方便分工合作。一个大型的软件肯定是要大量的人力累积出来的，一个人的力量很有限，没有合作就没有现在软件的发展。那么如何使得所有人都有一个所有代码的副本，同时可以获得最新的代码和提交最新的代码呢？而且代码一旦多起来，More is Different！那么真的连“亲妈”都不认识。所以每个人都只需要专注于自己的那一个模块。</p>
+<p>第二，方便管理。有了<code>Git</code>之后，即便有人不小心误删了某些代码，还能回滚回去。即便有机器Down掉了也不会有灾难性的影响。另外，<code>Git</code>可以将不同的开发组分到不同的<code>Branch</code>进行开发，每个组只有相应<code>Branch</code>的提交权限，这样管理更有效。</p>
+<p>第三，方便开发。<code>Git</code>将项目分为不同的<code>Branch</code>，将新特性放在单独的一个<code>Branch</code>下开发，当功能测试稳定后再<code>Merge</code>到主分支，这样就是一个迭代的开发流程，提高开发效率。</p>
+<p>扯了这么多，来点干货。</p>
+<a id="more"></a>
+<h3 id="Git基本命令"><a href="#Git基本命令" class="headerlink" title="Git基本命令"></a>Git基本命令</h3><p>初建一个工程，<code>$PROJECTS_ROOT</code>为你所有项目存放的目录，代表一个变量<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">mkdir project_name</div><div class="line"><span class="built_in">cd</span> project_name</div><div class="line">git init</div></pre></td></tr></table></figure></p>
+<p><code>git init</code>这个命令其实在项目下新建了一个<code>.git</code>目录，目录下有<code>Git</code>的配置和存档信息。另外可以直接从<code>Git</code>服务器上将一个开源项目<code>clone</code>下来<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/osgee/c9ssh.git</div></pre></td></tr></table></figure></p>
+<p>这里注意，结尾必须是<code>[.git]</code>，不然虽然可以<code>clone</code>下来项目，但是当提交是会报错，得修改<code>.git/config</code>文件中的<code>[remote &quot;origin&quot;]</code>项下的<code>url</code>值，也可以通过<code>git remote set-url origin</code>修改。<code>git clone</code>曲折的做法可以是<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">mkdir c9ssh</div><div class="line"><span class="built_in">cd</span> c9ssh</div><div class="line">git init</div><div class="line">git remote add origin https://github.com/osgee/c9ssh.git</div><div class="line">git pull origin master</div></pre></td></tr></table></figure></p>
+<p>这里的<code>git remote add origin</code>是添加源<code>Git</code>仓库的地址，<code>origin</code>是该源的名称，可以自己改。不过只有一个源仓库时，公认的命名方法是<code>origin</code>，但要添加多个源时，每个就需要有单独的名称。<code>git pull origin master</code>的意思是从叫<code>origin</code>的源仓库中提取<code>master</code>分支的数据。</p>
+<p>怎么进行第一个提交呢？需要认识到<code>Git</code>将文件划分的几个状态，以及不同的命令对应得文件状态的改变<br><img src="/assets/blogImg/git_status.png" alt="git file status"><br>下面通过命令进行第一次提交，假设你在<code>Github</code>上已经注册的用户名为<code>[username]</code>，新建了一个项目名为<code>[project_name]</code>，那么根据<code>Github</code>的命名规则，这个项目的<code>git</code>仓库的地址为<code>https://github.com/username/project_name.git</code> . 在电脑上的命令如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="variable">$PROJECTS_ROOT</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/username/project_name.git</div><div class="line"><span class="built_in">cd</span> project_name</div><div class="line"><span class="built_in">echo</span> <span class="string">"### first git project"</span>&gt;&gt;README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"first commit"</span></div><div class="line">git push origin master</div></pre></td></tr></table></figure></p>
+<p>下面是高级一点的命令，包括搭建本地的<code>git</code>仓库，对远端仓库的修改等。这也是我<code>github</code>上分享的一个项目，翻译不过来，将就着看吧</p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><h4 id="server"><a href="#server" class="headerlink" title="server"></a>server</h4><p>using project to init repo</p>
+<pre><code>git clone --bare project project.git
+</code></pre><p>create bare repo</p>
+<pre><code>mkdir project.git &amp;&amp; cd project.git &amp;&amp; git --bare init 
+</code></pre><p>or</p>
+<pre><code>git init --bare project.git
+</code></pre><p>share with group</p>
+<pre><code>git init --bare --share project.git
+</code></pre><h3 id="clone"><a href="#clone" class="headerlink" title="clone"></a>clone</h3><p>git clone remote repo <c9ssh> to local repo <ssh></ssh></c9ssh></p>
+<pre><code>git clone https://github.com/osgee/c9ssh.git ssh
+</code></pre><p>git clone a bare repo</p>
+<pre><code>git clone --bare https://github.com/osgee/c9ssh.git
+</code></pre><p>copy <project> to remote repo</project></p>
+<pre><code>scp -r project.git git@git.osgee.com:~/repos/
+</code></pre><h3 id="remote"><a href="#remote" class="headerlink" title="remote"></a>remote</h3><p>show remote repos details</p>
+<pre><code>git remote -v
+</code></pre><p>show status of remote repo <origin></origin></p>
+<pre><code>git remote show origin
+</code></pre><p>add remote repo <c9ssh></c9ssh></p>
+<pre><code>git remote add origin git@github.com:osgee/c9ssh.git
+git remote add origin https://github.com/osgee/c9ssh.git
+</code></pre><p>revise remote repo to <ssh></ssh></p>
+<pre><code>git remote set-url origin git@github.com/ssh.git
+</code></pre><p>remove reomte repo <origin></origin></p>
+<pre><code>git remote rm &lt;orign&gt;
+</code></pre><p>rename remote repo <origin> to <fork></fork></origin></p>
+<pre><code>git remote rename origin fork
+</code></pre><p>remote add branchs using namespace <qa> </qa></p>
+<pre><code>git remote set-branchs --add origin &lt;qa&gt;/*
+</code></pre><p>set remote repos’ HEAD to master</p>
+<pre><code>git remote set-head origin master
+</code></pre><h3 id="checkout"><a href="#checkout" class="headerlink" title="checkout"></a>checkout</h3><p>switch branch to <master></master></p>
+<pre><code>git checkout &lt;master&gt;
+</code></pre><p>add branch <newbranch> and swich to it</newbranch></p>
+<pre><code>git checkout -b &lt;newbranch&gt;
+</code></pre><p>add branch <newbranch> based on <branch> and switch to it</branch></newbranch></p>
+<pre><code>git checkout -b &lt;newbranch&gt; &lt;branch&gt;
+</code></pre><p>track remote branch <branch> on repos <origin> and create a local one</origin></branch></p>
+<pre><code>git checkout --track &lt;origin&gt;/&lt;branch&gt;
+</code></pre><h3 id="branch"><a href="#branch" class="headerlink" title="branch"></a>branch</h3><p>show present branches</p>
+<pre><code>git branch
+</code></pre><p>show merged branch</p>
+<pre><code>git branch --merged
+</code></pre><p>show not merged branch</p>
+<pre><code>git branch --no-merged
+</code></pre><p>track remote repo origin/master</p>
+<pre><code>git branch -u master [origin/master]
+</code></pre><p>equal to</p>
+<pre><code>git branch --set-upstream master origin/master
+</code></pre><p>delete branch</p>
+<pre><code>git branch -d &lt;branch&gt;
+</code></pre><p>delete branch forcely</p>
+<pre><code>git branch -D &lt;branch&gt;
+</code></pre><h3 id="pull-fetch-merge"><a href="#pull-fetch-merge" class="headerlink" title="pull fetch merge"></a>pull fetch merge</h3><p>fetch from remote repo and merge to local repo </p>
+<pre><code>git pull origin master
+</code></pre><p>equals<br>    git fetch origin master<br>    git merge origin/master</p>
+<p>no Fast-Forward</p>
+<pre><code>git merge origin/master --no-ff
+</code></pre><p>rebase master to <branch></branch></p>
+<pre><code>git rebase master &lt;branch&gt;
+</code></pre><p>equals</p>
+<pre><code>git checkout &lt;branch&gt; &amp;&amp; git rebase master &amp;&amp; git checkout master &amp;&amp; git merge &lt;branch&gt;
+</code></pre><h3 id="push"><a href="#push" class="headerlink" title="push"></a>push</h3><p>push all branches</p>
+<pre><code>git push
+</code></pre><p>push master to branch master on remote repos origin</p>
+<pre><code>git push origin master
+</code></pre><p>if not inited in remote repo</p>
+<pre><code>git push -u origin master
+</code></pre><p>add remote repo a new branch</p>
+<pre><code>git push origin &lt;branch&gt;
+</code></pre><p>or</p>
+<pre><code>git push orign &lt;local_branch&gt;:&lt;remote_branch&gt;
+</code></pre><p>delete remote branch</p>
+<pre><code>git push origin :&lt;branch&gt;
+</code></pre><p>may you need to remove local branch in advance</p>
+<pre><code>git branch -d &lt;branch&gt;
+</code></pre><h3 id="stash"><a href="#stash" class="headerlink" title="stash"></a>stash</h3><pre><code>git stash
+
+git stash list
+
+git stash apply
+
+git stash drop
+</code></pre><h3 id="log"><a href="#log" class="headerlink" title="log"></a>log</h3><pre><code>git log
+
+git log --decorate --graph --oneline --all
+</code></pre><h3 id="reset"><a href="#reset" class="headerlink" title="reset"></a>reset</h3><pre><code>git reset --hard commit-sha
+git reset --hard HEAD~
+git reset &lt;file&gt;    
+</code></pre><h3 id="add"><a href="#add" class="headerlink" title="add"></a>add</h3><pre><code>git add .
+git add -A
+git add *
+git add &lt;file&gt;
+</code></pre><h3 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h3><pre><code>git rm &lt;file&gt;
+</code></pre><h3 id="diff"><a href="#diff" class="headerlink" title="diff"></a>diff</h3><pre><code>git diff &lt;file&gt;
+git diff --staged
+git diff --cached
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Github是什么&quot;&gt;&lt;a href=&quot;#Github是什么&quot; class=&quot;headerlink&quot; title=&quot;Github是什么&quot;&gt;&lt;/a&gt;Github是什么&lt;/h3&gt;&lt;p&gt;作为一名程序猿还是一名程序媛，&lt;a href=&quot;https://github.com&quot;&gt;&lt;code&gt;Git&lt;/code&gt;&lt;/a&gt;肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在&lt;code&gt;Github&lt;/code&gt;或自建的&lt;code&gt;git&lt;/code&gt;服务器上，你要下载下来可能就需要用到它了。&lt;code&gt;Github&lt;/code&gt;则是全球程序员和开源项目的聚集地。&lt;code&gt;Git&lt;/code&gt;作为版本控制的工具主要有一下几个好处。&lt;/p&gt;
+&lt;p&gt;第一，方便分工合作。一个大型的软件肯定是要大量的人力累积出来的，一个人的力量很有限，没有合作就没有现在软件的发展。那么如何使得所有人都有一个所有代码的副本，同时可以获得最新的代码和提交最新的代码呢？而且代码一旦多起来，More is Different！那么真的连“亲妈”都不认识。所以每个人都只需要专注于自己的那一个模块。&lt;/p&gt;
+&lt;p&gt;第二，方便管理。有了&lt;code&gt;Git&lt;/code&gt;之后，即便有人不小心误删了某些代码，还能回滚回去。即便有机器Down掉了也不会有灾难性的影响。另外，&lt;code&gt;Git&lt;/code&gt;可以将不同的开发组分到不同的&lt;code&gt;Branch&lt;/code&gt;进行开发，每个组只有相应&lt;code&gt;Branch&lt;/code&gt;的提交权限，这样管理更有效。&lt;/p&gt;
+&lt;p&gt;第三，方便开发。&lt;code&gt;Git&lt;/code&gt;将项目分为不同的&lt;code&gt;Branch&lt;/code&gt;，将新特性放在单独的一个&lt;code&gt;Branch&lt;/code&gt;下开发，当功能测试稳定后再&lt;code&gt;Merge&lt;/code&gt;到主分支，这样就是一个迭代的开发流程，提高开发效率。&lt;/p&gt;
+&lt;p&gt;扯了这么多，来点干货。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Github Project" scheme="//taofeng.me/tags/Github-Project/"/>
+    
+      <category term="Research Path" scheme="//taofeng.me/tags/Research-Path/"/>
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建这个博客</title>
+    <link href="//taofeng.me/2016/12/04/%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    <id>//taofeng.me/2016/12/04/搭建这个博客/</id>
+    <published>2016-12-04T14:03:00.000Z</published>
+    <updated>2017-02-19T11:05:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h3><p>这个博客是基于<a href="https://hexo.io" target="_blank" rel="external"><code>hexo</code></a>的博客框架，使用了一个腾讯前端开发的大牛<a href="https://litten.me" target="_blank" rel="external"><code>Litten</code></a>开源的<code>hexo</code>主题<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external"><code>yilia</code></a>，详细的安装过程分别在<code>hexo</code>和<code>yilia</code>的首页上有详细的介绍，可以自行参考。<code>hexo</code>使用的是<a href="https://nodejs.org/en/" target="_blank" rel="external"><code>Node.js</code></a>，是使用<code>JavaScript</code>编写的服务端框架，打开它的首页就能看到相应系统的安装包，另外还需要有<a href="https://www.npmjs.com" target="_blank" rel="external"><code>npm</code></a>，是<code>Node.js</code>的软件仓库，也是包管理工具，用它安装<code>Node.js</code>的程序很方便。<code>npm</code>的安装也可以参考hexo在线文档提供的指导。</p>
+<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p>首先需要安装的是<a href="http://brew.sh" target="_blank" rel="external"><code>homebrew</code></a>，然后用<code>brew</code>安装<code>npm</code>，再<code>到Node.js</code>主页下载<code>OSX</code>的安装包，我是用的<code>OSX</code>，所以只介绍<code>OSX</code>上的安装方式。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#安装homebrew</span></div><div class="line">/usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div><div class="line"></div><div class="line"><span class="comment">#安装nmp和git</span></div><div class="line">brew update -y</div><div class="line">brew install nmp git -y</div></pre></td></tr></table></figure>
+<p>下载了<code>Node.js</code>安装包并安装好之后，就可以开始安装<code>hexo</code>了。<br><a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#安装hexo-cli</span></div><div class="line">npm install hexo-cli -g</div><div class="line"><span class="comment">#一般将博客根目录放用户主目录下，所以回到主目录</span></div><div class="line"><span class="built_in">cd</span> ~</div><div class="line"><span class="comment">#初始化博客根目录，这个会下载github上的hexo博客框架</span></div><div class="line">hexo init Myblog</div><div class="line"><span class="comment">#进入根目录</span></div><div class="line"><span class="built_in">cd</span> Myblog</div><div class="line"><span class="comment">#安装hexo博客</span></div><div class="line">nmp install</div><div class="line"><span class="comment">#现在就可以运行博客的服务了,默认URL为http://localhost:4000</span></div><div class="line">hexo server</div></pre></td></tr></table></figure></p>
+<p>到现在你已经成功安装了<code>hexo</code>，但是默认的demo模板并不很好看，所以要换一个好看些的。那么有很多其他高大上的模板，每个模板都有一个个性化的配置文件，为了了解，我们先看下博客根目录下的目录结构。<br>可以自己用<code>brew</code>命令安装<code>tree</code>工具，然后使用<code>tree</code>命令展示<code>Myblog</code>的目录结构。</p>
+<pre><code>Myblog/
+    _config.yml
+    package.json
+    db.json
+    node_modules/
+    source/
+    themes/
+    scaffolds/
+</code></pre><p>我们需要关注的是<code>_config.yml</code>和<code>thems/</code>文件夹，前者是一个全局的配置，指定了使用哪一个主题等信息，后者是具体的主题存放的目录，我们要下载的<code>yilia</code>主题就是要放在<code>themes</code>文件夹下。<br>具体的命令是：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#进入博客根目录，如果已经是就忽略本命令</span></div><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line"><span class="comment">#从git下载[pull]</span></div><div class="line">git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure></p>
+<p>相应的在<code>yilia</code>的文件夹下也有一个<code>_config.yml</code>文件，是对<code>yilia</code>主题具体的配置，相关配置参考我的博客备份<a href="https://github.com/osgee/Myblog" target="_blank" rel="external"><code>Myblog</code></a>或者大神<code>Litten</code>的<code>yilia</code>项目的<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external"><code>README.md</code></a>。相应的全局的<code>_config.yml</code>也要配置，涉及到<code>theme</code>,<code>deploy</code>,etc相关信息，到<code>yilia</code>上拿一个模板改改就好。</p>
+<p>写博客用什么工具呢，在<code>github</code>上也有一个针对<code>hexo</code>开发的网页版带预览的<code>Markdown</code>格式文件编辑工具，叫<a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external"><code>hexo-admin</code></a>,虽然用着有些小bugs，但是寥胜于无吧。安装也很简单：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line">npm install --save hexo-admin</div><div class="line"><span class="comment">#运行服务器</span></div><div class="line">hexo server <span class="_">-d</span></div></pre></td></tr></table></figure></p>
+<p>安装完，运行服务器后，默认URL在<code>http://localhost:4000/admin</code> ，看着就会用。<br>这个插件还可以<code>deploy</code>博客，但是需要进一步配置。<br>首先在<code>~/Myblog</code>文件夹下新建一个文件<code>hexo-deploy.sh</code>，然后在里面编辑需要运行的命令。<br>使用命令如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line"><span class="built_in">echo</span> <span class="string">"#!/usr/bin/env sh"</span>&gt;hexo-deploy.sh</div><div class="line"><span class="built_in">echo</span> <span class="string">"hexo generate"</span>&gt;&gt;hexo-deploy.sh</div><div class="line"><span class="built_in">echo</span> <span class="string">"hexo deploy"</span>&gt;&gt;hexo-deploy.sh</div></pre></td></tr></table></figure></p>
+<p>然后修改<code>~/Myblog</code>下的<code>_config.yml</code>文件，添加如下<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">admin:</span></div><div class="line"><span class="attr">  deployCommand:</span> <span class="string">'./hexo-deploy.sh'</span></div></pre></td></tr></table></figure></p>
+<p>配置了下面的部署方式后就可以使用<code>hexo-admin</code>中的<code>deploy</code>按钮来部署了。</p>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>详细的部署方法可以参考<a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external"><code>hexo</code>的官方文档</a>,常用的是使用<code>rsync</code>和<code>git</code>方式，一般用<code>git</code>就好，配置需要在<code>Myblog</code>下的<code>_config.yml</code>中修改。格式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">     type: git</div><div class="line">     repository: git@github.com:osgee/osgee.github.io.git</div><div class="line">     branch: master</div></pre></td></tr></table></figure></p>
+<p>需要注册<code>github</code>账号，然后新建一个<code>repository</code>，名字是<code>[username].github.io</code>，其中<code>[username]</code>为你注册的用户名。然后进入<code>repository</code>的页面，点击【设置】按钮，最下面有个[Delploy keys], 里面可以添加你的<code>ssh</code>公钥，一般这样查看你的<code>ssh</code>公钥：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cat .ssh/id_rsa.pub</div></pre></td></tr></table></figure></p>
+<p>这里的<code>id_rsa.pub</code>的前缀是根据公认的取名规则。具体的文件名还要看当时生成密钥对的导出名。如果没有产生过<code>rsa</code>密钥对，就如下方式产生：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#如果~目录下没有.ssh/，就要生成.ssh目录，如果有就跳过本命令</span></div><div class="line"><span class="built_in">cd</span> ~</div><div class="line">mkdir .ssh</div><div class="line"><span class="comment">#检查目录的访问权限，正确的应为drwx------，用数字表示即为700</span></div><div class="line">ls -la ~|grep .ssh</div><div class="line"><span class="comment">#如果不是drwx------，需要修改访问权限</span></div><div class="line">sudo chmod 700 -r .ssh </div><div class="line"><span class="comment">#生成ssh握手密钥对</span></div><div class="line">ssh-keygen -t rsa -b 2048 -P <span class="string">""</span> <span class="_">-f</span> ~/.ssh/id_rsa</div></pre></td></tr></table></figure></p>
+<p>至此，在<code>~/.ssh</code>目录下已经生成了<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，前者是私钥，后者是公钥，注意，我们需要添加到github上的是公钥。顾名思义，公钥就是要给其他人的密钥，所以给<code>github</code>提交的就是你的公钥，一个公钥只有一个私钥才能对应解密，所以私钥可以用来验证你的身份。</p>
+<p>用<code>hexo-admin</code>写完第一个博客，各个配置都改好后，现在可以开始部署了。部署也分两步，第一步，产生静态的网页文件，第二步，将文件复制到服务器，这两个步骤都是由<code>hexo</code>自动完成的，我们需要做的就是配置好文件后，使用命令部署：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#生成静态网页文件</span></div><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line">hexo generate</div><div class="line"><span class="comment">#复制文件到服务器</span></div><div class="line">hexo deploy</div></pre></td></tr></table></figure></p>
+<p>现在，就可以访问<code>https://[username].github.io</code> 查看博客的效果了。</p>
+<h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><p>现在你肯定在想，每次写新的博客还要先打开命令行敲开服务器的命令然后再用<code>hexo-admin</code><br>写博客、部署，这个过程有点繁琐，要是可以简化多好。如果开机时就能运行本地<code>hexo</code>服务器，那么只要访问<code>hexo-admin</code>的地址就能随时写博客。这时可以使用<code>Node.js</code>下的另一个工具<code>forever</code>来将<code>hexo server</code>封装成一个守护进程（daemon）。然后再用<code>Mac</code>下的<code>Automator</code>，在开机的时候执行<code>forever</code>命令。这样就做到了开机启动<code>hexo</code>服务了。</p>
+<p>第一步是安装<code>forever</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install forever -g</div></pre></td></tr></table></figure></p>
+<p>然后在<code>~/Myblog</code>文件夹下新建一个<code>JavaScript</code>文件，比如<code>daemon.js</code>。里面代码如下<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">'child_process'</span>).spawn;</div><div class="line">free = spawn(<span class="string">'hexo'</span>, [<span class="string">'server'</span>, <span class="string">'-p 4000'</span>]);</div><div class="line"></div><div class="line">free.stdout.on(<span class="string">'data'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</div><div class="line"><span class="built_in">console</span>.log(<span class="string">'standard output:\n'</span> + data);</div><div class="line">&#125;);</div><div class="line"></div><div class="line">free.stderr.on(<span class="string">'data'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123; </div><div class="line"><span class="built_in">console</span>.log(<span class="string">'standard error output:\n'</span> + data);</div><div class="line">&#125;);</div><div class="line"></div><div class="line">free.on(<span class="string">'exit'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">code, signal</span>) </span>&#123;</div><div class="line"><span class="built_in">console</span>.log(<span class="string">'child process eixt ,exit:'</span> + code);</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<p>第二行的4000代表的是端口号，可以自行修改，或者默认就好。然后通过以下命令就可以后台运行<code>hexo</code>服务<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line">forever --minUptime 10000 --spinSleepTime 26000 start daemon.js</div></pre></td></tr></table></figure></p>
+<p>下面怎么让<code>Mac</code>开机运行这段命令呢?可以使用<code>Automator</code>，这是<code>Mac</code>自带的一个程序。打开<code>Automator</code>点<code>[New Document]</code>,选择<code>[Application]</code>,在<code>[Library]</code>里面找到<code>[Run Shell Script]</code>双击。既可以输入需要运行的命令，命令如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/<span class="built_in">local</span>/bin/</div><div class="line"><span class="built_in">cd</span> ~/Myblog</div><div class="line">forever --minUptime 10000 --spinSleepTime 26000 start daemon.js</div></pre></td></tr></table></figure></p>
+<p>然后点<code>[Run]</code>进行测试，如果测试成功，那么将其保存到<code>Applications</code>目录下。下面就是将这个保存的Applcation添加到<code>[Login Items]</code>里就好。是在系统偏好里进行设置，<code>[System Preferences]</code>-&gt;<code>[Users &amp; Groups]</code>-&gt;<code>[Login Items]</code>。</p>
+<h3 id="添加评论功能"><a href="#添加评论功能" class="headerlink" title="添加评论功能"></a>添加评论功能</h3><p>添加评论可以有两个选择，一个是国内的<a href="http://duoshuo.com" target="_blank" rel="external">多说</a>，另一个是国际上使用的<a href="https://disqus.com" target="_blank" rel="external"><code>disqus</code></a>，两个平台都是免费的，他们都是通过博客的曝光率来赚取广告费，但是在主页上使用的时候是不会显示出广告，所以用着很方便。两个都是需要注册，注册时会让你选一个二级域名，二级域名也就是你的短名需要填在配置文件中。多说填写配置是在<code>~/Myblog/themes/yilia/_config.yml</code>中。如下<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">duoshuo:</span> short_name</div></pre></td></tr></table></figure></p>
+<p><code>short_name</code>换为你注册的短名。<code>disqus</code>填写配置是在<code>~/Myblog/_config.yml</code>中，需要关闭多说，且填上<code>disqus</code>的短名。如下<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">duoshuo:</span> <span class="literal">false</span></div><div class="line"><span class="attr">disqus_shortname:</span> short_name</div></pre></td></tr></table></figure></p>
+<p>同样<code>short_name</code>换为你注册的短名。注意，配置完后重启下服务。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">forever restart ~/Myblog/daemon.js</div></pre></td></tr></table></figure></p>
+<p>至此，<code>hexo</code>的<code>yilia</code>主题的博客就完美安装配置好了，Enjoy！</p>
+<p>PS：第一次写，所以可能有很多细节的地方没有写上来，而且很多细节写上来反而让读者困惑，所以自己实际部署时还是要多上网搜搜相关的指导，不过都以官网文档为主。有遇到不能解决的问题也可以通过邮件的形式联系我，希望这篇文章能够帮助你搭建一个高大上的个人博客。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简单介绍&quot;&gt;&lt;a href=&quot;#简单介绍&quot; class=&quot;headerlink&quot; title=&quot;简单介绍&quot;&gt;&lt;/a&gt;简单介绍&lt;/h3&gt;&lt;p&gt;这个博客是基于&lt;a href=&quot;https://hexo.io&quot;&gt;&lt;code&gt;hexo&lt;/code&gt;&lt;/a&gt;的博客框架，使用了一个腾讯前端开发的大牛&lt;a href=&quot;https://litten.me&quot;&gt;&lt;code&gt;Litten&lt;/code&gt;&lt;/a&gt;开源的&lt;code&gt;hexo&lt;/code&gt;主题&lt;a href=&quot;https://github.com/litten/hexo-theme-yilia&quot;&gt;&lt;code&gt;yilia&lt;/code&gt;&lt;/a&gt;，详细的安装过程分别在&lt;code&gt;hexo&lt;/code&gt;和&lt;code&gt;yilia&lt;/code&gt;的首页上有详细的介绍，可以自行参考。&lt;code&gt;hexo&lt;/code&gt;使用的是&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;&lt;code&gt;Node.js&lt;/code&gt;&lt;/a&gt;，是使用&lt;code&gt;JavaScript&lt;/code&gt;编写的服务端框架，打开它的首页就能看到相应系统的安装包，另外还需要有&lt;a href=&quot;https://www.npmjs.com&quot;&gt;&lt;code&gt;npm&lt;/code&gt;&lt;/a&gt;，是&lt;code&gt;Node.js&lt;/code&gt;的软件仓库，也是包管理工具，用它安装&lt;code&gt;Node.js&lt;/code&gt;的程序很方便。&lt;code&gt;npm&lt;/code&gt;的安装也可以参考hexo在线文档提供的指导。&lt;/p&gt;
+&lt;h3 id=&quot;安装过程&quot;&gt;&lt;a href=&quot;#安装过程&quot; class=&quot;headerlink&quot; title=&quot;安装过程&quot;&gt;&lt;/a&gt;安装过程&lt;/h3&gt;&lt;p&gt;首先需要安装的是&lt;a href=&quot;http://brew.sh&quot;&gt;&lt;code&gt;homebrew&lt;/code&gt;&lt;/a&gt;，然后用&lt;code&gt;brew&lt;/code&gt;安装&lt;code&gt;npm&lt;/code&gt;，再&lt;code&gt;到Node.js&lt;/code&gt;主页下载&lt;code&gt;OSX&lt;/code&gt;的安装包，我是用的&lt;code&gt;OSX&lt;/code&gt;，所以只介绍&lt;code&gt;OSX&lt;/code&gt;上的安装方式。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#安装homebrew&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;/usr/bin/ruby &lt;span class=&quot;_&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&lt;/span&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;#安装nmp和git&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;brew update -y&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;brew install nmp git -y&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;下载了&lt;code&gt;Node.js&lt;/code&gt;安装包并安装好之后，就可以开始安装&lt;code&gt;hexo&lt;/code&gt;了。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+      <category term="Github Project" scheme="//taofeng.me/tags/Github-Project/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="//taofeng.me/2016/12/04/Hello-World/"/>
+    <id>//taofeng.me/2016/12/04/Hello-World/</id>
+    <published>2016-12-03T20:54:00.000Z</published>
+    <updated>2017-02-19T11:05:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><p>看到有大牛弄得非常好看的博客的主页，于是自己也开始弄一个，发现其实过程还是挺简单的，可能是自己的基础还可以，基本没有遇到什么困难，有了这个工具后，估计每天都能够做点笔记，多分享下自己的学习心得，希望能够坚持下来，养成良好的学习习惯。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello World&quot;&gt;&lt;/a&gt;Hello World&lt;/h3&gt;&lt;p&gt;看到有大牛弄得非常好看的博客的主页，于是自己也开始弄一个，发现其实过
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+  </entry>
+  
+</feed>
