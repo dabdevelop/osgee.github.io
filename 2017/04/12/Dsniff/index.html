@@ -26,7 +26,7 @@ sudo sysctl -w net.inet.fw.verbose=1
 sudo sysctl -w net.inet.ip.fw.verbose=1
 on ubuntu
 v">
-<meta property="og:updated_time" content="2017-04-12T04:42:58.000Z">
+<meta property="og:updated_time" content="2017-04-12T06:39:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Dsniff">
 <meta name="twitter:description" content="dsniffenable ports forwardon mac
@@ -201,7 +201,8 @@ sudo sysctl -w net.inet.ip.fw.verbose=1
 <pre><code>sysctl -p
 </code></pre><p>on kali</p>
 <pre><code>echo 1 &gt; /proc/sys/net/ipv4/ip_forward
-</code></pre><h2 id="port-redirect"><a href="#port-redirect" class="headerlink" title="port redirect"></a>port redirect</h2><p>on mac <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/pf.conf.5.html" target="_blank" rel="external">pf</a> </p>
+</code></pre><a id="more"></a>
+<h2 id="port-redirect"><a href="#port-redirect" class="headerlink" title="port redirect"></a>port redirect</h2><p>on mac <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/pf.conf.5.html" target="_blank" rel="external">pf</a> </p>
 <pre><code>vim /etc/pf.conf
 </code></pre><p>set configuration</p>
 <pre><code>rdr pass on inet en0 proto { tcp, udp } from any to any port 80 -&gt; 127.0.0.1 port 8000

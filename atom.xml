@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//taofeng.me/"/>
-  <updated>2017-04-12T04:42:58.000Z</updated>
+  <updated>2017-04-12T06:39:01.000Z</updated>
   <id>//taofeng.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="//taofeng.me/2017/04/12/Dsniff/"/>
     <id>//taofeng.me/2017/04/12/Dsniff/</id>
     <published>2017-04-12T04:42:00.000Z</published>
-    <updated>2017-04-12T04:42:58.000Z</updated>
+    <updated>2017-04-12T06:39:01.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="dsniff"><a href="#dsniff" class="headerlink" title="dsniff"></a>dsniff</h1><h2 id="enable-ports-forward"><a href="#enable-ports-forward" class="headerlink" title="enable ports forward"></a>enable ports forward</h2><p>on mac</p>
 <pre><code>sudo sysctl -w net.inet.ip.forwarding=1
@@ -34,7 +34,8 @@ sudo sysctl -w net.inet.ip.fw.verbose=1
 <pre><code>sysctl -p
 </code></pre><p>on kali</p>
 <pre><code>echo 1 &gt; /proc/sys/net/ipv4/ip_forward
-</code></pre><h2 id="port-redirect"><a href="#port-redirect" class="headerlink" title="port redirect"></a>port redirect</h2><p>on mac <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/pf.conf.5.html" target="_blank" rel="external">pf</a> </p>
+</code></pre><a id="more"></a>
+<h2 id="port-redirect"><a href="#port-redirect" class="headerlink" title="port redirect"></a>port redirect</h2><p>on mac <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man5/pf.conf.5.html" target="_blank" rel="external">pf</a> </p>
 <pre><code>vim /etc/pf.conf
 </code></pre><p>set configuration</p>
 <pre><code>rdr pass on inet en0 proto { tcp, udp } from any to any port 80 -&gt; 127.0.0.1 port 8000
@@ -58,14 +59,26 @@ tail -f sslstrip.log
     
     <summary type="html">
     
-      &lt;h1 id=&quot;dsniff&quot;&gt;&lt;a href=&quot;#dsniff&quot; class=&quot;headerlink&quot; title=&quot;dsniff&quot;&gt;&lt;/a&gt;dsniff&lt;/h1&gt;&lt;h2 id=&quot;enable-ports-forward&quot;&gt;&lt;a href=&quot;#enable-ports-forw
+      &lt;h1 id=&quot;dsniff&quot;&gt;&lt;a href=&quot;#dsniff&quot; class=&quot;headerlink&quot; title=&quot;dsniff&quot;&gt;&lt;/a&gt;dsniff&lt;/h1&gt;&lt;h2 id=&quot;enable-ports-forward&quot;&gt;&lt;a href=&quot;#enable-ports-forward&quot; class=&quot;headerlink&quot; title=&quot;enable ports forward&quot;&gt;&lt;/a&gt;enable ports forward&lt;/h2&gt;&lt;p&gt;on mac&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo sysctl -w net.inet.ip.forwarding=1
+sudo sysctl -w net.inet.ip.fw.enable=1
+sudo sysctl -w net.inet.fw.verbose=1
+sudo sysctl -w net.inet.ip.fw.verbose=1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;on ubuntu&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;vim /etc/sysctl.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;change net.ipv4.ip_forward=0 to net.ipv4.ip_forward=1 &lt;/p&gt;
+&lt;p&gt;enable it&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sysctl -p
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;on kali&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;echo 1 &amp;gt; /proc/sys/net/ipv4/ip_forward
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
     
-      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
-    
       <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
     
   </entry>
   
@@ -519,11 +532,11 @@ tail -f sslstrip.log
     </summary>
     
     
+      <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
       <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
     
       <category term="Computer Network" scheme="//taofeng.me/tags/Computer-Network/"/>
-    
-      <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
     
   </entry>
   
@@ -636,9 +649,9 @@ R # replace many characters
     </summary>
     
     
-      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
-    
       <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
     
   </entry>
   
@@ -717,9 +730,9 @@ R # replace many characters
     </summary>
     
     
-      <category term="Research Path" scheme="//taofeng.me/tags/Research-Path/"/>
-    
       <category term="Information Security" scheme="//taofeng.me/tags/Information-Security/"/>
+    
+      <category term="Research Path" scheme="//taofeng.me/tags/Research-Path/"/>
     
   </entry>
   
@@ -1052,11 +1065,11 @@ git diff --cached
     </summary>
     
     
+      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
+    
       <category term="Github Project" scheme="//taofeng.me/tags/Github-Project/"/>
     
       <category term="Research Path" scheme="//taofeng.me/tags/Research-Path/"/>
-    
-      <category term="Useful Tool" scheme="//taofeng.me/tags/Useful-Tool/"/>
     
   </entry>
   
@@ -1115,9 +1128,9 @@ git diff --cached
     </summary>
     
     
-      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
-    
       <category term="Github Project" scheme="//taofeng.me/tags/Github-Project/"/>
+    
+      <category term="Note" scheme="//taofeng.me/tags/Note/"/>
     
   </entry>
   
