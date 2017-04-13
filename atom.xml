@@ -1152,9 +1152,9 @@ git diff --cached
     </summary>
     
     
-      <category term="Github Project" scheme="//taofeng.me/tags/Github-Project/"/>
-    
       <category term="Note" scheme="//taofeng.me/tags/Note/"/>
+    
+      <category term="Github Project" scheme="//taofeng.me/tags/Github-Project/"/>
     
   </entry>
   
